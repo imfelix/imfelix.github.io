@@ -17,7 +17,6 @@
     = stylesheet_link_tag "site"
 
     :css
-      / Typekit Load Fix
       .wf-loading h1,
       .wf-loading h2,
       .wf-loading h3,
@@ -31,6 +30,7 @@
       .wf-loading code,
       .wf-loading pre {
         color: transparent !important;
+        visibility: hidden !important;
       }
 
   %body.relative.max-w-1000px.flex.flex-column.mx-auto.min-h-100.px3.sm-px6
