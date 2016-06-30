@@ -13,9 +13,12 @@
     = partial "partials/favicon"
 
     / Stylesheet
-    / = partial "partials/styles"
-    = stylesheet_link_tag "site"
+    / Inline Styles
+    = partial "partials/styles"
+    / Request Styles DOM - 1.37 | LOAD - 1.98
+    / = stylesheet_link_tag "site"
 
+    / Typekit Loading
     :css
       .wf-loading h1,
       .wf-loading h2,
