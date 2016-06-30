@@ -13,12 +13,17 @@
     = partial "partials/favicon"
 
     / Stylesheet
-    / Inline Styles
+    / Inline Styles DOM - 1.1s | 1.3s
     = partial "partials/styles"
-    / Request Styles DOM - 1.37 | LOAD - 1.98
+    / Request Styles DOM - 1.37s | LOAD - 1.98s
     / = stylesheet_link_tag "site"
 
-    / Typekit Loading
+    / Typekit
+    %script{ src: "//use.typekit.net/ejv2ypd.js" }
+    :javascript
+      try{Typekit.load({ async: true });}catch(e){}
+
+    / Typekit Loading Styles
     :css
       .wf-loading h1,
       .wf-loading h2,
@@ -41,10 +46,7 @@
     = yield
     = partial "partials/footer"
 
-  / Typekit
-  %script{ src: "https://use.typekit.net/ejv2ypd.js" }
-  :javascript
-    try{Typekit.load({ async: true });}catch(e){}
+
 
   / JavaScript
   / = javascript_include_tag :all
