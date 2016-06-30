@@ -1,10 +1,6 @@
 @charset "utf-8";
 @import "normalize";
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700';
-@import 'https://fonts.googleapis.com/css?family=PT+Mono';
-
 // Variables
 $grey-darker:   #333333;
 $grey-dark:     #555555;
@@ -20,6 +16,15 @@ $font-larger:   $font-base * 1.5; // 22.5px
 $font-double:   $font-base * 2; // 30px
 $font-title:    $font-base * 2.25; // 33.75px
 $font-triple:   $font-base * 3; // 45px
+
+// Book - 400
+// Semi - 600
+$font-sans:     "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// Book - 400
+// Bold - 700
+$font-serif:    "freight-display-pro", Georgia, "Times New Roman", Times, serif;
+// Regu - 400
+$font-mono:     "courier-prime", "Lucida Console", Monaco, Courier, monospace;
 
 // Base Stuff
 html,
@@ -403,9 +408,9 @@ a {
 
 // Typography
 // Font Family
-.sans { font-family: 'Open Sans', sans-serif; }
-.serif { font-family: 'Playfair', serif; }
-.mono { font-family: 'PT Mono', monospace; }
+.sans { font-family: $font-sans; }
+.serif { font-family: $font-serif; }
+.mono { font-family: $font-mono; }
 // Font Weight
 .regular { font-weight: 400; }
 .semi { font-weight: 600; }
@@ -414,7 +419,9 @@ a {
 .font-base { font-size: $font-base; }
 .font-small { font-size: $font-small; }
 .font-smaller { font-size: $font-smaller; }
-.font-large { font-size: $font-large; }
+
+h3, .h3, .font-large { font-size: $font-large; }
+
 .font-larger { font-size: $font-larger; }
 .font-double { font-size: $font-double; }
 .font-title { font-size: $font-title; }
@@ -446,6 +453,7 @@ a {
 .fade-in-up {
   animation-name: fade-in-up;
   animation-duration: 1s;
+  animation-delay: 1.5s;
   animation-fill-mode: both;
 }
 
