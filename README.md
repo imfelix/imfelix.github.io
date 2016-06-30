@@ -37,6 +37,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [GitHub Pages](https://pages.github.com/)
 - [Middlemanapp](https://middlemanapp.com/)
 - [Sass preprocessor](http://sass-lang.com/) — SCSS syntax
+- [Typekit](https://typekit.com/) — Freight Display Pro, Freight Sans Pro, and Courier Prime
 - Sublime Text 3
 - MacBook Pro 13-inch
 - :heart:
