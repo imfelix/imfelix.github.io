@@ -1,15 +1,7 @@
 // ––––––––––––––––––––––––––––––––––––
-// Hide
+// Line Height
 // ––––––––––––––––––––––––––––––––––––
 
-.hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-@media (max-width: 42rem) {
-  .xs-hide { display: none !important }
-}
+.line-height-smaller { line-height: $line-height-smaller; }
+.line-height-small { line-height: $line-height-small; }
+.line-height-base { line-height: $line-height-base; }

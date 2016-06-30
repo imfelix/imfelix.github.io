@@ -1,15 +1,8 @@
 // ––––––––––––––––––––––––––––––––––––
-// Hide
+// Font Weight
 // ––––––––––––––––––––––––––––––––––––
 
-.hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
+.regular { font-weight: 400; }
+.semi    { font-weight: 600; }
+.bold    { font-weight: 700; }
 
-@media (max-width: 42rem) {
-  .xs-hide { display: none !important }
-}

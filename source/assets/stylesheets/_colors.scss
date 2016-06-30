@@ -1,0 +1,26 @@
+// ––––––––––––––––––––––––––––––––––––
+// Color Elements
+// ––––––––––––––––––––––––––––––––––––
+
+// Background Color
+.bg-white             { background-color: #ffffff; }
+.bg-grey-darker       { background-color: $grey-darker; }
+.bg-grey-dark         { background-color: $grey-dark; }
+.bg-grey              { background-color: $grey; }
+.bg-grey-light        { background-color: $grey-light; }
+.bg-grey-lighter      { background-color: $grey-lighter; }
+
+// Border Color
+.border-grey-darker   { border-color: $grey-darker; }
+.border-grey-dark     { border-color: $grey-dark; }
+.border-grey          { border-color: $grey; }
+.border-grey-light    { border-color: $grey-light; }
+.border-grey-lighter  { border-color: $grey-lighter; }
+
+// Color
+.white                { color: #ffffff; }
+.grey-darker          { color: $grey-darker; }
+.grey-dark            { color: $grey-dark; }
+.grey                 { color: $grey; }
+.grey-light           { color: $grey-light; }
+.grey-lighter         { color: $grey-lighter; }

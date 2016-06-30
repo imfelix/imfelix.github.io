@@ -1,15 +1,13 @@
 // ––––––––––––––––––––––––––––––––––––
-// Hide
+// Link
 // ––––––––––––––––––––––––––––––––––––
 
-.hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
+a {
+  @extend .grey-light;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
 
-@media (max-width: 42rem) {
-  .xs-hide { display: none !important }
+  &:hover {
+    @extend .grey-darker;
+  }
 }

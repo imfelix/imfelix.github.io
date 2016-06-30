@@ -1,15 +1,7 @@
 // ––––––––––––––––––––––––––––––––––––
-// Hide
+// Font Family
 // ––––––––––––––––––––––––––––––––––––
 
-.hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-@media (max-width: 42rem) {
-  .xs-hide { display: none !important }
-}
+.sans   { font-family: $font-sans; }
+.serif  { font-family: $font-serif; }
+.mono   { font-family: $font-mono; }

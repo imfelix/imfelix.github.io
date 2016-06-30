@@ -1,0 +1,54 @@
+// ––––––––––––––––––––––––––––––––––––
+// Miscellaneous
+// - display
+// - shadow
+// - z-index
+// - hover
+// - border
+// - text-align
+// - text-transform
+// - text-decoration
+// - letter-spacing
+// ––––––––––––––––––––––––––––––––––––
+
+// Display
+.block { display: block; }
+
+// Shadow
+.shadow { box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05); }
+
+// z-index Properties
+.z1 { z-index: 1; }
+.z2 { z-index: 2; }
+
+// Hover Effects
+.hover-opacity:hover { opacity: 0.65; }
+
+// Border Properties
+// Border Colors go to colors.scss
+.rounded { border-radius: 3px; }
+
+.border         { border: 1px solid; }
+.border-top     { border-top-width: 1px; border-top-style: solid; }
+.border-left    { border-left-width: 1px; border-left-style: solid; }
+.border-right   { border-right-width: 1px; border-right-style: solid;}
+.border-bottom  { border-bottom-width: 1px; border-bottom-style: solid;}
+
+// Text Align
+.center         { text-align: center; }
+.left-align     { text-align: left; }
+.right-align    { text-align: right; }
+
+// Letter Spacing
+.spaced         { letter-spacing: 1px; }
+.spaced-tight   { letter-spacing: -0.5px; }
+.spaced-mega    { letter-spacing: 4px; }
+
+// Text Decoration
+// This is supposed to be text-decoration
+// But spacing with text-decoration is messed up
+// So we use border-bottom
+.underline { border-bottom: 1px solid; }
+
+// Text Transform
+.uppercase { text-transform: uppercase; }
