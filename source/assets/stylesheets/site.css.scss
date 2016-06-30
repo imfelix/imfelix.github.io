@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import "normalize";
+@import "hide";
 
 // Variables
 $grey-darker:   #333333;
@@ -369,7 +370,11 @@ a {
 .pr12 { padding-right: 6rem; }
 
 // Responsive Padding and Margin
-@media screen and (min-width: 42rem) {
+@media screen and (max-width: 40rem) {
+  .xs-p0 { padding: 0; }
+}
+
+@media screen and (min-width: 40rem) {
   .sm-px0 { padding-left: 0; padding-right: 0; }
   .sm-px1 { padding-left: 0.5rem; padding-right: 0.5rem; }
   .sm-px2 { padding-left: 1rem; padding-right: 1rem; }
@@ -383,6 +388,11 @@ a {
   .sm-my9 { margin-top: 4.5rem; margin-bottom: 4.5rem; }
 
   .sm-mr6 { margin-right: 3rem; }
+}
+
+@media screen and (min-width: 52rem) {
+  .md-p0 { padding: 0; }
+  .md-m0 { margin: 0; }
 }
 
 // Height
@@ -445,8 +455,9 @@ h3, .h3, .font-large { font-size: $font-large; }
 .spaced-mega { letter-spacing: 4px; }
 
 // Responsive Typography
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 40rem) {
   .sm-font-triple { font-size: $font-triple; }
+  .sm-font-small { font-size: $font-small; }
 }
 
 // Animation

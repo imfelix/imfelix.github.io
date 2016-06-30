@@ -13,25 +13,25 @@
     = partial "partials/favicon"
 
     / Stylesheet
-    = partial "partials/styles"
-    / = stylesheet_link_tag "site"
+    / = partial "partials/styles"
+    = stylesheet_link_tag "site"
 
-    / :css
-    /   / Typekit Load Fix
-    /   .wf-loading h1,
-    /   .wf-loading h2,
-    /   .wf-loading h3,
-    /   .wf-loading h4,
-    /   .wf-loading h5,
-    /   .wf-loading h6,
-    /   .wf-loading p,
-    /   .wf-loading span,
-    /   .wf-loading div,
-    /   .wf-loading a,
-    /   .wf-loading code,
-    /   .wf-loading pre {
-    /     color: transparent !important;
-    /   }
+    :css
+      / Typekit Load Fix
+      .wf-loading h1,
+      .wf-loading h2,
+      .wf-loading h3,
+      .wf-loading h4,
+      .wf-loading h5,
+      .wf-loading h6,
+      .wf-loading p,
+      .wf-loading span,
+      .wf-loading div,
+      .wf-loading a,
+      .wf-loading code,
+      .wf-loading pre {
+        color: transparent !important;
+      }
 
   %body.relative.mw-1000px.flex.flex-column.mx-auto.mh-100.px3.sm-px6
     = partial "partials/header"
