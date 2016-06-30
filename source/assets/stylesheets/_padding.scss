@@ -121,3 +121,11 @@
 
   .sm-p0 { padding: 0; }
 }
+
+@media screen and (min-width: 40rem) and (max-width: 64rem) {
+  .md-p0 { padding: 0; }
+}
+
+@media screen and (min-width: 64rem) {
+  .lg-p0 { padding: 0; }
+}
