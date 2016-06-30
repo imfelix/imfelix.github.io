@@ -32,7 +32,6 @@ end
 #################################################
 ## Deploy Configuration
 #################################################
-# To add CNAME, simply add it under the source directory
 activate :deploy do |deploy|
   deploy.deploy_method  = :git
   deploy.branch         = 'master'
