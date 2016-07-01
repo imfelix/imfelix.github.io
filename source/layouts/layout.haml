@@ -18,11 +18,6 @@
     / Request Styles DOM - 1.37s | LOAD - 1.98s
     / = stylesheet_link_tag "site"
 
-    / Typekit
-    %script{ src: "//use.typekit.net/ejv2ypd.js" }
-    :javascript
-      try{Typekit.load({ async: true });}catch(e){}
-
     / Typekit Loading Styles
     :css
       .wf-loading h1,
@@ -46,7 +41,10 @@
     = yield
     = partial "partials/footer"
 
-
+  / Typekit
+  %script{ src: "//use.typekit.net/ejv2ypd.js" }
+  :javascript
+    try{Typekit.load({ async: true });}catch(e){}
 
   / JavaScript
   / = javascript_include_tag :all
