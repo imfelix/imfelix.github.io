@@ -17,9 +17,9 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Width of paragraph - *Keep it short, 11 - 12 words per line*
   - Line height - *Good amount of line-height for reading experience*
   - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
-- Responsiveness
-  - Blog post - *Use border, background color, or separator lines to divide each posts?*
   - Avoid hamburger menu - *Don't hide stuff behind those lines*
+  - Blog post - *Use border, background color, or separator lines to divide each posts?*
+- Responsiveness - width? padding? margin? font-size? - *flexbox to the rescue*
 - Accessibility
   - Contrast - *Is the contrast AAA compliant?*
   - Icons - *Use words instead of brand icons - unless include screen-read text*

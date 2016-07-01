@@ -108,11 +108,11 @@
 .mr12 { margin-right: 6rem; }
 
 // Responsive Padding and Margin
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: $mobile) {
 
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: $mobile) {
   .sm-m0  { margin: 0; }
 
   .sm-my6 { margin-top: 3rem; margin-bottom: 3rem; }
@@ -121,7 +121,7 @@
   .sm-mr6 { margin-right: 3rem; }
 }
 
-@media screen and (min-width: 40rem) and (max-width: 64rem) {
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
   .md-m0  { margin: 0; }
 }
 

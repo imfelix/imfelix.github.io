@@ -48,3 +48,20 @@ end
 # page '/*.txt', layout: false
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
+
+#################################################
+## Helper Methods
+#################################################
+# helpers do
+#   def correct_path(spec_path)
+#     spec_path
+#   end
+
+#   def menu_link(link, name = link)
+#     unless page_classes.blank?
+#       klass = (link == page_classes ? 'active' : nil)
+#     end
+
+#     link_to name.capitalize.gsub('-', ' '), correct_path("/#{link.downcase}.html"), class: klass
+#   end
+# end

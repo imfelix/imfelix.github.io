@@ -107,25 +107,24 @@
 .pr12 { padding-right: 6rem; }
 
 // Responsive Padding and Margin
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: $mobile) {
   .xs-p0  { padding: 0; }
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: $mobile) {
   .sm-px0 { padding-left: 0; padding-right: 0; }
   .sm-px1 { padding-left: 0.5rem; padding-right: 0.5rem; }
   .sm-px2 { padding-left: 1rem; padding-right: 1rem; }
   .sm-px6 { padding-left: 3rem; padding-right: 3rem; }
-
   .sm-pb0 { padding-bottom: 0; }
-
+  .sm-pt3 { padding-top: 1.5rem; }
   .sm-p0  { padding: 0; }
 }
 
-@media screen and (min-width: 40rem) and (max-width: 64rem) {
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
   .md-p0  { padding: 0; }
 }
 
-@media screen and (min-width: 64rem) {
+@media screen and (min-width: $tablet) {
   .lg-p0  { padding: 0; }
 }

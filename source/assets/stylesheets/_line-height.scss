@@ -5,3 +5,8 @@
 .line-height-smaller { line-height: $line-height-smaller; }
 .line-height-small { line-height: $line-height-small; }
 .line-height-base { line-height: $line-height-base; }
+
+// Responsive Line Height
+@media screen and (min-width: $mobile) {
+  .sm-line-height-base { line-height: $line-height-base; }
+}

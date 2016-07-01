@@ -1,0 +1,26 @@
+---
+title: Get in touch | Felix Lee
+---
+
+.max-w-620px.w-100.mx-auto.flex.flex-auto.flex-column.fade-in-up
+  %h1.mt0.mb3.serif.line-height-smaller.sm-line-height-base Get in touch
+
+  .flex.flex-wrap.justify-between
+    .flex.flex-column.w-100.sm-w-50.grey-dark.sm-pt3
+      %i.mb1 Feel free to send me a message.
+      %i.mb1 Happy to talk about anything.
+      %i Unicorns maybe?
+    .w-100.sm-w-50.my6.sm-m0
+      %form.flex.flex-column{ action: "https://formspree.io/hello@felixlee.io", method:"POST" }
+        .flex.flex-column.w-100.mb4
+          %input#name.border.border-grey-light.rounded.py1.px2.order2{ type: "text", name: "Name", required: "true" }
+          %label.order-1.uppercase.grey-light.semi.font-smaller.mb1{ for: "name" } Name
+        .flex.flex-column.w-100.mb4
+          %input#email-address.border.border-grey-light.rounded.py1.px2.order2{ type: "email", name: "_replyto", required: "true" }
+          %label.order-1.uppercase.grey-light.semi.font-smaller.mb1{ for: "email-address" } Email Address
+        .flex.flex-column.w-100.mb4
+          %textarea#message.border.border-grey-light.rounded.py1.px2.min-h-150px.order2{ type: "email", name: "Message", required: "true" }
+          %label.order-1.uppercase.grey-light.semi.font-smaller.mb1{ for: "message" } Message
+        %input{ name: "_next", type: "hidden", value: "/thanks.html"}
+        %input{ name: "_subject", type: "hidden", value: "Someone sent you a message 😱"}
+        %button.bg-white.grey.border.border-grey-light.hover-grey-darker.hover-border-grey-darker.transition-all.rounded.px3.py1{ type: "submit", value: "Send" } Send Message

@@ -3,24 +3,40 @@
 // ––––––––––––––––––––––––––––––––––––
 
 // Background Color
-.bg-white             { background-color: #ffffff; }
-.bg-grey-darker       { background-color: $grey-darker; }
-.bg-grey-dark         { background-color: $grey-dark; }
-.bg-grey              { background-color: $grey; }
-.bg-grey-light        { background-color: $grey-light; }
-.bg-grey-lighter      { background-color: $grey-lighter; }
+.bg-white                         { background-color: #ffffff; }
+.bg-grey-darker                   { background-color: $grey-darker; }
+.bg-grey-dark                     { background-color: $grey-dark; }
+.bg-grey                          { background-color: $grey; }
+.bg-grey-light                    { background-color: $grey-light; }
+.bg-grey-lighter                  { background-color: $grey-lighter; }
 
 // Border Color
-.border-grey-darker   { border-color: $grey-darker; }
-.border-grey-dark     { border-color: $grey-dark; }
-.border-grey          { border-color: $grey; }
-.border-grey-light    { border-color: $grey-light; }
-.border-grey-lighter  { border-color: $grey-lighter; }
+.border-grey-darker                { border-color: $grey-darker; }
+.border-grey-dark                  { border-color: $grey-dark; }
+.border-grey                       { border-color: $grey; }
+.border-grey-light                 { border-color: $grey-light; }
+.border-grey-lighter               { border-color: $grey-lighter; }
 
 // Color
-.white                { color: #ffffff; }
-.grey-darker          { color: $grey-darker; }
-.grey-dark            { color: $grey-dark; }
-.grey                 { color: $grey; }
-.grey-light           { color: $grey-light; }
-.grey-lighter         { color: $grey-lighter; }
+.white                             { color: #ffffff; }
+.grey-darker                       { color: $grey-darker; }
+.grey-dark                         { color: $grey-dark; }
+.grey                              { color: $grey; }
+.grey-light                        { color: $grey-light; }
+.grey-lighter                      { color: $grey-lighter; }
+
+// Hover Color
+.hover-white:hover                 { color: #ffffff; }
+.hover-grey-darker:hover           { color: $grey-darker; }
+.hover-grey-dark:hover             { color: $grey-dark; }
+.hover-grey:hover                  { color: $grey; }
+.hover-grey-light:hover            { color: $grey-light; }
+.hover-grey-lighter:hover          { color: $grey-lighter; }
+
+// Hover Border Color
+.hover-border-white:hover          { border-color: #ffffff; }
+.hover-border-grey-darker:hover    { border-color: $grey-darker; }
+.hover-border-grey-dark:hover      { border-color: $grey-dark; }
+.hover-border-grey:hover           { border-color: $grey; }
+.hover-border-grey-light:hover     { border-color: $grey-light; }
+.hover-border-grey-lighter:hover   { border-color: $grey-lighter; }

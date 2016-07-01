@@ -2,18 +2,18 @@
 // Font Size
 // ––––––––––––––––––––––––––––––––––––
 
-// font-triple used for home page headline
-// 45px
-.font-triple  { font-size: $font-triple; }
-
 // font-title used on individual article page
 // 33.75px
 .font-title   { font-size: $font-title; }
 
 // font-double used on list of articles page
 // 30px
-h1,
 .font-double  { font-size: $font-double; }
+
+// font-triple used for page headlines
+// 45px
+h1,
+.font-triple  { font-size: $font-triple; }
 
 // 22.5px
 h2,
@@ -36,7 +36,7 @@ h6,
 .font-smaller { font-size: $font-smaller; }
 
 // Responsive Typography
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: $mobile) {
   .sm-font-triple   { font-size: $font-triple; }
   .sm-font-title    { font-size: $font-title; }
   .sm-font-double   { font-size: $font-double; }
@@ -46,3 +46,14 @@ h6,
   .sm-font-small    { font-size: $font-small; }
   .sm-font-smaller  { font-size: $font-smaller; }
 }
+
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+  .md-font-double   { font-size: $font-double; }
+}
+
+@media screen and (min-width: $tablet) {
+  .lg-font-triple   { font-size: $font-triple; }
+}
+
+
+

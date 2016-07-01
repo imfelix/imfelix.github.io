@@ -1,0 +1,21 @@
+// ––––––––––––––––––––––––––––––––––––
+// Input + Textarea
+// ––––––––––––––––––––––––––––––––––––
+
+button { cursor: pointer; }
+textarea { resize: vertical; }
+input { -webkit-appearance: none; -moz-appearance: none; }
+
+button,
+textarea,
+input {
+  &:focus {
+    outline: 0;
+    color: $grey-darker;
+    border-color: $grey-darker;
+
+    ~ label {
+      color: $grey-darker;
+    }
+  }
+}
