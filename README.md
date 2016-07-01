@@ -45,8 +45,9 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 ## To-Do List:
 
 - [ ] Find more enhancements and add to this list
-- [ ] Update description in README
-- [ ] Rename blog to articles
+- [x] Update description in README
+- [x] Rename blog to articles
+- [ ] Responsive check for home page
 - [ ] Add navigation links
   — Home
   - Projects
