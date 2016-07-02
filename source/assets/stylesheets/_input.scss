@@ -3,8 +3,8 @@
 // ––––––––––––––––––––––––––––––––––––
 
 button { cursor: pointer; }
-textarea { resize: vertical; }
-input { -webkit-appearance: none; -moz-appearance: none; }
+textarea { resize: none; }
+input, textarea { -webkit-appearance: none; -moz-appearance: none; }
 
 button,
 textarea,

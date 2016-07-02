@@ -10,4 +10,10 @@ a {
   &:hover {
     @extend .grey-darker;
   }
+
+  &:focus {
+    @extend .grey-darker;
+    @extend .underline;
+    outline: 0;
+  }
 }

@@ -1,0 +1,13 @@
+---
+title: Articles by | Felix Lee | UI/UX Designer
+---
+
+.max-w-620px.w-100.py4.mx-auto.flex.flex-auto.flex-column.justify-start.fade-in-up
+  %h1.mt0.mb3.serif.line-height-smaller.sm-line-height-base Articles
+  - blog.articles.each do |articles|
+    %article
+      %h1
+        / %a{:href => articles.url}= articles.title
+        %time.uppercase.mono= date_format(articles.date)
+      .summary= articles.summary
+      %a{:href => articles.url} Read more

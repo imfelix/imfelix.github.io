@@ -1,19 +1,19 @@
 %footer.flex.flex-wrap.justify-between.font-base.my4.sm-my6.fade-in-up
   %span.grey.pb4.xs-p0.md-p0.lg-p0
-    = link_to "2016 © Felix Lee", data.links.license, class: "grey-light"
-    %span.grey-light.px1 •
-    = link_to "GitHub Source", data.links.github_source, class: "grey-light"
+    = link_to "#{DateTime.now.year} © Felix Lee", data.external_links.license
+    %span.px1 •
+    = link_to "GitHub Source", data.external_links.github_source
     / %span.grey-light.px1 •
     / %a.grey-light{ href: "#" } Style Guide
 
   %ul.no-list-type.flex.flex-wrap.m0.xs-hide
     %li.mr9.sm-mr6.pb4.sm-p0
-      = link_to "Twitter", data.links.twitter, class: "grey-light"
+      = link_to "Twitter", data.external_links.twitter
     %li.mr9.sm-mr6.pb4.sm-p0
-      = link_to "Dribbble", data.links.dribbble, class: "grey-light"
+      = link_to "Dribbble", data.external_links.dribbble
     %li.mr9.sm-mr6.pb4.sm-p0
-      = link_to "CodePen", data.links.codepen, class: "grey-light"
+      = link_to "CodePen", data.external_links.codepen
     %li.mr9.sm-mr6.pb4.sm-p0
-      = link_to "GitHub", data.links.github, class: "grey-light"
+      = link_to "GitHub", data.external_links.github
     %li
-      = link_to "LinkedIn", data.links.linkedin, class: "grey-light"
+      = link_to "LinkedIn", data.external_links.linkedin

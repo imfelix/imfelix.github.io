@@ -1,0 +1,53 @@
+!!!
+%html{ dir: 'ltr', lang: 'en' }
+  %head
+    %meta{ charset: "utf-8" }
+    %meta{ content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }
+    %meta{ content: "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport" }
+    %title= current_page.data.title || "Felix Lee"
+
+    / Meta Tags
+    = partial "partials/meta"
+
+    / Favicon
+    = partial "partials/favicon"
+
+    / Stylesheet
+    / Inline Styles DOM - 1.1s | 1.3s
+    / = partial "partials/styles"
+    / Request Styles DOM - 1.37s | LOAD - 1.98s
+    = stylesheet_link_tag "site"
+
+    / Typekit Loading Styles
+    :css
+      .wf-loading h1,
+      .wf-loading h2,
+      .wf-loading h3,
+      .wf-loading h4,
+      .wf-loading h5,
+      .wf-loading h6,
+      .wf-loading p,
+      .wf-loading span,
+      .wf-loading div,
+      .wf-loading a,
+      .wf-loading code,
+      .wf-loading pre {
+        color: transparent !important;
+        visibility: hidden !important;
+      }
+
+  %body.relative.max-w-1000px.flex.flex-column.mx-auto.min-h-100.px3.sm-px6{ class: page_classes }
+    = partial "partials/header"
+    %article.max-w-620px.w-100.mx-auto.py4.flex.flex-column.flex-auto.fade-in-up= yield
+    = partial "partials/footer"
+
+  / Typekit
+  %script{ src: "//use.typekit.net/ejv2ypd.js" }
+  :javascript
+    try{Typekit.load({ async: true });}catch(e){}
+
+  / JavaScript
+  / = javascript_include_tag :all
+
+  / Google Analytics
+  = partial "partials/analytics"

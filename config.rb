@@ -19,6 +19,7 @@ set :haml, { ugly: true, format: :html5 }
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
+  blog.layout = "article-layout"
   blog.prefix = "articles"
   blog.permalink = "/{title}.html"
 end
