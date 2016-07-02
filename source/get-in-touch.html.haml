@@ -21,6 +21,7 @@ title: Get in touch | Felix Lee
         .flex.flex-column.w-100.mb4
           %textarea#message.border.border-grey-light.rounded.py1.px2.min-h-150px.order2{ type: "email", name: "Message", required: "true" }
           %label.order-1.uppercase.grey-light.semi.font-smaller.mb1{ for: "message" } Message
+        / TODO: Remove .html
         %input{ name: "_next", type: "hidden", value: "/thanks.html"}
         %input{ name: "_subject", type: "hidden", value: "Someone sent you a message 😱"}
         %button.bg-white.grey.border.border-grey-light.hover-grey-darker.hover-border-grey-darker.transition-all.rounded.px3.py1{ type: "submit", value: "Send" } Send Message
