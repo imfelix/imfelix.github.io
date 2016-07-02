@@ -14,9 +14,9 @@
 
     / Stylesheet
     / Inline Styles DOM - 1.1s | 1.3s
-    = partial "partials/styles"
+    / = partial "partials/styles"
     / Request Styles DOM - 1.37s | LOAD - 1.98s
-    / = stylesheet_link_tag "site"
+    = stylesheet_link_tag "site"
 
     / Typekit Loading Styles
     :css
@@ -36,7 +36,7 @@
         visibility: hidden !important;
       }
 
-  %body.relative.max-w-1000px.flex.flex-column.mx-auto.min-h-100.px3.sm-px6
+  %body.relative.max-w-1000px.flex.flex-column.mx-auto.min-h-100.px3.sm-px6{ class: page_classes }
     = partial "partials/header"
     = yield
     = partial "partials/footer"

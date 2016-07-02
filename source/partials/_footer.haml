@@ -1,19 +1,19 @@
 %footer.flex.flex-wrap.justify-between.font-base.my4.sm-my6.fade-in-up
   %span.grey.pb4.xs-p0.md-p0.lg-p0
-    2016 © Felix Lee
+    = link_to "2016 © Felix Lee", data.links.license, class: "grey-light"
     %span.grey-light.px1 •
-    %a.grey-light.semi{ href: "//github.com/imfelix/imfelix.github.io/tree/source" } GitHub Source
+    = link_to "GitHub Source", data.links.github_source, class: "grey-light"
     / %span.grey-light.px1 •
-    / %a.grey-light.semi{ href: "#" } Style Guide
+    / %a.grey-light{ href: "#" } Style Guide
 
-  %ul.no-list-type.flex.flex-wrap.semi.m0.xs-hide
+  %ul.no-list-type.flex.flex-wrap.m0.xs-hide
     %li.mr9.sm-mr6.pb4.sm-p0
-      %a{ href: "//twitter.com/im_felix" } Twitter
+      = link_to "Twitter", data.links.twitter, class: "grey-light"
     %li.mr9.sm-mr6.pb4.sm-p0
-      %a{ href: "//dribbble.com/felixlee" } Dribbble
+      = link_to "Dribbble", data.links.dribbble, class: "grey-light"
     %li.mr9.sm-mr6.pb4.sm-p0
-      %a{ href: "//codepen.io/imfelix/" } CodePen
+      = link_to "CodePen", data.links.codepen, class: "grey-light"
     %li.mr9.sm-mr6.pb4.sm-p0
-      %a{ href: "//github.com/imfelix" } GitHub
+      = link_to "GitHub", data.links.github, class: "grey-light"
     %li
-      %a{ href: "//linkedin.com/in/imfelix" } LinkedIn
+      = link_to "LinkedIn", data.links.linkedin, class: "grey-light"

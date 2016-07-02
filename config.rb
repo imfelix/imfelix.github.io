@@ -1,4 +1,9 @@
 #################################################
+## Timezone
+#################################################
+# Time.zone = "Australia/Brisbane"
+
+#################################################
 ## Asset Directories
 #################################################
 config[:js_dir]     = 'assets/javascripts'
@@ -11,10 +16,21 @@ config[:images_dir] = 'assets/images'
 set :haml, { ugly: true, format: :html5 }
 
 #################################################
+## Blog Configuration
+#################################################
+activate :blog do |blog|
+  blog.prefix = "articles"
+  blog.permalink = "/{title}.html"
+end
+
+# TODO: Need to figure this out - it is adding _index to page_classes
+# activate  :directory_indexes
+
+#################################################
 ## Developement Configuration
 #################################################
 configure :development do
-  activate :autoprefixer
+  activate  :autoprefixer
   activate  :livereload
   activate  :syntax
 end
@@ -52,16 +68,22 @@ end
 #################################################
 ## Helper Methods
 #################################################
-# helpers do
-#   def correct_path(spec_path)
-#     spec_path
-#   end
+helpers do
+  # Date Format
+  def date_format(date)
+    date.strftime('%d %b %Y')
+  end
 
-#   def menu_link(link, name = link)
-#     unless page_classes.blank?
-#       klass = (link == page_classes ? 'active' : nil)
-#     end
+  # Active Link
+  def menu_link(link, name = link, link_classes)
+    unless page_classes.blank?
+      klass = (link == page_classes ? "semi grey-darker underline" : " ")
+    end
 
-#     link_to name.capitalize.gsub('-', ' '), correct_path("/#{link.downcase}.html"), class: klass
-#   end
-# end
+    unless link == "index"
+        link_to name.capitalize.gsub("-", " "), "/#{link.downcase}.html", class: link_classes + " " + klass
+      else
+        link_to "Home", "/#{link.downcase}.html", class: klass
+    end
+  end
+end
