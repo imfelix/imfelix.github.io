@@ -8,3 +8,7 @@
 
 // Absolute Vertical
 .absolute-y { top: 50%; transform: translateY(-50%); }
+
+// EDGE CASE
+// Negative top
+.top-neg-2px { top: -2px; }

@@ -1,11 +1,11 @@
 ---
-title:      Overseas Adventure Travel In Nepal
+title:      It S Hurricane Season But We Are
 date:       2016-07-02
 read_time:  5 minutes
 tag:        [blog, lorem-ipsum, tweet, super-duper-long-tag]
-thumbnail:  https://images.unsplash.com/photo-1416339442236-8ceb164046f8?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=867&q=80
-summary:    Maui hotel or Maui condo? It’s the burning question on everyones mind! What should you do? Maui
-            hotel? Maui condo? ...
+thumbnail:  https://images.unsplash.com/photo-1460518451285-97b6aa326961?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80
+summary:    Every year middle class American families put off traveling because they’re too busy or too tired
+            or they just don’t have  ...
 ---
 
 # First Article

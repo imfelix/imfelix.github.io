@@ -29,6 +29,7 @@ end
 # TODO: Need to figure this out - it is adding _index to page_classes
 activate  :directory_indexes
 
+
 #################################################
 ## Developement Configuration
 #################################################

@@ -1,11 +1,11 @@
 ---
-title:      Overseas Adventure Travel In Nepal
+title:      Proven Techniques Help You
 date:       2016-07-02
 read_time:  5 minutes
 tag:        [blog, lorem-ipsum, tweet, super-duper-long-tag]
-thumbnail:  https://images.unsplash.com/photo-1416339442236-8ceb164046f8?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=867&q=80
-summary:    Maui hotel or Maui condo? It’s the burning question on everyones mind! What should you do? Maui
-            hotel? Maui condo? ...
+thumbnail:  https://images.unsplash.com/photo-1455894127589-22f75500213a?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=884&q=80
+summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
+            can get it at a young age for ...
 ---
 
 # First Article

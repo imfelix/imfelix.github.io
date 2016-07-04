@@ -2,18 +2,22 @@
 // Font Size
 // ––––––––––––––––––––––––––––––––––––
 
-// font-double used on list of articles page
-// 30px
-.font-double  { font-size: $font-double; }
+//  font-larger used on home page mobile viewport
+// 22.5px
+.font-larger  { font-size: $font-larger; }
+
+// font-title used on each article snippet on articles page
+// 37.5px
+.font-title    { font-size: $font-title; }
 
 // font-triple used for page headlines
 // 45px
 h1,
 .font-triple  { font-size: $font-triple; }
 
-// 22.5px
+// 30px
 h2,
-.font-larger  { font-size: $font-larger; }
+.font-double  { font-size: $font-double; }
 
 // 18.75px
 h3,
@@ -34,6 +38,7 @@ h6,
 // Responsive Typography
 @media screen and (min-width: $mobile) {
   .sm-font-triple   { font-size: $font-triple; }
+  .sm-font-title    { font-size: $font-title; }
   .sm-font-double   { font-size: $font-double; }
   .sm-font-larger   { font-size: $font-larger; }
   .sm-font-large    { font-size: $font-large; }
