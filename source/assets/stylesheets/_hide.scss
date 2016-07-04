@@ -13,3 +13,11 @@
 @media (max-width: $mobile) {
   .xs-hide { display: none !important }
 }
+
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+  .md-hide  { display: none !important; }
+}
+
+@media screen and (min-width: $tablet) {
+  .lg-hide  { display: none !important; }
+}

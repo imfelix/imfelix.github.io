@@ -13,7 +13,6 @@ a {
 
   &:focus {
     @extend .grey-darker;
-    @extend .underline;
     outline: 0;
   }
 }

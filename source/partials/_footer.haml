@@ -1,10 +1,12 @@
 %footer.flex.flex-wrap.justify-between.font-base.my4.sm-my6.fade-in-up
-  %span.grey.pb4.xs-p0.md-p0.lg-p0
+  %span.flex.flex-wrap.items-baseline.pb4.xs-p0.md-p0.lg-p0
     = link_to "#{DateTime.now.year} © Felix Lee", data.external_links.license
-    %span.px1 •
-    = link_to "GitHub Source", data.external_links.github_source
-    / %span.grey-light.px1 •
-    / %a.grey-light{ href: "#" } Style Guide
+    %span.px2.font-smaller.grey-light •
+    = menu_link "get-in-touch", "md-hide lg-hide"
+    = link_to "GitHub Source", data.external_links.github_source, class: "xs-hide"
+    %span.px2.font-smaller.grey-light.xs-hide •
+    = link_to "Style Guide", "#", class: "xs-hide"
+
 
   %ul.no-list-type.flex.flex-wrap.m0.xs-hide
     %li.mr9.sm-mr6.pb4.sm-p0

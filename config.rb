@@ -14,6 +14,8 @@ config[:images_dir] = 'assets/images'
 ## Templating Language
 #################################################
 set :haml, { ugly: true, format: :html5 }
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 #################################################
 ## Blog Configuration
@@ -25,7 +27,7 @@ activate :blog do |blog|
 end
 
 # TODO: Need to figure this out - it is adding _index to page_classes
-# activate  :directory_indexes
+activate  :directory_indexes
 
 #################################################
 ## Developement Configuration
@@ -77,14 +79,16 @@ helpers do
 
   # Active Link
   def menu_link(link, name = link, link_classes)
+    # include doesn't work because index will be present with the use of directory_indexes
+    # Home will always be active
     unless page_classes.blank?
-      klass = (link == page_classes ? "semi grey-darker underline" : " ")
+      klass = (page_classes.include?(link) ? "semi grey-darker underline" : " ")
     end
 
-    unless link == "index"
-        link_to name.capitalize.gsub("-", " "), "/#{link.downcase}.html", class: link_classes + " " + klass
-      else
-        link_to "Home", "/#{link.downcase}.html", class: klass
+    if link == "index"
+      link_to "Home", "/#{link.downcase}.html", class: klass
+    else
+      link_to name.capitalize.gsub("-", " "), "/#{link.downcase}.html", class: "#{link_classes} #{klass}"
     end
   end
 end
