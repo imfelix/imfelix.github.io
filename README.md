@@ -18,26 +18,27 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Line height - *Good amount of line-height for reading experience*
   - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
   - Font size - *Legibility?!*
-  - Avoid hamburger menu - *Don't hide stuff behind those lines*
+  - Avoid hamburger menu - *Don't hide elements behind three bars*
   - Articles page - *Use border, background colour, or separator lines to divide each posts?*
-  - Articles details - *Published date, Reading time, and Tags*
+  - Articles details - *Font size for published date, reading time, and tags?*
 - Responsiveness
-  - width? padding? margin? font-size? - *flexbox to the rescue*
-  - There is more than 99 viewports and iPhone is just one.
+  - `width`? `padding`? `margin`? `font-size`? - *flexbox to the rescue*
+  - There are more than 99 viewports and iPhone is just one.
 - Accessibility
-  - Contrast - *Is the contrast AAA compliant?*
-  - Icons - *Use words instead of brand icons - unless include screen-read text*
+  - Contrast - *Color contrast AAA compliant?*
+  - Icons - *Use words instead of brand icons, unless include screen-read text*
 - Usability
   - First time landing on the page, can users find the navigation links?
   - Can they navigate around the site?
+  - Do they understand the articles page?
 - Performance
   - Typekit loading performance - *Have to deal with unloaded fonts*
-  - State of the art CSS loading - Check out the [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - *should I do it?*
-  - `box-shadow` hover effect [hurts performance](http://tobiasahlin.com/blog/how-to-animate-box-shadow/) - :disappointed:
+  - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - *should I do it?*
+  - `box-shadow` hover effect [hurts performance](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting a CSS file*
 - Aesthetics
-  - Attempt at designing a website without the use of colours other than shades of grey - :smirk:
-  - Image or no image on articles page? - Should I use CDN to serve my images, AWS or Cloudinary or some other CDN services?
+  - Attempt at designing a website without the use of colours other than shades of grey
+  - Image or no image on articles page? - *Should I use CDN to serve my images?*
   - Should articles and projects styling be the same?
 
 ## This website is designed and developed using:
@@ -62,6 +63,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Rename blog to articles
 - [x] Responsive check for home page
 - [ ] Add navigation links
+
   — [x] Home
   - [x] Projects
   - [x] Articles
