@@ -13,13 +13,17 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 ## Considerations
 
 - User experience
-  - Navigation - *How should the navigations be positioned?*
+  - Navigation - *How should the navigation links be positioned?*
   - Width of paragraph - *Keep it short, 11 - 12 words per line*
   - Line height - *Good amount of line-height for reading experience*
   - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
+  - Font size - *Legibility?!*
   - Avoid hamburger menu - *Don't hide stuff behind those lines*
-  - Blog post - *Use border, background color, or separator lines to divide each posts?*
-- Responsiveness - width? padding? margin? font-size? - *flexbox to the rescue*
+  - Articles page - *Use border, background colour, or separator lines to divide each posts?*
+  - Articles details - *Published date, Reading time, and Tags*
+- Responsiveness
+  - width? padding? margin? font-size? - *flexbox to the rescue*
+  - There is more than 99 viewports and iPhone is just one.
 - Accessibility
   - Contrast - *Is the contrast AAA compliant?*
   - Icons - *Use words instead of brand icons - unless include screen-read text*
@@ -29,15 +33,24 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - Performance
   - Typekit loading performance - *Have to deal with unloaded fonts*
   - State of the art CSS loading - Check out the [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - *should I do it?*
+  - `box-shadow` hover effect [hurts performance](http://tobiasahlin.com/blog/how-to-animate-box-shadow/) - :disappointed:
   - Inline small chunk of CSS in the head - *Remove the use of requesting a CSS file*
-- Use of colours - *My intention is to attempt at designing a website without the use of colours other than shades of grey.*
+- Aesthetics
+  - Attempt at designing a website without the use of colours other than shades of grey - :smirk:
+  - Image or no image on articles page? - Should I use CDN to serve my images, AWS or Cloudinary or some other CDN services?
+  - Should articles and projects styling be the same?
 
-## This website is built using:
+## This website is designed and developed using:
 
 - [GitHub Pages](https://pages.github.com/)
 - [Middlemanapp](https://middlemanapp.com/)
 - [Sass preprocessor](http://sass-lang.com/) — SCSS syntax
-- [Typekit](https://typekit.com/) — Freight Display Pro, Freight Sans Pro, and Courier Prime
+- [Typekit](https://typekit.com/) — [Freight Display Pro](https://typekit.com/fonts/freight-display-pro), [Freight Sans Pro](https://typekit.com/fonts/freight-sans-pro), and [Courier Prime](https://typekit.com/fonts/courier-prime)
+- [SketchApp](https://www.sketchapp.com/)
+- [Craft by InVision LABS](https://www.invisionapp.com/craft)
+- Google Chrome Dev Tools
+  - On Mac - Command + Shift + C.
+  - On Windows / Linux - Ctrl + Shift + C OR F12.
 - Sublime Text 3
 - MacBook Pro 13-inch
 - :heart:
@@ -47,23 +60,30 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Find more enhancements and add to this list
 - [x] Update description in README
 - [x] Rename blog to articles
-- [ ] Responsive check for home page
+- [x] Responsive check for home page
 - [ ] Add navigation links
-  — Home
-  - Projects
-  - Articles
-  - Get in touch
-  - Github Source
-  - Style Guide
-- [ ] Add contact page
-- [ ] Responsive check for contact page
-- [ ] Finalise articles post styles on Sketch
-- [ ] Add articles functionality
-- [ ] Use dummy articles post for styling
+  — [x] Home
+  - [x] Projects
+  - [x] Articles
+  - [x] Get in touch
+  - [x] Github Source
+  - [ ] Style Guide
+- [x] Add Get in touch page
+- [x] Responsive check for Get in touch page
+- [x] Finalise articles post styles on Sketch - *articles page != article page*
+- [x] Add articles functionality
+- [x] Style articles page
+- [ ] Responsive check for articles page
+- [ ] Add dummy article post for styling
 - [ ] Responsive check for article post
-- [ ] Write first article about how you built this site
-- [ ] Publish first article post
 - [ ] Update summary card for Twitter and Facebook
+- [ ] Add projects functionality
+- [ ] Add first project about building this portfolio site
+- [ ] Usability check with 3 person
+- [ ] Write first article about one of the many things you learned from building this portfolio site
+- [ ] Get article and project both proof-read
+- [ ] Publish first article post
+- [ ] Celebrate and dance :tada:
 
 ## Acknowledgments + Inspirations + Credits
 
@@ -71,6 +91,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [Basscss](http://www.basscss.com/) - *Heard of functional CSS?*
 - [Tachyons.io](http://tachyons.io) - *Alternative of Basscss*
 - [Medium](https://medium.com/) - *Learn from one of the largest blogging website. How do you layout a post?*
+- [InVision Blog](http://blog.invisionapp.com/) - *I read their blog posts quite a bit*
 
 ## License
 
