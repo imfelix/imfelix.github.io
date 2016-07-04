@@ -22,7 +22,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Articles page - *Use border, background colour, or separator lines to divide each posts?*
   - Articles details - *Font size for published date, reading time, and tags?*
 - Responsiveness
-  - `width`? `padding`? `margin`? `font-size`? - *flexbox to the rescue*
+  - `width`, `padding`, `margin`, `font-size`
   - There are more than 99 viewports and iPhone is just one.
 - Accessibility
   - Contrast - *Color contrast AAA compliant?*
@@ -63,8 +63,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Rename blog to articles
 - [x] Responsive check for home page
 - [ ] Add navigation links
-
-  — [x] Home
+  - [x] Home
   - [x] Projects
   - [x] Articles
   - [x] Get in touch
