@@ -6,8 +6,10 @@
 .line-height-small   { line-height: $line-height-small; }
 .line-height-title   { line-height: $line-height-title; }
 .line-height-base    { line-height: $line-height-base; }
+.line-height-large   { line-height: $line-height-large; }
 
 // Responsive Line Height
 @media screen and (min-width: $mobile) {
-  .sm-line-height-base { line-height: $line-height-base; }
+  .sm-line-height-base  { line-height: $line-height-base; }
+  .sm-line-height-large { line-height: $line-height-large; }
 }

@@ -10,20 +10,25 @@
   //
   h1 {
     @extend .mt0;
-    @extend .mb2;
+    @extend .mb1;
     @extend .font-double;
     @extend .serif;
     @extend .spaced;
-    @media screen and (min-width: $mobile){
-      .sm-font-triple { font-size: $font-double; }
+
+    @media screen and (min-width: $mobile) {
+      font-size: $font-title;
     }
   }
 
   p {
     @extend .mt0;
-    @extend .mb6;
+    @extend .mb5;
     @extend .font-large;
     @extend .grey-darker;
+
+    @media screen and (min-width: $mobile) {
+      line-height: $line-height-large;
+    }
   }
 
   //

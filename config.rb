@@ -21,7 +21,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
-  blog.layout = "article-layout"
+  blog.layout = "layout-read"
   blog.prefix = "articles"
   blog.permalink = "/{title}.html"
 end

@@ -3,13 +3,14 @@ title:      Proven Techniques Help You
 date:       2016-07-02
 read_time:  5 minutes
 tag:        [blog, lorem-ipsum, tweet]
-thumbnail:  https://images.unsplash.com/photo-1455894127589-22f75500213a?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=884&q=80
+thumbnail:  /assets/images/thumbnail/third-article.jpeg
 summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
             can get it at a young age for ...
 ---
-<figure style="background-image: url(https://images.unsplash.com/photo-1455894127589-22f75500213a?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=884&q=80)" class="w-100 h-150px mt0 ml0 mr0 mb4 bg-cover bg-center bg-no-repeat"></figure>
 
-<div class="flex flex-wrap items-center mb2 mono font-small grey">
+<figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-300px mt0 ml0 mr0 mb2 bg-cover bg-bottom bg-no-repeat"></figure>
+
+<div class="flex flex-wrap items-center mb4 mono font-small grey">
   <span>Published on 02 Jul 2016</span>
   <span class="font-smaller grey-light px2">•</span>
   <span>5 minutes read</span>
