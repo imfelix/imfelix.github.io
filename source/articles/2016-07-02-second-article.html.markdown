@@ -2,7 +2,7 @@
 title:      It S Hurricane Season But We Are
 date:       2016-07-02
 read_time:  5 minutes
-tag:        [blog, lorem-ipsum, tweet, super-duper-long-tag]
+tag:        [blog, lorem-ipsum, tweet]
 thumbnail:  https://images.unsplash.com/photo-1460518451285-97b6aa326961?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80
 summary:    Every year middle class American families put off traveling because they’re too busy or too tired
             or they just don’t have  ...

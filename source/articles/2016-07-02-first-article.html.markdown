@@ -2,7 +2,7 @@
 title:      Overseas Adventure Travel In Nepal
 date:       2016-07-02
 read_time:  5 minutes
-tag:        [blog, lorem-ipsum, tweet, super-duper-long-tag]
+tag:        [blog, lorem-ipsum, tweet]
 thumbnail:  https://images.unsplash.com/photo-1416339442236-8ceb164046f8?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=867&q=80
 summary:    Maui hotel or Maui condo? It’s the burning question on everyones mind! What should you do? Maui
             hotel? Maui condo? ...

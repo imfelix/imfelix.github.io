@@ -4,21 +4,36 @@
 // - Two level nesting
 // ––––––––––––––––––––––––––––––––––––
 
-// .articles {
-//   //
-//   // Typography
-//   //
-//   h1 {
-//     @extend .mt0;
-//     @extend .mb2;
-//     @extend .serif;
-//     @extend .spaced;
-//   }
+[data-content="article"] {
+  //
+  // Typography
+  //
+  h1 {
+    @extend .mt0;
+    @extend .mb2;
+    @extend .font-double;
+    @extend .serif;
+    @extend .spaced;
+    @media screen and (min-width: $mobile){
+      .sm-font-triple { font-size: $font-double; }
+    }
+  }
 
-//   p {
-//     @extend .mt0;
-//     @extend .mb4;
-//     @extend .grey-dark;
-//     @extend .font-large;
-//   }
-// }
+  p {
+    @extend .mt0;
+    @extend .mb6;
+    @extend .font-large;
+    @extend .grey-darker;
+  }
+
+  //
+  // Link
+  //
+  a {
+    @extend .underline;
+
+    &:hover {
+      @extend .grey-darker;
+    }
+  }
+}
