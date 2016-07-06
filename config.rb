@@ -29,7 +29,6 @@ end
 # TODO: Need to figure this out - it is adding _index to page_classes
 activate  :directory_indexes
 
-
 #################################################
 ## Developement Configuration
 #################################################
@@ -79,17 +78,9 @@ helpers do
   end
 
   # Active Link
-  def menu_link(link, name = link, link_classes)
-    # include doesn't work because index will be present with the use of directory_indexes
-    # Home will always be active
-    unless page_classes.blank?
-      klass = (page_classes.include?(link) ? "semi grey-darker underline" : " ")
-    end
+  def active_link_to(text, path, options)
+    active_css_class = "semi grey-darker underline" if current_page.url.delete('/') == path.delete('/')
 
-    if link == "index"
-      link_to "Home", "/#{link.downcase}.html", class: klass
-    else
-      link_to name.capitalize.gsub("-", " "), "/#{link.downcase}.html", class: "#{link_classes} #{klass}"
-    end
+    link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{active_css_class}"
   end
 end

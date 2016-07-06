@@ -8,13 +8,22 @@ summary:    Asthma allergy is the number one form of allergy today. And since as
             can get it at a young age for ...
 ---
 
-<figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-300px mt0 ml0 mr0 mb2 bg-cover bg-bottom bg-no-repeat"></figure>
+<figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-300px mt0 ml0 mr0 mb4 bg-cover bg-bottom bg-no-repeat"></figure>
 
-<div class="flex flex-wrap items-center mb4 mono font-small grey">
-  <span>Published on 02 Jul 2016</span>
-  <span class="font-smaller grey-light px2">•</span>
-  <span>5 minutes read</span>
+<div class="flex flex-wrap mb6 mono font-base grey">
+  <div class="flex flex-wrap items-center">
+    <span>02 Jul 2016</span>
+    <span class="font-smaller grey-light px2">•</span>
+    <span>5 minutes read</span>
+    <span class="font-smaller grey-light px2">•</span>
+  </div>
+  <div class="flex flex-wrap items-center">
+    <span class="pr4">#blog</span>
+    <span class="pr4">#lorem-ipsum</span>
+    <span class="pr4">#tweet</span>
+  </div>
 </div>
+
 
 # Proven Techniques Help You
 
