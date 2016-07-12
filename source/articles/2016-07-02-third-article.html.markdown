@@ -39,9 +39,20 @@ In the end your physical health will suffer no matter how well you eat and how o
 In hopes of helping you avoid this I am providing you with the things I do to keep my mental health in tip top condition.
 
 My absolute favorite thing to do to refocus myself is to go for a long ride on my Harley. Nothing brings the world back into focus like riding free like the wind, there is no better forms of therapy as far as I am concerned.
-
 <a name="link-here"></a>
-## Link here
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+---
 
 Another great way to relieve the stresses in your life and help put a sparkle in your mental health is a trip to the casinos. Most people go to the casinos and expect to go home a winner, I do not. I go to have a good time. I enjoy the skill required in
 

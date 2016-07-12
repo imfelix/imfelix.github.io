@@ -21,6 +21,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Avoid hamburger menu - *Don't hide elements behind three bars*
   - Articles page - *Use border, background colour, or separator lines to divide each posts?*
   - Articles details - *Font size for published date, reading time, and tags?*
+  - Articles header + footer - *Avoid distraction and navigating out of the page*
+  - © Felix Lee - *Should this direct users to home page or to my license page?*
 - Responsiveness
   - `width`, `padding`, `margin`, `font-size`
   - There are more than 99 viewports and iPhone is just one.

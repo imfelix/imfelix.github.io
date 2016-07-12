@@ -8,17 +8,27 @@
   //
   // Typography
   //
-  h1 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @extend .mt0;
-    @extend .mb1;
-    @extend .font-double;
-    @extend .serif;
+    @extend .mb2;
     @extend .spaced;
-
-    @media screen and (min-width: $mobile) {
-      font-size: $font-title;
-    }
+    @extend .line-height-smaller;
   }
+
+  h1 {
+    @extend .serif;
+    @extend .font-title;
+  }
+
+  h3 { @extend .font-larger; }
+  h4 { @extend .font-large; }
+  h5 { @extend .font-base; }
+  h6 { @extend .font-small; }
 
   p {
     @extend .mt0;
