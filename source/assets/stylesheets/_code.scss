@@ -1,0 +1,21 @@
+code {
+  margin: 0 0.2rem;
+  padding: 0.2rem 0.5rem;
+  background-color: $grey-lightest;
+  font-size: $font-small;
+  color: $grey-darker;
+  white-space: nowrap;
+}
+
+pre {
+  background-color: $grey-lightest;
+
+  & > code {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: $grey-darker;
+    border-radius: 3px;
+    overflow-x: auto;
+    white-space: pre;
+  }
+}

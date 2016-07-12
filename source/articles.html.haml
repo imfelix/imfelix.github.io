@@ -1,11 +1,11 @@
 ---
-title: Articles by Felix Lee | UI/UX Designer
+title: Articles | Felix Lee | UI/UX Designer
 ---
 
 .max-w-620px.w-100.pt0.pb4.mx-auto.flex.flex-auto.flex-column.justify-start.fade-in-up
   - blog.articles.each do |article|
     %a.block.w-100.my6.mx-auto.mt0{ href: article.url }
-      %article.flex.flex-column.p4.pb2.bg-white.border.border-grey-lighter.rounded.shadow.hover-shadow-dark.transition-all
+      %article.flex.flex-column.p4.pb2.bg-white.border.border-grey-lighter.rounded.transition-all
         %figure.w-100.h-150px.mt0.ml0.mr0.mb3.bg-cover.bg-center.bg-no-repeat{ style: "background-image: url( #{article.data.thumbnail} )" }
         %h3.serif.grey-darker.font-double.sm-font-title.semi.mt0.mb2.sm-mb1.line-height-title= article.title
         %p.grey-darker.font-large.spaced-small.line-height-small.m0.mb4= article.data.summary

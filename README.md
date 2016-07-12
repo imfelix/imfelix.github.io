@@ -6,7 +6,7 @@ URL - http://felixlee.io
 
 > This is the final version — said the naive me
 
-After months of telling myself, it is the final version of my portfolio site and I will start building it — which I never did. I have finally started on something. Nothing flashy, fancy, or even colourful — only 5 shades of grey. However, I did put in a lot of thought into building this website, check out my partial-list of [considerations](#considerations) below.
+After months of telling myself, it is the final version of my portfolio site and I will start building it — which I never did. I have finally started on something. Nothing flashy, fancy, or even colourful — only ~~5~~6 shades of grey. However, I did put in a lot of thought into building this website, check out my partial-list of [considerations](#considerations) below.
 
 Happy to hear from you if you have any feedback for my site or even thoughts on my code — anything — just hit me up on [Twitter](https://twitter.com/im_felix) or send me an [email](mailto:hello@felixlee.io) or checkout the site and contact me via my [get in touch page](http://felixlee.io/get-in-touch). Cheers :v:
 

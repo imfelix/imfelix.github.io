@@ -32,7 +32,7 @@
 .px12 { padding-left: 6rem; padding-right: 6rem; }
 
 // Vertical Padding Properties
-.py0  { padding-top: 0; padding-right: 0; }
+.py0  { padding-top: 0; padding-bottom: 0; }
 .py1  { padding-top: 0.5rem; padding-bottom: 0.5rem; }
 .py2  { padding-top: 1rem; padding-bottom: 1rem; }
 .py3  { padding-top: 1.5rem; padding-bottom: 1.5rem; }
@@ -112,11 +112,13 @@
 }
 
 @media screen and (min-width: $mobile) {
+  .sm-py4 { padding-left: 2rem; padding-right: 2rem; }
   .sm-px0 { padding-left: 0; padding-right: 0; }
   .sm-px1 { padding-left: 0.5rem; padding-right: 0.5rem; }
   .sm-px2 { padding-left: 1rem; padding-right: 1rem; }
   .sm-px6 { padding-left: 3rem; padding-right: 3rem; }
   .sm-pb0 { padding-bottom: 0; }
+  .sm-pt0 { padding-top: 0; }
   .sm-pt3 { padding-top: 1.5rem; }
   .sm-p0  { padding: 0; }
 }

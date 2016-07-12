@@ -13,9 +13,7 @@
     = partial "partials/favicon"
 
     / Stylesheet
-    / Inline Styles DOM - 1.1s | 1.3s
     / = partial "partials/styles"
-    / Request Styles DOM - 1.37s | LOAD - 1.98s
     = stylesheet_link_tag "site"
 
     / Typekit Loading Styles
@@ -36,10 +34,10 @@
         visibility: hidden !important;
       }
 
-  %body.relative.max-w-1000px.flex.flex-column.mx-auto.min-h-100.px3.sm-px6{ class: page_classes }
+  %body.relative.max-w-1000px.flex.flex-column.mx-auto.min-h-100{ class: page_classes }
     = partial "partials/header-read"
     // data-content attribute used for styling - instead of using .articles
-    %article.max-w-620px.w-100.mx-auto.py4.flex.flex-column.flex-auto.fade-in-up{ data: { content: "article" } }= yield
+    %article.max-w-620px.w-100.mx-auto.py0.sm-py4.flex.flex-column.flex-auto.fade-in-up.px3.sm-px0{ data: { content: "article" } }= yield
     = partial "partials/footer-read"
 
   / Typekit
