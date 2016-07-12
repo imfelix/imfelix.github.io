@@ -2,28 +2,32 @@
 title: Articles | Felix Lee | UI/UX Designer
 ---
 
-.max-w-620px.w-100.pt0.pb4.mx-auto.flex.flex-auto.flex-column.justify-start.fade-in-up
+%main.max-w-800px.w-100.pt0.pb4.sm-px3.mx-auto.flex.flex-auto.flex-column.justify-start.transition-all.fade-in-up
   - blog.articles.each do |article|
     %a.block.w-100.my6.mx-auto.mt0{ href: article.url }
-      %article.flex.flex-column.p4.pb2.bg-white.border.border-grey-lighter.rounded.transition-all
-        %figure.w-100.h-150px.mt0.ml0.mr0.mb3.bg-cover.bg-center.bg-no-repeat{ style: "background-image: url( #{article.data.thumbnail} )" }
-        %h3.serif.grey-darker.font-double.sm-font-title.semi.mt0.mb2.sm-mb1.line-height-title= article.title
-        %p.grey-darker.font-large.spaced-small.line-height-small.m0.mb4= article.data.summary
-        .flex.flex-wrap.font-small.sm-font-smaller
-          .flex.flex-column.flex-auto.pr4.mb2
-            %span.mono.m0.grey Date
-            %span.mono.m0.grey-dark= date_format(article.date)
+      %article.flex.flex-column.sm-flex-row.bg-white.border.border-grey-lighter.rounded.transition-all
 
-          .flex.flex-column.flex-auto.pr4.mb2
-            %span.mono.m0.grey Read. Time
-            %span.mono.m0.grey-dark= article.data.read_time
+        %figure.w-100.sm-w-45.h-150px.sm-h-auto.m0.p4.sm-p0.bg-cover.bg-center.bg-no-repeat.rounded-left.transition-all{ style: "background-image: url( #{article.data.thumbnail} )" }
 
-          .flex.flex-column.flex-auto.pr4.mb2
-            %span.mono.m0.grey Tags
-            .flex.flex-row.flex-wrap
-              - article.data.tag.each do |tag|
-                %span.mono.m0.mr3.grey-dark
-                  \##{tag}
+
+        %section.flex.flex-column.p4.pb2.sm-pb4
+          %h3.serif.grey-darker.font-double.sm-font-title.semi.mt0.mb2.sm-mb1.line-height-title= article.title
+          %p.grey-darker.font-large.spaced-small.line-height-small.m0.mb4= article.data.summary
+          .flex.flex-wrap.font-small.sm-font-smaller
+            .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
+              %span.mono.m0.grey Date
+              %span.mono.m0.grey-dark= date_format(article.date)
+
+            .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
+              %span.mono.m0.grey Read. Time
+              %span.mono.m0.grey-dark= article.data.read_time
+
+            .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
+              %span.mono.m0.grey Tags
+              .flex.flex-row.flex-wrap
+                - article.data.tag.each do |tag|
+                  %span.mono.m0.mr3.grey-dark
+                    \##{tag}
 
   .w-100.relative.sans.mx-auto.block.center.my12
     %span.relative.z2.bg-white.px3.font-small.grey.top-neg-2px you have reached the end

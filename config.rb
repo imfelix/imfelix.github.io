@@ -21,12 +21,11 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
-  blog.layout = "layout-read"
+  blog.layout = "layout-article"
   blog.prefix = "articles"
   blog.permalink = "/{title}.html"
 end
 
-# TODO: Need to figure this out - it is adding _index to page_classes
 activate  :directory_indexes
 
 #################################################
@@ -72,12 +71,10 @@ end
 ## Helper Methods
 #################################################
 helpers do
-  # Date Format
   def date_format(date)
     date.strftime('%d %b %Y')
   end
 
-  # Active Link
   def active_link_to(text, path, options)
     active_css_class = "semi grey-darker underline" if current_page.url.delete('/') == path.delete('/')
 

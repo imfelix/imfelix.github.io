@@ -80,6 +80,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Add dummy article post for styling
 - [ ] Responsive check for article post
 - [ ] Update summary card for Twitter and Facebook
+- [ ] Move styles into partial
+- [ ] CSS Audit
 - [ ] Add projects functionality
 - [ ] Add first project about building this portfolio site
 - [ ] Usability check with 3 person
@@ -93,8 +95,11 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [Brent Jackson](http://jxnblk.com/) - *Must check out the page performance of his site:ok_hand: exceptional speed*
 - [Basscss](http://www.basscss.com/) - *Heard of functional CSS?*
 - [Tachyons.io](http://tachyons.io) - *Alternative of Basscss*
-- [Medium](https://medium.com/) - *Learn from one of the largest blogging website. How do you layout a post?*
+- [Medium](https://medium.com/) - *Learn from one of the largest blogging website.*
 - [InVision Blog](http://blog.invisionapp.com/) - *I read their blog posts quite a bit*
+- [Typeform Blog](http://www.typeform.com/blog/) - *Awwwesome forms*
+- [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline*
+- [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”*
 
 ## License
 

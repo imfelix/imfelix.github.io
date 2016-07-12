@@ -2,6 +2,7 @@
 // Article Styles
 // - All elements within an article
 // - Two level nesting
+// - Only render this when using article layout
 // ––––––––––––––––––––––––––––––––––––
 
 [data-content="article"] {
@@ -32,11 +33,11 @@
 
   p {
     @extend .mt0;
-    @extend .mb5;
+    @extend .mb6;
     @extend .font-large;
     @extend .grey-darker;
 
-    @media screen and (min-width: $mobile) {
+    @media screen and (min-width: $tablet) {
       line-height: $line-height-large;
     }
   }

@@ -10,14 +10,14 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media (max-width: $mobile) {
+@media (max-width: $tablet) {
   .xs-hide { display: none !important }
 }
 
-@media screen and (min-width: $mobile) and (max-width: $tablet) {
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
   .md-hide  { display: none !important; }
 }
 
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $desktop) {
   .lg-hide  { display: none !important; }
 }

@@ -15,6 +15,7 @@
 
 // Width
 .w-auto       { width: auto; }
+.w-45         { width: 45%; }
 .w-50         { width: 50%; }
 .w-100        { width: 100%; }
 
@@ -24,8 +25,10 @@
 .max-w-1000px { max-width: 1000px; }
 
 // Responsive Width
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $tablet) {
+  .sm-w-45    { width: 45%; }
   .sm-w-50    { width: 50%; }
 
   .sm-h-450px { height: 450px; }
+  .sm-h-auto  { height: auto; }
 }

@@ -36,7 +36,7 @@ h6,
 .font-smaller { font-size: $font-smaller; }
 
 // Responsive Typography
-@media screen and (min-width: $mobile) {
+@media screen and (min-width: $tablet) {
   .sm-font-triple   { font-size: $font-triple; }
   .sm-font-title    { font-size: $font-title; }
   .sm-font-double   { font-size: $font-double; }
@@ -47,11 +47,11 @@ h6,
   .sm-font-smaller  { font-size: $font-smaller; }
 }
 
-@media screen and (min-width: $mobile) and (max-width: $tablet) {
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
   .md-font-double   { font-size: $font-double; }
 }
 
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $desktop) {
   .lg-font-triple   { font-size: $font-triple; }
 }
 
