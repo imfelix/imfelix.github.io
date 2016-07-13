@@ -1,0 +1,22 @@
+// ––––––––––––––––––––––––––––––––––––
+// Styles applied to class headroom
+// Classes are added via headroom.js
+// ––––––––––––––––––––––––––––––––––––
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+  @extend .shadow;
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+.headroom--top {
+  box-shadow: none;
+}
