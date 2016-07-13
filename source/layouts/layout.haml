@@ -34,8 +34,6 @@
         visibility: hidden !important;
       }
 
-  / JavaScript
-  = javascript_include_tag :all
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes, onload: "mainPosition()" }
     = partial "partials/header"
@@ -47,6 +45,8 @@
   :javascript
     try{Typekit.load({ async: true });}catch(e){}
 
+  / JavaScript
+  = javascript_include_tag :all
 
   / Google Analytics
   / = partial "partials/analytics"
