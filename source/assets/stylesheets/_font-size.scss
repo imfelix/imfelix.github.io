@@ -49,6 +49,7 @@ h6,
 
 @media screen and (min-width: $tablet) and (max-width: $desktop) {
   .md-font-double   { font-size: $font-double; }
+  .md-font-title    { font-size: $font-title; }
 }
 
 @media screen and (min-width: $desktop) {
