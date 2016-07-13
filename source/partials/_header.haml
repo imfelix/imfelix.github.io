@@ -1,12 +1,15 @@
-%header.flex.flex-wrap.justify-between.items-baseline.font-base.my4.sm-my6.px3.fade-in-up
-  %ul.no-list-type.flex.flex-wrap.items-baseline.m0.pb3.sm-pb0
-    %li.mr9.sm-mr6
-      = active_link_to "Home", "/", class: "font-base"
-    / %li.mr9.sm-mr6
-    /   = active_link_to "Projects", "projects", class: "font-base"
-    %li.mr9.sm-mr6
-      = active_link_to "Articles", "articles", class: "font-base"
-    / %li.mt2.sm-mt0
-    /   %span.m0.white.bg-grey-darker.px3.py1.rounded This site is under development
+%nav.fixed.w-100.z3.bg-white
+  .max-w-1000px.w-100.mx-auto.my4.sm-my6.px3.sm-px6.flex.flex-wrap.justify-between.items-baseline.font-base.fade-in-up
+    %ul.no-list-type.flex.flex-wrap.items-baseline.m0.pb3.sm-pb0
+      %li.mr9.sm-mr6
+        = active_link_to "Home", "/", class: "font-base"
+      / %li.mr9.sm-mr6
+      /   = active_link_to "Projects", "projects", class: "font-base"
+      %li.mr9.sm-mr6
+        = active_link_to "Articles", "articles", class: "font-base"
+      %li.mr9.sm-mr6
+        = active_link_to "About", "about", class: "font-base"
+      / %li.mt2.sm-mt0
+      /   %span.m0.white.bg-grey-darker.px3.py1.rounded This site is under development
 
-  = active_link_to "Get in touch", "get-in-touch", class: "m0 border border-grey-light grey hover-border-grey-darker transition-all px3 py1 rounded xs-hide"
+    = active_link_to "Get in touch", "get-in-touch", class: "m0 border transition-all px3 py1 rounded xs-hide"
