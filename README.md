@@ -14,6 +14,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 
 - User experience
   - Navigation - *How should the navigation links be positioned?*
+  - Headroom.js - *Added this to free up some room when scrolling*
   - Width of paragraph - *Keep it short, 11 - 12 words per line*
   - Line height - *Good amount of line-height for reading experience*
   - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
@@ -76,6 +77,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Finalise articles post styles on Sketch - *articles page != article page*
 - [x] Add articles functionality
 - [x] Style articles page
+- [x] Add headroom.js
+- [x] Refactor HTML structure
 - [ ] Responsive check for articles page
 - [ ] Add dummy article post for styling
 - [ ] Responsive check for article post
@@ -89,6 +92,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Get article and project both proof-read
 - [ ] Publish first article post
 - [ ] Celebrate and dance :tada:
+- [ ] Add About page
 
 ## Acknowledgments + Inspirations + Credits
 
