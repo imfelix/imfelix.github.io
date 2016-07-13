@@ -69,6 +69,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Home
   - [x] Projects
   - [x] Articles
+  - [x] About
   - [x] Get in touch
   - [x] Github Source
   - [ ] Style Guide
