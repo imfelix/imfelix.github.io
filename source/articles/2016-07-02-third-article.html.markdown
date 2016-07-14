@@ -8,8 +8,6 @@ summary:    Asthma allergy is the number one form of allergy today. And since as
             can get it at a young age for ...
 ---
 
-<figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-300px mt0 ml0 mr0 mb2 bg-cover bg-bottom bg-no-repeat"></figure>
-
 <div class="flex flex-wrap mb4 mono font-small grey">
   <div class="flex flex-wrap items-center">
     <span>02 Jul 2016</span>
@@ -24,14 +22,24 @@ summary:    Asthma allergy is the number one form of allergy today. And since as
   </div>
 </div>
 
+<figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-150px mt0 ml0 mr0 mb2 bg-cover bg-center bg-no-repeat fade-in-up"></figure>
+
 # Proven Techniques Help You
 
-In recent years people have realized the importance of proper diet and exercise, and recent
-surveys show that over the last 20 years people are eating better and working out more often,
-resulting in people living longer, but people are still lacking in their understanding that
-their mental well being is just as important as their physical health.
+Italics — *In recent years*
 
-[Today most people get on average 4 to 6 hours of exercise every day, and make sure that](#link-here)
+Bold — **the importance of proper**
+
+Strikethrough? — ~~often~~
+
+[Today most people get on average 4 to 6 ](#link-here)
+
+Superscript — this is the 2[^(nd)](#footnote-one) time
+
+Quote — "asodfsadofin"
+
+![asfasdf](/assets/images/thumbnail/third-article.jpeg)
+
 everything they put in their mouths is not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend, 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
 In the end your physical health will suffer no matter how well you eat and how often you exercise. You will wind up with high blood pressure, stress and tension all of which raises the chances of you having a stroke or heart attack.
@@ -53,6 +61,10 @@ My absolute favorite thing to do to refocus myself is to go for a long ride on m
 ###### Heading 6
 
 ---
+
+<a name="footnote-one"></a>
+1. something [↩]()
+
 
 Another great way to relieve the stresses in your life and help put a sparkle in your mental health is a trip to the casinos. Most people go to the casinos and expect to go home a winner, I do not. I go to have a good time. I enjoy the skill required in
 
