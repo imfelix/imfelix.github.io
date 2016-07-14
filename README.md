@@ -18,11 +18,12 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Width of paragraph - *Keep it short, 11 - 12 words per line*
   - Line height - *Good amount of line-height for reading experience*
   - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
-  - Font size - *Legibility?!*
+  - Font size - *Legibility?! Keeping it consistent throughout the site including article!*
   - Avoid hamburger menu - *Don't hide elements behind three bars*
   - Articles page - *Use border, background colour, or separator lines to divide each posts?*
   - Articles details - *Font size for published date, reading time, and tags?*
-  - Articles header + footer - *Avoid distraction and navigating out of the page*
+  - Article title - *Do I put them before the thumbnail?*
+  - Article details - *Where do I put these details?!*
   - © Felix Lee - *Should this direct users to home page or to my license page?*
 - Responsiveness
   - `width`, `padding`, `margin`, `font-size`
@@ -35,7 +36,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Can they navigate around the site?
   - Do they understand the articles page?
 - Performance
-  - Typekit loading performance - *Have to deal with unloaded fonts*
+  - Typekit loading performance - *Dealing with unloaded fonts. `.wf-loading` amirite.*
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - *should I do it?*
   - `box-shadow` hover effect [hurts performance](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting a CSS file*
@@ -80,8 +81,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Style articles page
 - [x] Add headroom.js
 - [x] Refactor HTML structure
-- [ ] Responsive check for articles page
-- [ ] Add dummy article post for styling
+- [x] Responsive check for articles page
+- [x] Add dummy article post for styling
 - [ ] Responsive check for article post
 - [ ] Update summary card for Twitter and Facebook
 - [ ] Move styles into partial
