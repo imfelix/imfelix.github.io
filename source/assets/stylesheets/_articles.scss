@@ -2,7 +2,8 @@
 // Article Styles
 // - All elements within an article
 // - Two level nesting
-// - Only render this when using article layout
+// - Only render on article layout
+// - Don't use @extend
 // ––––––––––––––––––––––––––––––––––––
 
 [data-content="article"] {
@@ -15,27 +16,16 @@
   h4,
   h5,
   h6 {
-    @extend .mt0;
-    @extend .mb2;
-    @extend .spaced;
-    @extend .line-height-smaller;
+    margin-top: 0; // .mt0
+    margin-bottom: 1.5rem; // .mb3
+    letter-spacing: 0.5px; // .spaced
+    line-height: 1.25; //.line-height-smaller
   }
-
-  h1 {
-    @extend .serif;
-    @extend .font-title;
-  }
-
-  h3 { @extend .font-larger; }
-  h4 { @extend .font-large; }
-  h5 { @extend .font-base; }
-  h6 { @extend .font-small; }
 
   p {
-    @extend .mt0;
-    @extend .mb6;
-    @extend .font-large;
-    @extend .grey-darker;
+    margin-top: 0; // .mt0;
+    margin-bottom: 3rem; // .mb6;
+    font-size: $font-large; // .font-large;
 
     @media screen and (min-width: $tablet) {
       line-height: $line-height-large;
@@ -46,10 +36,29 @@
   // Link
   //
   a {
-    @extend .underline;
+    border-bottom: 1px solid; // .underline;
 
     &:hover {
-      @extend .grey-darker;
+      color: $grey-darker; // .grey-darker
     }
+  }
+
+  //
+  // Misc
+  //
+  hr {
+    color: $grey-light;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    margin-top: 6rem; // .mt12
+    margin-bottom: 4.5rem; // .mb9
+  }
+
+  img {
+    width: 100%;
+    margin-top: 3rem; // .mt6
+    margin-bottom: 3rem; // .mb6
   }
 }
