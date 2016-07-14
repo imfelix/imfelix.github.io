@@ -2,22 +2,19 @@
 // Font Size
 // ––––––––––––––––––––––––––––––––––––
 
-// font-larger used on home page mobile viewport
 // 22.5px
 .font-larger  { font-size: $font-larger; }
 
-// font-title used on each article presented on articles page
-// 37.5px
-.font-title    { font-size: $font-title; }
+// 30px
+.font-double  { font-size: $font-double; }
 
-// font-triple used for page headlines
 // 45px
 h1,
 .font-triple  { font-size: $font-triple; }
 
-// 30px
+// 37.5px
 h2,
-.font-double  { font-size: $font-double; }
+.font-title    { font-size: $font-title; }
 
 // 18.75px
 h3,
