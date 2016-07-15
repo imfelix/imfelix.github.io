@@ -10,6 +10,8 @@
 
 .headroom--pinned {
   @extend .shadow;
+  @extend .border-bottom;
+  @extend .border-grey-lighter;
   transform: translateY(0%);
 }
 
@@ -18,5 +20,6 @@
 }
 
 .headroom--top {
+  border: none;
   box-shadow: none;
 }
