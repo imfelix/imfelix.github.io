@@ -24,8 +24,6 @@ summary:    Asthma allergy is the number one form of allergy today. And since as
 
 <figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-150px mt0 ml0 mr0 mb2 bg-cover bg-center bg-no-repeat fade-in-up"></figure>
 
-# Proven Techniques Help You
-
 # Heading 1
 
 ## Heading 2
@@ -44,18 +42,29 @@ Bold — **the importance of proper**
 
 Strikethrough — ~~often~~
 
-[Anchor Link](#anchor-link)
-[Anchor Link](#anchor-link-2)
-[Anchor Link](#anchor-link-3)
+[Anchor Link 1](#anchor-link)
+[Anchor Link 2](#anchor-link-2)
+[Anchor Link 3](#anchor-link-3)
 
+> Blockquote with cite, consectetur adipisicing elit, sed do eiusmod
+> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+>
+> <cite>Benjamin Franklin</cite>
 
+60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
+> Blockquote without cite, consectetur adipisicing elit, sed do eiusmod
+> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 
 Quote — "I am absolutely blessed and I'm very grateful for where I am today."
 
 ![alt text](/assets/images/thumbnail/third-article.jpeg)
 
 everything they put in their mouths is not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend, 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
+
+<hr class="dotted-divider">
 
 My absolute favorite thing to do to refocus myself is to go for a long ride on my Harley. Nothing brings the world back into focus like riding free like the wind, there is no better forms of therapy as far as I am concerned.
 
@@ -71,12 +80,7 @@ everything they put in their mouths is not filled with sugars or preservatives, 
 
 everything they put in their mouths is not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend, 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
-Here is some text containing a footnote.[^somesamplefootnote]
-
----
-
-[^somesamplefootnote]: Here is the text of the footnote itself.
-
+Here is some text containing a footnote.[^somesamplefootnote] And this is some continuing text.
 
 Another great way to relieve the stresses in your life and help put a sparkle in your mental health is a trip to the casinos. Most people go to the casinos and expect to go home a winner, I do not. I go to have a good time. I enjoy the skill required in
 
@@ -138,3 +142,5 @@ end
   }
 }
 ```
+
+[^somesamplefootnote]: Here is the text of the footnote itself.

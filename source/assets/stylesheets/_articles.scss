@@ -22,13 +22,47 @@
     line-height: 1.25; //.line-height-smaller
   }
 
+  h4,
+  h5,
+  h6 { text-transform: uppercase; }
+
   p {
     margin-top: 0; // .mt0
-    margin-bottom: 3rem; // .mb6
+    margin-bottom: 4rem; // .mb8
     font-size: $font-large; // .font-large
 
     @media screen and (min-width: $tablet) {
       line-height: $line-height-large;
+    }
+  }
+
+  //
+  // Blockquote
+  //
+  blockquote {
+    margin-left: 3rem; // .ml6
+    margin-top: 6rem; // .mt12
+    margin-bottom: 6rem; // .mb12
+
+    p {
+      font-weight: 700;
+      font-size: $font-larger;
+      font-family: $font-serif;
+      line-height: $line-height-base;
+    }
+
+    // Reduce spacing if more than one paragraph
+    p:nth-last-child(2) {
+      margin-bottom: 0 // .mb0
+    }
+
+    cite {
+      color: $grey;
+      font-weight: 400;
+      font-style: normal;
+      font-size: $font-base;
+      font-family: $font-mono;
+      letter-spacing: -0.5px; // .spaced-tight
     }
   }
 
@@ -45,6 +79,7 @@
     font-family: $font-serif;
     line-height: $line-height-smaller;
   }
+
   //
   // Footnotes
   //
@@ -54,7 +89,7 @@
   }
 
   //
-  // Link
+  // Links
   //
   a {
     border-bottom: 1px solid; // .underline
@@ -64,18 +99,17 @@
     }
   }
 
-  [id*="anchor-"]:target:before {
-    content: "";
-    display: block;
-    height: 5rem; // MAGIC NUMBER
-    margin-top: 5rem; // MAGIC NUMBER
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+  // Superscript Links
+  sup a {
+    padding-left: 0.5rem; // .ml1
+    padding-right: 0.5rem; // .mr1
+    text-decoration: underline;
+    border: 0;
   }
 
+
   //
-  // Misc
+  // Default Horizontal Line
   //
   hr {
     color: $grey-light;
@@ -84,12 +118,39 @@
     border-right: 0;
     border-bottom: 1px solid;
     margin-top: 6rem; // .mt12
-    margin-bottom: 4.5rem; // .mb9
+    margin-bottom: 5.5rem; // .mb11
+  }
+
+  // Dotted Horizontal Line
+  .dotted-divider {
+    margin-bottom: 6.5rem; // .mb13
+    font-size: $font-double;
+    text-align: center;
+    letter-spacing: 1.5rem; // MAGIC NUMBER
+    border: 0;
+
+    &::before {
+      content: '...';
+      display: block;
+      color: $grey;
+      line-height: 0;
+    }
   }
 
   img {
     width: 100%;
     margin-top: 3rem; // .mt6
     margin-bottom: 3rem; // .mb6
+  }
+
+  // Allowing some space before the anchor
+  [id*="anchor-"]:target:before {
+    content: "";
+    display: block;
+    height: 2.5rem; // MAGIC NUMBER
+    margin-top: 2.5rem; // MAGIC NUMBER
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 }

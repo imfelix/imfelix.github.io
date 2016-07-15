@@ -40,8 +40,6 @@
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes, onload: "mainPosition()" }
     = partial "partials/header-read"
-    / = partial "partials/header"
-    // data-content attribute used for styling - instead of using .articles
     %main.max-w-620px.w-100.mx-auto.py0.sm-py4.flex.flex-column.flex-auto.fade-in-up.px3.sm-px0
       %article{ data: { content: "article" } }= yield
     = partial "partials/footer-read"

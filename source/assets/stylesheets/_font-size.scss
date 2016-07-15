@@ -2,12 +2,6 @@
 // Font Size
 // ––––––––––––––––––––––––––––––––––––
 
-// 22.5px
-.font-larger  { font-size: $font-larger; }
-
-// 30px
-.font-double  { font-size: $font-double; }
-
 // 45px
 h1,
 .font-triple  { font-size: $font-triple; }
@@ -16,8 +10,14 @@ h1,
 h2,
 .font-title    { font-size: $font-title; }
 
-// 18.75px
+// 30px
+.font-double  { font-size: $font-double; }
+
+// 22.5px
 h3,
+.font-larger  { font-size: $font-larger; }
+
+// 18.75px
 .font-large   { font-size: $font-large; }
 
 // 15px
@@ -52,6 +52,3 @@ h6,
 @media screen and (min-width: $desktop) {
   .lg-font-triple   { font-size: $font-triple; }
 }
-
-
-
