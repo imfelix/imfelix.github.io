@@ -17,11 +17,13 @@ set :haml, { ugly: true, format: :html5 }
 set :markdown_engine, :redcarpet
 set :markdown,
     :fenced_code_blocks => true,
+    :disable_indented_code_blocks => true,
+    :with_toc_data => true,
     :smartypants => true,
     :space_after_headers => true,
     :strikethrough => true,
-    :superscript => true,
-    :quote => true
+    :quote => true,
+    :footnotes => true
 
 #################################################
 ## Blog Configuration
