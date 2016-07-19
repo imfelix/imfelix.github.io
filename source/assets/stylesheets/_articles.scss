@@ -44,24 +44,47 @@
   }
 
   h1 {
-    font-size: $font-title;
-
-    @media screen and (min-width: $tablet) {
-      font-size: $font-triple;
-    }
-  }
-
-  h2 {
     font-size: $font-double;
 
     @media screen and (min-width: $tablet) {
       font-size: $font-title;
     }
+
+    @media screen and (min-width: $desktop) {
+      font-size: $font-triple;
+    }
   }
 
-  h4 { font-size: $font-large; }
-  h5 { font-size: $font-base; }
-  h6 { font-size: $font-small; }
+  h2 {
+    font-size: $font-larger;
+
+    @media screen and (min-width: $tablet) {
+      font-size: $font-double;
+    }
+
+    @media screen and (min-width: $desktop) {
+      font-size: $font-title;
+    }
+  }
+
+  h3 {
+    font-size: $font-large;
+
+    @media screen and (min-width: $tablet) {
+      font-size: $font-larger;
+    }
+
+    @media screen and (min-width: $desktop) {
+      font-size: $font-double;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    h4 { font-size: $font-large; }
+    h5 { font-size: $font-base; }
+    h6 { font-size: $font-small; }
+  }
+
 
   p {
     margin-top: 0; // .mt0
