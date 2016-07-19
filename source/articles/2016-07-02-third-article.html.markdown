@@ -2,27 +2,21 @@
 title:      Proven Techniques Help You
 date:       2016-07-02
 read_time:  5 minutes
-tag:        [blog, lorem-ipsum, tweet]
+tag:        [blog]
 thumbnail:  /assets/images/thumbnail/third-article.jpeg
 summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
             can get it at a young age for ...
 ---
 
-<div class="flex flex-wrap mb4 mono font-small grey">
-  <div class="flex flex-wrap items-center">
+# Proven Techniques Help You
+
+<div class="flex flex-wrap items-center mb6 sm-mb12 mono font-small grey">
     <span>02 Jul 2016</span>
     <span class="font-smaller grey-light px2">•</span>
     <span>5 minutes read</span>
     <span class="font-smaller grey-light px2">•</span>
-  </div>
-  <div class="flex flex-wrap items-center">
-    <span class="pr4">#blog</span>
-    <span class="pr4">#lorem-ipsum</span>
-    <span class="pr4">#tweet</span>
-  </div>
+    <span>#blog</span>
 </div>
-
-<figure style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-150px mt0 ml0 mr0 mb2 bg-cover bg-center bg-no-repeat fade-in-up"></figure>
 
 # Heading 1
 
@@ -43,8 +37,14 @@ Bold — **the importance of proper**
 Strikethrough — ~~often~~
 
 [Anchor Link 1](#anchor-link)
+
 [Anchor Link 2](#anchor-link-2)
+
 [Anchor Link 3](#anchor-link-3)
+
+* List item 1
+* List item 2
+* List item 3
 
 > Blockquote with cite, consectetur adipisicing elit, sed do eiusmod
 > tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -57,6 +57,8 @@ Strikethrough — ~~often~~
 > Blockquote without cite, consectetur adipisicing elit, sed do eiusmod
 > tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 > quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+<img style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-150px mt0 ml0 mr0 mb2 bg-cover bg-center bg-no-repeat fade-in-up"></img>
 
 Quote — "I am absolutely blessed and I'm very grateful for where I am today."
 
@@ -90,7 +92,7 @@ I also enjoy watching an hour or 2 of television every night, some light sitcoms
 
 Video games are also great for stress release, if you are mad at your boss what better way to get it out of you then boxing, just imagine you are pounding on your boss and hope you don’t lose. I hope you try some of these methods or think of some of your own to help keep the stress down in your life and keep your mental health in as good of condition as the rest of you.
 
-<div class="w-auto mx-auto mb2">
+<div class="w-100 flex justify-center mx-auto mb6">
   <blockquote class="twitter-tweet" data-lang="en">
     <p lang="en" dir="ltr">
       Dribbble post just in — Resumé Design - Footer. Check it out at
