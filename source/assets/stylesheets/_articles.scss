@@ -158,10 +158,21 @@
 
   // Superscript Links
   sup a {
+    position: relative;
     padding-left: 0.5rem; // .ml1
     padding-right: 0.5rem; // .mr1
     text-decoration: underline;
     border: 0;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -10rem;
+      right: 0;
+      left: 0;
+      height: 100%;
+      margin: 0;
+    }
   }
 
 
