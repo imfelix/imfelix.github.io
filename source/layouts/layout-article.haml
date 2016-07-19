@@ -39,10 +39,10 @@
     = javascript_include_tag :all
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes, onload: "mainPosition()" }
-    = partial "partials/header-read"
+    = partial "partials/header-article"
     %main.max-w-620px.w-100.mx-auto.py0.sm-py4.flex.flex-column.flex-auto.fade-in-up.px3.sm-px0
       %article{ data: { content: "article" } }= yield
-    = partial "partials/footer-read"
+    = partial "partials/footer-article"
 
   / Typekit
   %script{ src: "//use.typekit.net/ejv2ypd.js" }

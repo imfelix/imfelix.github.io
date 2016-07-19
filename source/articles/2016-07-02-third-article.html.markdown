@@ -10,7 +10,7 @@ summary:    Asthma allergy is the number one form of allergy today. And since as
 
 # Proven Techniques Help You
 
-<div class="flex flex-wrap items-center mb6 sm-mb12 mono font-small grey">
+<div class="flex flex-wrap items-center mb9 sm-mb12 mono font-small grey">
     <span>02 Jul 2016</span>
     <span class="font-smaller grey-light px2">•</span>
     <span>5 minutes read</span>
@@ -54,17 +54,11 @@ Strikethrough — ~~often~~
 
 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
-> Blockquote without cite, consectetur adipisicing elit, sed do eiusmod
-> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
-<img style="background-image: url(/assets/images/thumbnail/third-article.jpeg)" class="w-100 h-150px mt0 ml0 mr0 mb2 bg-cover bg-center bg-no-repeat fade-in-up"></img>
-
 Quote — "I am absolutely blessed and I'm very grateful for where I am today."
 
 ![alt text](/assets/images/thumbnail/third-article.jpeg)
 
-everything they put in their mouths is not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend, 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
+"Everything they put in their mouths is" not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend, 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
 <hr class="dotted-divider">
 
@@ -91,35 +85,6 @@ Sometime I just like to sit at a poker table, blackjack table or roulette table 
 I also enjoy watching an hour or 2 of television every night, some light sitcoms are a great way to lighten your minds load, and laughing out loud for 30 seconds every day is a great way to release stress.
 
 Video games are also great for stress release, if you are mad at your boss what better way to get it out of you then boxing, just imagine you are pounding on your boss and hope you don’t lose. I hope you try some of these methods or think of some of your own to help keep the stress down in your life and keep your mental health in as good of condition as the rest of you.
-
-<div class="w-100 flex justify-center mx-auto mb6">
-  <blockquote class="twitter-tweet" data-lang="en">
-    <p lang="en" dir="ltr">
-      Dribbble post just in — Resumé Design - Footer. Check it out at
-      <a href="https://t.co/acflhhHgko">https://t.co/acflhhHgko</a>
-      <a href="https://twitter.com/hashtag/dribbble?src=hash">#dribbble</a>
-      <a href="https://twitter.com/hashtag/zap?src=hash">#zap</a>
-      <a href="https://t.co/SUAyOmwjak">pic.twitter.com/SUAyOmwjak</a>
-    </p>
-    &mdash; Felix Lee (@im_felix)
-    <a href="https://twitter.com/im_felix/status/749159039771222016">July 2, 2016</a>
-  </blockquote>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ```ruby
 def my_cool_method(message)
