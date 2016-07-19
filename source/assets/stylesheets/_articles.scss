@@ -3,6 +3,7 @@
 // - All elements within an article
 // - Only render on article layout
 // - No more than 3 level nesting
+// - Unless @media query
 // - Don't use @extend
 // ––––––––––––––––––––––––––––––––––––
 
@@ -17,14 +18,45 @@
   h5,
   h6 {
     margin-top: 0; // .mt0
-    margin-bottom: 1.5rem; // .mb3
+    margin-bottom: 0.5rem; // .mb1
     letter-spacing: 0.5px; // .spaced
     line-height: 1.25; //.line-height-smaller
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 1.5rem; // .mb3
+    }
   }
 
   h4,
   h5,
   h6 { text-transform: uppercase; }
+
+  h1:first-of-type {
+    margin-top: 3rem; // .mt6
+    margin-bottom: 1rem; // .mb2
+
+    @media screen and (min-width: $tablet) {
+      margin-top: 6rem; // .mt12
+      margin-bottom: 0.5rem; // .mb1
+    }
+  }
+
+  h1 {
+    font-size: $font-title;
+    line-height: $line-height-title;
+
+    @media screen and (min-width: $desktop) {
+      font-size: $font-triple;
+    }
+  }
+
+  h2 {
+    font-size: $font-double;
+
+    @media screen and (min-width: $tablet) {
+      font-size: $font-title;
+    }
+  }
 
   p {
     margin-top: 0; // .mt0
@@ -37,12 +69,33 @@
   }
 
   //
+  // Lists
+  //
+  ol,
+  ul {
+    font-size: $font-large; // .font-large
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  //
   // Blockquote
   //
   blockquote {
-    margin-left: 3rem; // .ml6
+    margin-right: 0;
+    margin-left: 0;
     margin-top: 6rem; // .mt12
     margin-bottom: 6rem; // .mb12
+
+    @media screen and (min-width: $tablet) {
+      margin-left: 3rem; // .ml6
+    }
 
     p {
       font-weight: 700;
@@ -74,10 +127,14 @@
     margin-top: 6rem; // .mt12
     margin-bottom: 6rem; // .mb12
     text-align: center;
+    font-size: $font-larger;
     letter-spacing: 0.5px; // .spaced
-    font-size: $font-double;
     font-family: $font-serif;
     line-height: $line-height-smaller;
+
+    @media screen and (min-width: $tablet) {
+      font-size: $font-double;
+    }
   }
 
   //
