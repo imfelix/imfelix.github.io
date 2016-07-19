@@ -1,8 +1,8 @@
 ---
-title:      Proven Techniques Help You
+title:      Dummy Article Post To Test Styles
 date:       2016-07-02
-read_time:  5 minutes
-tag:        [blog]
+read_time:  5 min
+tag:        [first-post]
 thumbnail:  /assets/images/thumbnail/third-article.jpeg
 summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
             can get it at a young age for ...
@@ -13,9 +13,9 @@ summary:    Asthma allergy is the number one form of allergy today. And since as
 <div class="flex flex-wrap items-center mb9 sm-mb12 mono font-small grey">
     <span>02 Jul 2016</span>
     <span class="font-smaller grey-light px2">•</span>
-    <span>5 minutes read</span>
+    <span>5 min read</span>
     <span class="font-smaller grey-light px2">•</span>
-    <span>#blog</span>
+    <span>#first-post</span>
 </div>
 
 # Heading 1
