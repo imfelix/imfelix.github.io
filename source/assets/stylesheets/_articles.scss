@@ -36,17 +36,17 @@
 
   h1:first-of-type {
     margin-top: 3rem; // .mt6
+    margin-bottom: 0.5rem; // .mb1
 
     @media screen and (min-width: $tablet) {
       margin-top: 6rem; // .mt12
-      margin-bottom: 0.5rem; // .mb1
     }
   }
 
   h1 {
     font-size: $font-title;
 
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $tablet) {
       font-size: $font-triple;
     }
   }
