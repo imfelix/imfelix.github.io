@@ -29,7 +29,7 @@ set :markdown,
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
-  blog.layout = "layout-article"
+  blog.layout = "layout-content"
   blog.prefix = "articles"
   blog.permalink = "/{title}.html"
 end
@@ -68,12 +68,13 @@ end
 #################################################
 ## Page Options and Layouts
 #################################################
+page "/styleguide.html", layout: "layout-styleguide"
+
 # With no layout
 # page '/*.xml', layout: false
 # page '/*.json', layout: false
 # page '/*.txt', layout: false
 # With alternative layout
-# page "/path/to/file.html", layout: :otherlayout
 
 #################################################
 ## Helper Methods
