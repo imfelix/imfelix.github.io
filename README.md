@@ -74,12 +74,12 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Responsive check for home page
 - [ ] Add navigation links
   - [x] Home
-  - [x] Projects
+  - [ ] Projects
   - [x] Articles
-  - [x] About
+  - [ ] About
   - [x] Get in touch
   - [x] Github Source
-  - [ ] Style Guide
+  - [x] Style Guide
 - [x] Add Get in touch page
 - [x] Responsive check for Get in touch page
 - [x] Finalise articles post styles on Sketch - *articles page != article page*
@@ -91,8 +91,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Add dummy article post for styling
 - [x] Responsive check for article post
 - [x] Move styles into partial
+- [ ] Add style guide page
 - [ ] Update summary card for Twitter and Facebook
-- [ ] CSS Audit
 - [ ] Add projects functionality
 - [ ] Add first project about building this portfolio site
 - [ ] Usability check with 3 person
