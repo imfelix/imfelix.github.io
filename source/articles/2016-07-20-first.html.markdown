@@ -1,19 +1,19 @@
 ---
-title:      Dummy Article Post To Test Styles
-date:       2016-07-02
-read_time:  5 min
+title:      Hello, World? 🤔
+date:       2016-07-20
+read_time:  X min
 tag:        [first-post]
-thumbnail:  /assets/images/thumbnail/third-article.jpeg
+thumbnail:  /assets/images/thumbnail/article-first.jpeg
 summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
             can get it at a young age for ...
 ---
 
-# Proven Techniques Help You
+# Welcome to felixlee.io Style Guide
 
 <div class="flex flex-wrap items-center mb9 sm-mb12 mono font-small grey">
-    <span>02 Jul 2016</span>
+    <span>20 Jul 2016</span>
     <span class="font-smaller grey-light px2">•</span>
-    <span>5 min read</span>
+    <span>X min read</span>
     <span class="font-smaller grey-light px2">•</span>
     <span>#first-post</span>
 </div>

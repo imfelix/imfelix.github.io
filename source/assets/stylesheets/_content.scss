@@ -7,7 +7,7 @@
 // - Don't use @extend
 // ––––––––––––––––––––––––––––––––––––
 
-[data-content="article"] {
+[data-attr="content"] {
   //
   // Typography
   //
@@ -18,6 +18,7 @@
   h5,
   h6 {
     margin-top: 0; // .mt0
+    margin-bottom: 1rem; // .mb2
     letter-spacing: 0.5px; // .spaced
     line-height: 1.25; //.line-height-smaller
 
@@ -39,7 +40,7 @@
     margin-bottom: 0.5rem; // .mb1
 
     @media screen and (min-width: $tablet) {
-      margin-top: 6rem; // .mt12
+      margin-top: 6rem; // .sm-mt12
     }
   }
 
@@ -49,10 +50,6 @@
     @media screen and (min-width: $tablet) {
       font-size: $font-title;
     }
-
-    @media screen and (min-width: $desktop) {
-      font-size: $font-triple;
-    }
   }
 
   h2 {
@@ -61,10 +58,6 @@
     @media screen and (min-width: $tablet) {
       font-size: $font-double;
     }
-
-    @media screen and (min-width: $desktop) {
-      font-size: $font-title;
-    }
   }
 
   h3 {
@@ -72,10 +65,6 @@
 
     @media screen and (min-width: $tablet) {
       font-size: $font-larger;
-    }
-
-    @media screen and (min-width: $desktop) {
-      font-size: $font-double;
     }
   }
 
@@ -122,7 +111,7 @@
     margin-bottom: 6rem; // .mb12
 
     @media screen and (min-width: $tablet) {
-      margin-left: 3rem; // .ml6
+      margin-left: 3rem; // .sm-ml6
     }
 
     p {
