@@ -94,8 +94,9 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Add style guide page
   - [x] Intro
   - [x] Fonts
+  - [x] Font sizes
   - [x] Headings
-  - [ ]
+
 
 - [ ] Update summary card for Twitter and Facebook
 - [ ] Add projects functionality
