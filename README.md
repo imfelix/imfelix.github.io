@@ -92,6 +92,11 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Responsive check for article post
 - [x] Move styles into partial
 - [ ] Add style guide page
+  - [x] Intro
+  - [x] Fonts
+  - [ ] Headings
+  - [ ]
+
 - [ ] Update summary card for Twitter and Facebook
 - [ ] Add projects functionality
 - [ ] Add first project about building this portfolio site

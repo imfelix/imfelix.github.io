@@ -3,6 +3,7 @@ title: Articles | Felix Lee - UI/UX Designer & Web Developer
 ---
 
 %section.max-w-800px.w-100.py0.sm-py4.px0.sm-px6.mx-auto.flex.flex-auto.flex-column.justify-start.transition-all.fade-in-up
+  %h1.hide Articles
   - blog.articles.each do |article|
     %a.block.w-100.my6.mx-auto.mt0{ href: article.url }
       %article.flex.flex-column.sm-flex-row.bg-white.border.border-grey-lighter.rounded.transition-all
@@ -11,7 +12,7 @@ title: Articles | Felix Lee - UI/UX Designer & Web Developer
 
 
         %section.flex.flex-column.p4.pb2.sm-pb4
-          %h1.grey-darker.font-double.semi.mt0.mb2.sm-mb1.line-height-title= article.title
+          %h2.grey-darker.font-double.semi.mt0.mb2.sm-mb1.line-height-title= article.title
           %p.grey-darker.font-large.spaced-small.line-height-small.m0.mb4= article.data.summary
           .flex.flex-wrap.font-small.sm-font-smaller
             .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
