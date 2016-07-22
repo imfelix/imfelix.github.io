@@ -94,6 +94,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Add style guide page
   - [x] Intro
   - [x] Typeface
+  - [x] Font weight
   - [x] Font sizes
   - [x] Headings
   - [x] Lists
