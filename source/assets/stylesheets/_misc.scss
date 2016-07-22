@@ -11,6 +11,11 @@
 // - letter-spacing
 // ––––––––––––––––––––––––––––––––––––
 
+::selection {
+  color: #ffffff;
+  background-color: $grey-darker;
+}
+
 // Display
 .block { display: block; }
 
