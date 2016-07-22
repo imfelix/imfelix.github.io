@@ -93,10 +93,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Move styles into partial
 - [ ] Add style guide page
   - [x] Intro
-  - [x] Fonts
+  - [x] Typeface
   - [x] Font sizes
   - [x] Headings
-
+  - [x] Lists
 
 - [ ] Update summary card for Twitter and Facebook
 - [ ] Add projects functionality
