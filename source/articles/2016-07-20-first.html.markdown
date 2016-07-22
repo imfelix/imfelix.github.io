@@ -93,19 +93,11 @@ end
 ```
 
 ```scss
-%separator {
-  position: relative;
-  margin-top: $gutter;
-  padding-top: $gutter;
+h1 {
+  font-size: $font-double;
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: $gutter;
-    height: .25em;
-    background: $blue;
+  @media screen and (min-width: $tablet) {
+    font-size: $font-title;
   }
 }
 ```
