@@ -395,20 +395,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var headroom  = new Headroom(nav);
   headroom.init();
 });
-
-// Find the outerHeight of an element
-// Including margin
-function outerHeight(element) {
-  var height = element.offsetHeight;
-  var style = getComputedStyle(element);
-
-  height += parseInt(style.marginTop) + parseInt(style.marginBottom);
-  return height;
-}
-
-// Repositioning <main> element
-function mainPosition() {
-  var nav = document.querySelector("nav");
-  var navOuterHeight = outerHeight(nav).toString();
-  document.querySelector("main").style.paddingTop = navOuterHeight + "px";
-}

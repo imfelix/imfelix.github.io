@@ -17,26 +17,7 @@
     = partial "inline-stylesheet/base-styles"
     / = stylesheet_link_tag "site"
 
-    / Typekit Loading Styles
-    / :css
-    /   .wf-loading h1,
-    /   .wf-loading h2,
-    /   .wf-loading h3,
-    /   .wf-loading h4,
-    /   .wf-loading h5,
-    /   .wf-loading h6,
-    /   .wf-loading p,
-    /   .wf-loading span,
-    /   .wf-loading div,
-    /   .wf-loading a,
-    /   .wf-loading code,
-    /   .wf-loading pre {
-    /     color: transparent !important;
-    /     visibility: hidden !important;
-    /   }
-
-
-  %body.relative.flex.flex-column.min-h-100{ class: page_classes, onload: "mainPosition()" }
+  %body.relative.flex.flex-column.min-h-100{ class: page_classes }
     = partial "partials/header"
     %main.relative.flex.flex-auto= yield
     = partial "partials/footer"

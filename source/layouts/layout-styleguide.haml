@@ -18,32 +18,12 @@
     = partial "inline-stylesheet/content-styles"
     = partial "inline-stylesheet/syntax-styles"
 
-    / Typekit Loading Styles
-    / :css
-    /   .wf-loading h1,
-    /   .wf-loading h2,
-    /   .wf-loading h3,
-    /   .wf-loading h4,
-    /   .wf-loading h5,
-    /   .wf-loading h6,
-    /   .wf-loading p,
-    /   .wf-loading span,
-    /   .wf-loading li,
-    /   .wf-loading aside,
-    /   .wf-loading div,
-    /   .wf-loading a,
-    /   .wf-loading code,
-    /   .wf-loading pre {
-    /     color: transparent !important;
-    /     visibility: hidden !important;
-    /   }
-
     / JavaScript
     = javascript_include_tag :all
 
-  %body.relative.flex.flex-column.min-h-100{ class: page_classes, onload: "mainPosition()" }
+  %body.relative.flex.flex-column.min-h-100{ class: page_classes }
     = partial "partials/header"
-    %main.max-w-620px.w-100.mx-auto.py0.sm-py4.flex.flex-column.flex-auto.fade-in-up.px3.sm-px0
+    %main.max-w-620px.w-100.mx-auto.flex.flex-column.flex-auto.fade-in-up.px3.sm-px0.pt10.sm-pt20.pb0
       %article{ data: { attr: "content" } }= yield
     = partial "partials/footer"
 
