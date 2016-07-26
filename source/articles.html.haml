@@ -7,10 +7,6 @@ title: Articles | Felix Lee - UI/UX Designer & Web Developer
   - blog.articles.each do |article|
     %a.block.w-100.my6.mx-auto.mt0{ href: article.url }
       %article.flex.flex-column.sm-flex-row.bg-white.border.border-grey-lighter.rounded.transition-all
-
-        %figure.w-100.sm-w-45.h-150px.sm-h-auto.m0.p4.sm-p0.bg-cover.bg-center.bg-no-repeat.sm-rounded-left.transition-all{ style: "background-image: url( #{article.data.thumbnail} )" }
-
-
         %section.flex.flex-column.p4.pb2.sm-pb4
           %h2.grey-darker.font-double.semi.mt0.mb2.sm-mb1.line-height-title= article.title
           %p.grey-darker.font-large.spaced-small.line-height-small.m0.mb4= article.data.summary

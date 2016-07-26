@@ -3,7 +3,6 @@ title:      Hello, World? 🤔
 date:       2016-07-20
 read_time:  X min
 tag:        [first-post]
-thumbnail:  /assets/images/thumbnail/article-first.jpeg
 summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
             can get it at a young age for ...
 ---
@@ -55,8 +54,6 @@ Strikethrough — ~~often~~
 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
 Quote — "I am absolutely blessed and I'm very grateful for where I am today."
-
-![alt text](/assets/images/thumbnail/third-article.jpeg)
 
 "Everything they put in their mouths is" not filled with sugars or preservatives, but they pay no attention to their mental health, no vacations, not even the occasional long weekend, 60 hour weeks, taking work home with them and even working weekends. All of this for hopes of one day getting that big promotion. What good will it do you when your brain overloads and you have a breakdown in the office.
 
