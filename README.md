@@ -118,6 +118,14 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Celebrate and dance :tada:
 - [ ] Add About page
 
+## How-to markdown with `redcarpet` syntax:
+
+```
+This is a sample footnote.[^samplefootnote].
+
+[^samplefootnote]: Here is the text of the footnote itself.
+```
+
 ## Acknowledgments + Inspirations + Credits
 
 - [Brent Jackson](http://jxnblk.com/) - *Must check out the page performance of his site:ok_hand: exceptional speed*
@@ -125,18 +133,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [Tachyons.io](http://tachyons.io) - *Alternative of Basscss*
 - [Medium](https://medium.com/) - *Learn from one of the largest blogging website.*
 - [InVision Blog](http://blog.invisionapp.com/) - *I read their blog posts quite a bit*
-- [Typeform Blog](http://www.typeform.com/blog/) - *Awwwesome forms*
-- [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline*
-- [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”*
-- [Airbnb Blog](http://airbnb.design/) - *Love the simplicity*
-
-## How-to `markdown`
-
-```
-This is a sample footnote.[^samplefootnote].
-
-[^samplefootnote]: Here is the text of the footnote itself.
-```
+- [Typeform Blog](http://www.typeform.com/blog/) - *Awwwesome forms. Also good content.*
+- [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline. Lots of interesting stuff.*
+- [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”. LOVE IT*
+- [Airbnb Blog](http://airbnb.design/) - *Love the simplicity and the material within.*
 
 ## License
 

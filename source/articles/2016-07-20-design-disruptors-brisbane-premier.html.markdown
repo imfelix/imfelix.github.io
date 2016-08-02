@@ -2,7 +2,7 @@
 title:      Design Disruptors Brisbane Premier
 date:       2016-07-20
 read_time:  5 min
-tag:        [hello-world]
+tag:        [first-post]
 summary:    How did I manage to get this gig?
 ---
 
