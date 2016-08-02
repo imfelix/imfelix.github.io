@@ -2,31 +2,20 @@
 title: Articles | Felix Lee - UI/UX Designer & Web Developer
 ---
 
-%section.max-w-800px.w-100.py0.sm-py4.px0.sm-px6.mx-auto.flex.flex-auto.flex-column.justify-start.transition-all.fade-in-up
+%section.max-w-620px.w-100.py0.sm-py4.px5.sm-px0.mx-auto.flex.flex-auto.flex-column.justify-start.transition-all.fade-in-up
   %h1.hide Articles
   - blog.articles.each do |article|
-    %a.block.w-100.my6.mx-auto.mt0{ href: article.url }
-      %article.flex.flex-column.sm-flex-row.bg-white.border.border-grey-lighter.rounded.transition-all
-        %section.flex.flex-column.p4.pb2.sm-pb4
-          %h2.grey-darker.font-double.semi.mt0.mb2.sm-mb1.line-height-title= article.title
-          %p.grey-darker.font-large.spaced-small.line-height-small.m0.mb4= article.data.summary
-          .flex.flex-wrap.font-small.sm-font-smaller
-            .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
-              %span.mono.m0.grey Date
-              %span.mono.m0.grey-dark= date_format(article.date)
-
-            .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
-              %span.mono.m0.grey Read. Time
-              %span.mono.m0.grey-dark= article.data.read_time
-
-            .flex.flex-column.flex-auto.pr4.mb2.sm-mb0
-              %span.mono.m0.grey Tags
-              .flex.flex-row.flex-wrap
-                - article.data.tag.each do |tag|
-                  %span.mono.m0.mr3.grey-dark
-                    \##{tag}
-
-  .w-100.relative.sans.mx-auto.block.center.my12.px3
-    %span.relative.z2.bg-white.px3.font-small.grey.top-neg-2px you have reached the end
-    .absolute.absolute-y.l0.border-bottom.border-grey-lighter.w-100
+    %a.block.w-100.mx-auto.my0.py5.sm-py10.px2.first-type-pt0.border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+      %article.flex.flex-column
+        .flex.flex-wrap.font-base.sm-font-small.uppercase.mono.grey-darker.mb2
+          %span.m0= date_format(article.date)
+          %span.m0.px2 •
+          %span.m0= article.data.read_time
+          %span.m0.px2 •
+          .flex.flex-row.flex-wrap
+            - article.data.tag.each do |tag|
+              %span.m0.mr3
+              \##{tag}
+        %h2.grey-dark.bold.mt0.mb2.sm-mb1.line-height-title.spaced-tight= article.title
+        %p.grey.font-large.spaced-small.line-height-small.m0= article.data.summary
 

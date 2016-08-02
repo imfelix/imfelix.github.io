@@ -1,10 +1,9 @@
 ---
-title:      Hello, World? 🤔
+title:      Design Disruptors - Brisbane Premier
 date:       2016-07-20
-read_time:  X min
-tag:        [first-post]
-summary:    Asthma allergy is the number one form of allergy today. And since asthma allergy is inherited, one
-            can get it at a young age for ...
+read_time:  5 min
+tag:        [hello-world]
+summary:    How did I manage to get this gig?
 ---
 
 # Welcome to felixlee.io Style Guide
