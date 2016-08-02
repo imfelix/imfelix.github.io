@@ -43,6 +43,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Do they understand the articles page?
 - Performance
   - Typekit loading performance - *Dealing with unloaded fonts — `.wf-loading`*
+  - Give up Typekit loading performance. Let's load different kit for different layouts.
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
   - No `box-shadow` hover effect - [performance issue](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting a CSS file* :sunglasses:
@@ -56,7 +57,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [GitHub Pages](https://pages.github.com/)
 - [Middlemanapp](https://middlemanapp.com/)
 - [Sass preprocessor](http://sass-lang.com/) — SCSS syntax
-- [Typekit](https://typekit.com/) — [Freight Display Pro](https://typekit.com/fonts/freight-display-pro), [Freight Sans Pro](https://typekit.com/fonts/freight-sans-pro), and [Courier Prime](https://typekit.com/fonts/courier-prime)
+- [Typekit](https://typekit.com/)
+  - [Freight Display Pro](https://typekit.com/fonts/freight-display-pro)
+  - [Freight Text Pro](https://typekit.com/fonts/freight-text-pro)
+  - [Freight Sans Pro](https://typekit.com/fonts/freight-sans-pro), and [Courier Prime](https://typekit.com/fonts/courier-prime)
 - [SketchApp](https://www.sketchapp.com/)
 - [Craft by InVision LABS](https://www.invisionapp.com/craft)
 - Google Chrome Dev Tools
@@ -64,6 +68,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - On Windows / Linux - Ctrl + Shift + C OR F12.
 - Sublime Text 3
 - MacBook Pro 13-inch
+- iPhone 6
 - :heart:
 
 ## To-Do List:
@@ -91,10 +96,12 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Add dummy article post for styling
 - [x] Responsive check for article post
 - [x] Move styles into partial
+- [ ] Split them styles! *currently in-progress*
 - [ ] Add style guide page
   - [x] Intro
-  - [x] Typeface
-  - [x] Font weight
+  - [ ] Colors
+  - [ ] Typeface
+  - [ ] Font weight
   - [x] Font sizes
   - [x] Headings
   - [x] Lists
@@ -120,6 +127,15 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [Typeform Blog](http://www.typeform.com/blog/) - *Awwwesome forms*
 - [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline*
 - [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”*
+- [Airbnb Blog](http://airbnb.design/) - *Love the simplicity*
+
+## How-to `markdown`
+
+```
+This is a sample footnote.[^samplefootnote].
+
+[^samplefootnote]: Here is the text of the footnote itself.
+```
 
 ## License
 

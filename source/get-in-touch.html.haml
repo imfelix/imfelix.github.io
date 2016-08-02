@@ -3,13 +3,13 @@ title: Get in touch | Felix Lee - UI/UX Designer & Web Developer
 ---
 
 .max-w-620px.w-100.mx-auto.py4.px3.flex.flex-auto.flex-column.fade-in-up
-  %h1.mt0.mb3.serif.line-height-title.sm-line-height-base Get in touch
+  %h1.mt0.mb3.headline.line-height-title.sm-line-height-base Get in touch
 
   .flex.flex-wrap.justify-between
     .flex.flex-column.w-100.sm-w-50.grey-dark.sm-pt3
       %i.mb1 Feel free to send me a message.
-      %i.mb1 Happy to talk about anything.
-      %i Unicorns maybe?
+      %i Happy to hear from you.
+
     .w-100.sm-w-50.my6.sm-m0
       %form.flex.flex-column{ action: "https://formspree.io/hello@felixlee.io", method:"POST" }
         .flex.flex-column.w-100.mb4
@@ -24,4 +24,4 @@ title: Get in touch | Felix Lee - UI/UX Designer & Web Developer
         / TODO: Remove .html
         %input{ name: "_next", type: "hidden", value: "/thanks"}
         %input{ name: "_subject", type: "hidden", value: "Someone sent you a message 😱"}
-        %button.bg-white.grey.border.border-grey-light.hover-grey-darker.hover-border-grey-darker.transition-all.rounded.px3.py1{ type: "submit", value: "Send" } Send Message
+        %button.bg-white.grey-light.semi.border.border-grey-light.hover-grey-darker.hover-border-grey-darker.transition-all.rounded.px3.py1{ type: "submit", value: "Send" } Send Message

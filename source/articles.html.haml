@@ -1,21 +1,20 @@
 ---
-title: Articles | Felix Lee - UI/UX Designer & Web Developer
+title: Articles | Felix Lee
 ---
 
-%section.max-w-620px.w-100.py0.sm-py4.px5.sm-px0.mx-auto.flex.flex-auto.flex-column.justify-start.transition-all.fade-in-up
-  %h1.hide Articles
-  - blog.articles.each do |article|
-    %a.block.w-100.mx-auto.my0.py5.sm-py10.px2.first-type-pt0.border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
-      %article.flex.flex-column
-        .flex.flex-wrap.font-base.sm-font-small.uppercase.mono.grey-darker.mb2
-          %span.m0= date_format(article.date)
-          %span.m0.px2 •
-          %span.m0= article.data.read_time
-          %span.m0.px2 •
-          .flex.flex-row.flex-wrap
-            - article.data.tag.each do |tag|
-              %span.m0.mr3
+%h1.hide Articles
+- blog.articles.each do |article|
+  %a.block.w-100.mx-auto.my0.py6.sm-py8.px3.sm-px0.border-top.border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+    %article.flex.flex-column
+      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb2
+        %span.m0= date_format(article.date)
+        %span.m0.px2 •
+        %span.m0= article.data.read_time
+        %span.m0.px2.xs-hide •
+        .flex.flex-row.flex-wrap.w-100.sm-w-auto
+          - article.data.tag.each do |tag|
+            %span.m0.mr3
               \##{tag}
-        %h2.grey-dark.bold.mt0.mb2.sm-mb1.line-height-title.spaced-tight= article.title
-        %p.grey.font-large.spaced-small.line-height-small.m0= article.data.summary
+      %h2.mt0.mb2.grey-darker.bold.line-height-title.spaced-tight.font-double.sm-font-title= article.title
+      %p.m0.grey.font-large.spaced-small.line-height-small= article.data.summary
 

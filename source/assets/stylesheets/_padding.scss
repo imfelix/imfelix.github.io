@@ -60,6 +60,8 @@
 .pt10 { padding-top: 5rem; }
 .pt11 { padding-top: 5.5rem; }
 .pt12 { padding-top: 6rem; }
+.pt16 { padding-top: 8rem; }
+.pt20 { padding-top: 10rem; }
 
 // Bottom Padding Properties
 .pb0  { padding-bottom: 0; }
@@ -115,18 +117,23 @@
 }
 
 @media screen and (min-width: $tablet) {
-  .sm-p0  { padding: 0; }
-  .sm-py4 { padding-top: 2rem; padding-bottom: 2rem; }
-  .sm-px0 { padding-left: 0; padding-right: 0; }
-  .sm-px1 { padding-left: 0.5rem; padding-right: 0.5rem; }
-  .sm-px2 { padding-left: 1rem; padding-right: 1rem; }
-  .sm-px3 { padding-left: 1.5rem; padding-right: 1.5rem; }
-  .sm-px6 { padding-left: 3rem; padding-right: 3rem; }
-  .sm-pb0 { padding-bottom: 0; }
-  .sm-pb4 { padding-bottom: 2rem; }
-  .sm-pt0 { padding-top: 0; }
-  .sm-pt3 { padding-top: 1.5rem; }
+  .sm-p0   { padding: 0; }
+  .sm-py4  { padding-top: 2rem; padding-bottom: 2rem; }
+  .sm-py6  { padding-top: 3rem; padding-bottom: 3rem; }
+  .sm-py8  { padding-top: 4rem; padding-bottom: 4rem; }
+  .sm-py10 { padding-top: 5rem; padding-bottom: 5rem; }
+  .sm-py12 { padding-top: 6rem; padding-bottom: 6rem; }
+  .sm-px0  { padding-left: 0; padding-right: 0; }
+  .sm-px1  { padding-left: 0.5rem; padding-right: 0.5rem; }
+  .sm-px2  { padding-left: 1rem; padding-right: 1rem; }
+  .sm-px3  { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .sm-px6  { padding-left: 3rem; padding-right: 3rem; }
+  .sm-pb0  { padding-bottom: 0; }
+  .sm-pb4  { padding-bottom: 2rem; }
+  .sm-pt0  { padding-top: 0; }
+  .sm-pt3  { padding-top: 1.5rem; }
   .sm-pt20 { padding-top: 10rem; }
+  .sm-pt32 { padding-top: 16rem; }
 }
 
 @media screen and (min-width: $tablet) and (max-width: $desktop) {

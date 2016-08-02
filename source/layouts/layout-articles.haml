@@ -15,20 +15,23 @@
     / Stylesheet
     / = partial "inline-stylesheet/normalize-styles"
     / = partial "inline-stylesheet/base-styles"
+    / = partial "inline-stylesheet/content-styles"
+    / = partial "inline-stylesheet/syntax-styles"
     = stylesheet_link_tag :site
+
+    / JavaScript
+    = javascript_include_tag :all
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes }
     = partial "partials/header"
-    %main.relative.flex.flex-auto.pt12.sm-pt20.pb0= yield
+    %main.fade-in-up.max-w-620px.w-100.mx-auto.flex.flex-column.flex-auto.px0.pt20.pb0= yield
     = partial "partials/footer"
 
-  / Typekit - Base Type
-  %script{ src: "//use.typekit.net/ejv2ypd.js" }
+  / Typekit
+  %script{ src: "//use.typekit.net/vpl7wld.js" }
   :javascript
     try{Typekit.load({ async: true });}catch(e){}
 
-  / JavaScript
-  = javascript_include_tag :all
 
   / Google Analytics
-  / = partial "partials/analytics"
+  = partial "partials/analytics"

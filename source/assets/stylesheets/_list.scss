@@ -7,6 +7,7 @@ ol,
 ul {
   margin-top: 0;
   padding-left: 0;
+  font-size: $font-large; // .font-large
 
   dl,
   ul,
@@ -25,6 +26,14 @@ ul {
 
 ol {
   list-style: decimal inside;
+}
+
+li {
+  margin-bottom: 0.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .no-list-type {
