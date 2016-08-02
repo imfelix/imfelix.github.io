@@ -10,8 +10,8 @@ title: Articles | Felix Lee
         %span.m0= date_format(article.date)
         %span.m0.px2 •
         %span.m0= article.data.read_time
-        %span.m0.px2.xs-hide •
-        .flex.flex-row.flex-wrap.w-100.sm-w-auto
+        %span.m0.px2 •
+        .flex.flex-row.flex-wrap
           - article.data.tag.each do |tag|
             %span.m0.mr3
               \##{tag}

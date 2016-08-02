@@ -29,7 +29,7 @@ set :markdown,
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
-  blog.layout = "layout-content"
+  blog.layout = "layout-article"
   blog.prefix = "articles"
   blog.permalink = "/{title}.html"
 end
@@ -69,7 +69,7 @@ end
 ## Page Options and Layouts
 #################################################
 page "/styleguide.html", layout: "layout-styleguide"
-page "/articles.html",   layout: "layout-articles"
+page "/articles.html",   layout: "layout-articles-list"
 
 # With no layout
 # page '/*.xml', layout: false
@@ -82,7 +82,7 @@ page "/articles.html",   layout: "layout-articles"
 #################################################
 helpers do
   def date_format(date)
-    date.strftime('%d %b %Y')
+    date.strftime('%d %b %y')
   end
 
   def active_link_to(text, path, options)
