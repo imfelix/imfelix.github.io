@@ -69,7 +69,7 @@ end
 ## Page Options and Layouts
 #################################################
 page "/styleguide.html", layout: "layout-styleguide"
-page "/articles.html",   layout: "layout-articles-list"
+page "/articles.html",   layout: "layout-list"
 
 # With no layout
 # page '/*.xml', layout: false

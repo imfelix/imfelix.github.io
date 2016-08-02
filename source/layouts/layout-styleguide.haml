@@ -17,7 +17,7 @@
     / = partial "inline-stylesheet/base-styles"
     / = partial "inline-stylesheet/content-styles"
     / = partial "inline-stylesheet/syntax-styles"
-    = stylesheet_link_tag :site
+    = stylesheet_link_tag :article
 
     / JavaScript
     = javascript_include_tag :all
@@ -28,8 +28,8 @@
       %article{ data: { attr: "content" } }= yield
     = partial "partials/footer"
 
-  / Typekit
-  %script{ src: "//use.typekit.net/ejv2ypd.js" }
+  / Typekit - Styleguide
+  %script{ src: "//use.typekit.net/ltq8mux.js" }
   :javascript
     try{Typekit.load({ async: true });}catch(e){}
 

@@ -16,6 +16,7 @@
 // Width
 .w-auto       { width: auto; }
 .w-45         { width: 45%; }
+.w-48         { width: 48%; }
 .w-50         { width: 50%; }
 .w-100        { width: 100%; }
 
@@ -26,6 +27,7 @@
 
 // Responsive Width
 @media screen and (min-width: $tablet) {
+  .sm-w-32    { width: 32%; }
   .sm-w-45    { width: 45%; }
   .sm-w-50    { width: 50%; }
   .sm-w-auto  { width: auto; }

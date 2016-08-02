@@ -45,6 +45,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - Performance
   - Typekit loading performance - *Dealing with unloaded fonts — `.wf-loading`*
   - Loading separate Typekit kits for different layouts.
+    - Base Type Kit - 118KB
+    - List Kit - 151KB
+    - Article Kit - 205KB
+    - Styleguide Kit - 285KB
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
   - No `box-shadow` hover effect - [performance issue](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting CSS files* :sunglasses:

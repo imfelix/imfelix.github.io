@@ -5,30 +5,83 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
 %h1 Style Guide
 
 %section.mt2.sm-mt3
-  %article
+  %article.mb16
     %p As I continue to develop my portfolio site, a challenge that I face is learning how to refine the visual identity of my site.
     %p
-      So, I created this style guide to help me with my challenge by showing the visual styles of each elements that comprise of this site — ensuring all of them are
-      %em working consistently and cohesively.
+      So, I created this style guide to help me with my challenge by showing the visual styles of each element that comprise of my portfolio — ensuring all of them
+      %em work consistently and cohesively.
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Colors
-    .flex.justify-between
-      .flex-auto.h-150px.bg-grey-darker Grey Darker
+    %p.font-large.mb3
+      The 6 shades of grey — there will be
+      %strong no
+      more.
+    .flex.flex-wrap.justify-between
+      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+        .bg-grey-darker.h-150px.rounded-top
+        .p2
+          %span Grey Darker
+          %span.block #333333
+      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+        .bg-grey-dark.h-150px.rounded-top
+        .p2
+          %span Grey Dark
+          %span.block #555555
+      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+        .bg-grey.h-150px.rounded-top
+        .p2
+          %span Grey
+          %span.block #888888
+      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+        .bg-grey-light.h-150px.rounded-top
+        .p2
+          %span Grey Light
+          %span.block #cccccc
+      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+        .bg-grey-lighter.h-150px.rounded-top
+        .p2
+          %span Grey Lighter
+          %span.block #f0f0f0
+      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+        .bg-grey-lightest.h-150px.rounded-top
+        .p2
+          %span Grey Lightest
+          %span.block #f9f9f9
 
-
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Typeface
-    %span.font-large
+    %p.font-large.mb3
       The following fonts are used throughout the website served via
       %a{ href: "https://typekit.com/", target: "_blank", rel: "nofollow"} Typekit.
 
-    %ul.no-list-type.pl6.mt2
-      %li.sans Freight Sans Pro
-      %li.serif Freight Display Pro
-      %li.mono Courier Prime
+    .flex.flex-wrap.justify-between
+      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+        .bg-white.py3.px0.rounded-top.flex.justify-between
+          %span.w-50.center.sans.font-triple Aa
+          %span.w-50.center.sans.font-triple Gg
+        .p2.border-top.border-grey-lighter.center
+          %span Freight Sans Pro
+      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+        .bg-white.py3.px0.rounded-top.flex.justify-between
+          %span.w-50.center.serif.font-triple Aa
+          %span.w-50.center.serif.font-triple Gg
+        .p2.border-top.border-grey-lighter.center
+          %span Freight Text Pro
+      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+        .bg-white.py3.px0.rounded-top.flex.justify-between
+          %span.w-50.center.headline.font-triple Aa
+          %span.w-50.center.headline.font-triple Gg
+        .p2.border-top.border-grey-lighter.center
+          %span Freight Display Pro
+      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+        .bg-white.py3.px0.rounded-top.flex.justify-between
+          %span.w-50.center.mono.font-triple Aa
+          %span.w-50.center.mono.font-triple Gg
+        .p2.border-top.border-grey-lighter.center
+          %span Courier Prime
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Font Weights
     %span.font-large There are 3 font weights in total — only Freight Sans uses all 3 weights.
     %span.block.mt4.font-large.grey Freight Sans Pro
@@ -38,13 +91,16 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %li.sans.bold Bold
     %span.font-large.grey Freight Display Pro
     %ul.no-list-type.pl6.mt2
+      %li.headline.bold Bold
+    %span.font-large.grey Freight Text Pro
+    %ul.no-list-type.pl6.mt2
       %li.serif Regular
       %li.serif.bold Bold
     %span.font-large.grey Courier Prime
     %ul.no-list-type.pl6.mt2
       %li.mono Regular
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Font Sizes
     %span.font-large There are 8 declared font sizes — excluding root size of 62.5%
     %ul.no-list-type.pl6.mt2
@@ -57,7 +113,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %li.font-small Small size 13.125px
       %li.font-smaller Smaller size 11.25px
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Headings
     %span.font-large Headings used for naming pages, sections, and articles.
     %ul.no-list-type.pl6.mt2
@@ -75,7 +131,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %li
         %h6 Heading 6
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark List Items
     %span.font-large.grey Unordered List
     %ul.pl6.mt2
@@ -88,7 +144,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %li List Item 2
       %li List Item 3
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Quotes
     %span.font-large.grey Blockquotes — for quotes by someone else.
     %blockquote
@@ -99,7 +155,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
     %q
       I am absolutely blessed and I'm very grateful for where I am today
 
-  %article.mt9
+  %article.mb16
     %h2.grey-dark Dividers
     %span.font-large.grey Horizontal line for general use.
     %hr
