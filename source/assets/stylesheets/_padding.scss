@@ -106,6 +106,9 @@
 .pr11 { padding-right: 5.5rem; }
 .pr12 { padding-right: 6rem; }
 
+// First of type paddings
+.first-type-pt0:first-of-type { padding-top: 0; }
+
 // Responsive Padding and Margin
 @media screen and (max-width: $tablet) {
   .xs-p0  { padding: 0; }
