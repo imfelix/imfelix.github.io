@@ -27,15 +27,16 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Article details - *Where do I put these details?!*
   - © Felix Lee - *Direct users to home page ~~or to my license page~~*
 - Responsive
-  - `width`, `padding`, `margin`, `font-size`, `line-height`, `width`
-  - There are more than 99 viewports and iPhone is just one.
+  - `width`, `padding`, `margin`, `font-size`, `line-height`
+  - There are more than 99 viewports and iPhone ~~is just~~ has more than one now.
 - Accessibility
   - Contrast - *Color contrast AAA compliant?*
   - Icons - *Use words instead of brand icons*
-  - Alt tags
-  - Page titles
+  - `alt` tags on images
+  - `h1` page titles
   - ARIA roles
   - Read the book — Don't make me think — again.
+  - Check out [The A11Y Project](http://a11yproject.com/)
 - Usability
   - First time landing on the page, can users find the navigation links?
   - Can they understand the state of the navigation links?
@@ -43,14 +44,14 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Do they understand the articles page?
 - Performance
   - Typekit loading performance - *Dealing with unloaded fonts — `.wf-loading`*
-  - Give up Typekit loading performance. Let's load different kit for different layouts.
+  - Loading separate Typekit kits for different layouts.
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
   - No `box-shadow` hover effect - [performance issue](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting a CSS file* :sunglasses:
 - Aesthetics
   - Attempt at designing a website without the use of colours other than shades of grey
   - Should articles and projects styling be the same?
-  - Freight Pro Family
+  - Freight Pro Family - *adding freight text to the site*
 
 ## This website is designed and developed using:
 
