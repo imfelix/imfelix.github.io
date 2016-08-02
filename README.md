@@ -22,7 +22,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Avoid hamburger menu - *Don't hide elements behind three bars*
   - Articles page - *Use border, background colour, or separator lines to divide each posts?*
   - Articles details - *Font size for published date, reading time, and tags?*
-  - Article title - *Do I put them before the thumbnail?*
+  - Article title - *~~Do I put them before the thumbnail?~~ no more thumbnail*
   - Article thumbnail - *~~Where do you go~~ removed*
   - Article details - *Where do I put these details?!*
   - © Felix Lee - *Direct users to home page ~~or to my license page~~*
@@ -47,11 +47,11 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Loading separate Typekit kits for different layouts.
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
   - No `box-shadow` hover effect - [performance issue](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
-  - Inline small chunk of CSS in the head - *Remove the use of requesting a CSS file* :sunglasses:
+  - Inline small chunk of CSS in the head - *Remove the use of requesting CSS files* :sunglasses:
 - Aesthetics
   - Attempt at designing a website without the use of colours other than shades of grey
   - Should articles and projects styling be the same?
-  - Freight Pro Family - *adding freight text to the site*
+  - Freight Pro Family
 
 ## This website is designed and developed using:
 
@@ -61,7 +61,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [Typekit](https://typekit.com/)
   - [Freight Display Pro](https://typekit.com/fonts/freight-display-pro)
   - [Freight Text Pro](https://typekit.com/fonts/freight-text-pro)
-  - [Freight Sans Pro](https://typekit.com/fonts/freight-sans-pro), and [Courier Prime](https://typekit.com/fonts/courier-prime)
+  - [Freight Sans Pro](https://typekit.com/fonts/freight-sans-pro)
+  - [Courier Prime](https://typekit.com/fonts/courier-prime)
 - [SketchApp](https://www.sketchapp.com/)
 - [Craft by InVision LABS](https://www.invisionapp.com/craft)
 - Google Chrome Dev Tools
@@ -135,8 +136,8 @@ This is a sample footnote.[^samplefootnote].
 - [InVision Blog](http://blog.invisionapp.com/) - *I read their blog posts quite a bit*
 - [Typeform Blog](http://www.typeform.com/blog/) - *Awwwesome forms. Also good content.*
 - [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline. Lots of interesting stuff.*
-- [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”. LOVE IT*
-- [Airbnb Blog](http://airbnb.design/) - *Love the simplicity and the material within.*
+- [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”.*
+- [Airbnb Blog](http://airbnb.design/) - *Love the simplicity.*
 
 ## License
 
