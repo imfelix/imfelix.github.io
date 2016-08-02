@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 ruby "2.3.0"
 
-gem "pry"
 gem "redcarpet"
 gem "middleman", ">= 4.0.0"
 gem "middleman-blog"
