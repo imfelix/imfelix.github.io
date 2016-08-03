@@ -80,6 +80,7 @@ hr {
 .border-left    { border-left-width: 1px; border-left-style: solid; }
 .border-right   { border-right-width: 1px; border-right-style: solid;}
 .border-bottom  { border-bottom-width: 1px; border-bottom-style: solid;}
+.last-type-border-bottom:last-of-type { border-bottom-width: 1px; border-bottom-style: solid;}
 
 // Text Align
 .center         { text-align: center; }

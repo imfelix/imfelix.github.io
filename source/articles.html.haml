@@ -4,9 +4,9 @@ title: Articles | Felix Lee - UI/UX Designer & Web Developer
 
 %h1.hide Articles
 - blog.articles.each do |article|
-  %a.block.w-100.mx-auto.my0.py6.sm-py8.px3.sm-px0.border-top.border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+  %a.block.w-100.mx-auto.my0.py6.sm-py8.px3.sm-px0.border-top.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
     %article.flex.flex-column
-      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb2
+      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb0
         %span.m0= date_format(article.date)
         %span.m0.px2 •
         %span.m0= article.data.read_time
@@ -15,6 +15,6 @@ title: Articles | Felix Lee - UI/UX Designer & Web Developer
           - article.data.tag.each do |tag|
             %span.m0.mr3
               \##{tag}
-      %h2.mt0.mb2.grey-darker.bold.line-height-title.spaced-tight.font-double.sm-font-title= article.title
-      %p.m0.grey.font-large.spaced-small.line-height-small= article.data.summary
+      %h2.mt0.mb4.grey-darker.bold.line-height-title.spaced-tight.font-double.sm-font-title= article.title
+      %p.m0.grey.font-large.line-height-small= article.data.summary
 
