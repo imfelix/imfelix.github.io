@@ -12,96 +12,122 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %em work consistently and cohesively.
 
   %article.mb16
-    %h2.grey-dark Colors
+    %h2 Colors
     %p.font-large.mb3
       The 6 shades of grey — there will be
       %strong no
       more.
     .flex.flex-wrap.justify-between
-      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+      .w-48.sm-w-32.mb3.border.border-grey-lighter.rounded
         .bg-grey-darker.h-150px.rounded-top
         .p2
           %span Grey Darker
           %span.block #333333
-      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+      .w-48.sm-w-32.mb3.border.border-grey-lighter.rounded
         .bg-grey-dark.h-150px.rounded-top
         .p2
           %span Grey Dark
           %span.block #555555
-      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+      .w-48.sm-w-32.mb3.border.border-grey-lighter.rounded
         .bg-grey.h-150px.rounded-top
         .p2
           %span Grey
           %span.block #888888
-      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+      .w-48.sm-w-32.mb3.border.border-grey-lighter.rounded
         .bg-grey-light.h-150px.rounded-top
         .p2
           %span Grey Light
           %span.block #cccccc
-      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+      .w-48.sm-w-32.mb3.border.border-grey-lighter.rounded
         .bg-grey-lighter.h-150px.rounded-top
         .p2
           %span Grey Lighter
           %span.block #f0f0f0
-      .w-48.sm-w-32.mb3.shadow.border.border-grey-lighter.rounded
+      .w-48.sm-w-32.mb3.border.border-grey-lighter.rounded
         .bg-grey-lightest.h-150px.rounded-top
         .p2
           %span Grey Lightest
           %span.block #f9f9f9
 
   %article.mb16
-    %h2.grey-dark Typeface
+    %h2 Typeface
     %p.font-large.mb3
       The following fonts are used throughout the website served via
       %a{ href: "https://typekit.com/", target: "_blank", rel: "nofollow"} Typekit.
 
     .flex.flex-wrap.justify-between
-      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+      .w-48.mb4.border.border-grey-lighter.rounded
         .bg-white.py3.px0.rounded-top.flex.justify-between
           %span.w-50.center.sans.font-triple Aa
           %span.w-50.center.sans.font-triple Gg
-        .p2.border-top.border-grey-lighter.center
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
           %span Freight Sans Pro
-      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+      .w-48.mb4.border.border-grey-lighter.rounded
         .bg-white.py3.px0.rounded-top.flex.justify-between
           %span.w-50.center.serif.font-triple Aa
           %span.w-50.center.serif.font-triple Gg
-        .p2.border-top.border-grey-lighter.center
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
           %span Freight Text Pro
-      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+      .w-48.mb4.border.border-grey-lighter.rounded
         .bg-white.py3.px0.rounded-top.flex.justify-between
           %span.w-50.center.headline.font-triple Aa
           %span.w-50.center.headline.font-triple Gg
-        .p2.border-top.border-grey-lighter.center
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
           %span Freight Display Pro
-      .w-48.mb4.shadow.border.border-grey-lighter.rounded
+      .w-48.mb4.border.border-grey-lighter.rounded
         .bg-white.py3.px0.rounded-top.flex.justify-between
           %span.w-50.center.mono.font-triple Aa
           %span.w-50.center.mono.font-triple Gg
-        .p2.border-top.border-grey-lighter.center
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
           %span Courier Prime
 
   %article.mb16
-    %h2.grey-dark Font Weights
-    %span.font-large There are 3 font weights in total — only Freight Sans uses all 3 weights.
-    %span.block.mt4.font-large.grey Freight Sans Pro
-    %ul.no-list-type.pl6.mt2
-      %li.sans Regular
-      %li.sans.semi Semibold
-      %li.sans.bold Bold
-    %span.font-large.grey Freight Display Pro
-    %ul.no-list-type.pl6.mt2
-      %li.headline.bold Bold
-    %span.font-large.grey Freight Text Pro
-    %ul.no-list-type.pl6.mt2
-      %li.serif Regular
-      %li.serif.bold Bold
-    %span.font-large.grey Courier Prime
-    %ul.no-list-type.pl6.mt2
-      %li.mono Regular
+    %h2 Font Weights
+    %p.font-large.mb3 A couple of font weights. Only Freight Sans Pro has all three weights.
+    .flex.flex-wrap.justify-between
+      .w-100.mb4.border.border-grey-lighter.rounded
+        .bg-white.py0.px0.rounded-top.flex.justify-between.sans
+          .flex.flex-column.w-32.center.py4
+            %span.font-triple.line-height-title.regular Aa
+            %span.font-base.regular Book
+          .flex.flex-column.w-32.center.py4.border-left.border-right.border-grey-lighter
+            %span.font-triple.line-height-title.semi Aa
+            %span.font-base.regular Semi
+          .flex.flex-column.w-32.center.py4
+            %span.font-triple.line-height-title.bold Aa
+            %span.font-base.regular Bold
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
+          %span Freight Sans Pro
+
+      .w-100.mb4.border.border-grey-lighter.rounded
+        .bg-white.py0.px0.rounded-top.flex.justify-between
+          .flex.flex-column.w-50.center.py4
+            %span.font-triple.line-height-title.regular.serif Aa
+            %span.font-base.regular Book
+          .flex.flex-column.w-50.center.py4.border-left.border-grey-lighter
+            %span.font-triple.line-height-title.semi.serif Aa
+            %span.font-base.regular Bold
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
+          %span Freight Text Pro
+
+      .w-48.mb4.border.border-grey-lighter.rounded
+        .bg-white.py0.px0.rounded-top.flex.justify-between
+          .flex.flex-column.w-100.center.py4
+            %span.font-triple.line-height-title.regular.headline Aa
+            %span.font-base.regular Bold
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
+          %span Freight Display Pro
+
+      .w-48.mb4.border.border-grey-lighter.rounded
+        .bg-white.py0.px0.rounded-top.flex.justify-between
+          .flex.flex-column.w-100.center.py4
+            %span.font-triple.line-height-title.regular.mono Aa
+            %span.font-base.regular Regular
+        .p2.border-top.border-grey-lighter.center.bg-grey-lightest
+          %span Courier Prime
 
   %article.mb16
-    %h2.grey-dark Font Sizes
+    %h2 Font Sizes
     %span.font-large There are 8 declared font sizes — excluding root size of 62.5%
     %ul.no-list-type.pl6.mt2
       %li.font-triple Triple size 45px
@@ -114,7 +140,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %li.font-smaller Smaller size 11.25px
 
   %article.mb16
-    %h2.grey-dark Headings
+    %h2 Headings
     %span.font-large Headings used for naming pages, sections, and articles.
     %ul.no-list-type.pl6.mt2
       %li
@@ -132,7 +158,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
         %h6 Heading 6
 
   %article.mb16
-    %h2.grey-dark List Items
+    %h2 List Items
     %span.font-large.grey Unordered List
     %ul.pl6.mt2
       %li List Item 1
@@ -145,7 +171,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       %li List Item 3
 
   %article.mb16
-    %h2.grey-dark Quotes
+    %h2 Quotes
     %span.font-large.grey Blockquotes — for quotes by someone else.
     %blockquote
       %p Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.
@@ -156,7 +182,7 @@ title: Style Guide | Felix Lee - UI/UX Designer & Web Developer
       I am absolutely blessed and I'm very grateful for where I am today
 
   %article.mb16
-    %h2.grey-dark Dividers
+    %h2 Dividers
     %span.font-large.grey Horizontal line for general use.
     %hr
     %span.font-large.grey Dotted divider for separating sections.

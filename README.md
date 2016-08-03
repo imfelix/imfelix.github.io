@@ -134,6 +134,7 @@ This is a sample footnote.[^samplefootnote].
 ## Acknowledgments + Inspirations + Credits
 
 - [Brent Jackson](http://jxnblk.com/) - *Must check out the page performance of his site:ok_hand: exceptional speed*
+- [Scott de Jonge](http://scottdejonge.com/) - *Sweet and simple.*
 - [Basscss](http://www.basscss.com/) - *Heard of functional CSS?*
 - [Tachyons.io](http://tachyons.io) - *Alternative of Basscss*
 - [Medium](https://medium.com/) - *Learn from one of the largest blogging website.*
@@ -142,6 +143,7 @@ This is a sample footnote.[^samplefootnote].
 - [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline. Lots of interesting stuff.*
 - [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”.*
 - [Airbnb Blog](http://airbnb.design/) - *Love the simplicity.*
+- [MarvelApp Styleguide](https://marvelapp.com/styleguide/overview/introduction) - *One of the loveliest styleguides*
 
 ## License
 
