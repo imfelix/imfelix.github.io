@@ -171,7 +171,6 @@ title: Style Guide | Felix Lee 🦄
   %article.mb16
     %h2 Headings
     %p.font-large.mb3 Heading styles used for naming pages, sections, and articles.
-
     .flex.flex-wrap.justify-between
       .w-100.mb4.border.border-grey-lighter.rounded.left-align
         .bg-white.p3.rounded-top.flex.justify-between.space-nowrap.scroll
@@ -206,12 +205,12 @@ title: Style Guide | Felix Lee 🦄
 
   %article.mb16
     %h2 List Items
-    %span.font-large.grey Unordered List
+    %p.font-large.mb3.sans.grey Unordered List
     %ul.pl6.mt2
       %li List Item 1
       %li List Item 2
       %li List Item 3
-    %span.font-large.grey Ordered List
+    %p.font-large.mb3.sans.grey Ordered List
     %ol.pl6.mt2
       %li List Item 1
       %li List Item 2
@@ -219,21 +218,29 @@ title: Style Guide | Felix Lee 🦄
 
   %article.mb16
     %h2 Quotes
-    %span.font-large.grey Blockquotes — for quotes by someone else.
+    %p.font-large.mb3.sans.grey Blockquotes — for quotes by someone else.
     %blockquote
       %p Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.
       %p
         %cite Steve Jobs
-    %span.font-large.grey Quotes — for quotes by me.
-    %q
-      I am absolutely blessed and I'm very grateful for where I am today
+    %p.font-large.mb3.sans.grey Quotes — for quotes by me.
+    %q I am absolutely blessed and I'm very grateful for where I am today
 
   %article.mb16
     %h2 Dividers
-    %span.font-large.grey Horizontal line for general use.
+    %p.font-large.mb3.sans.grey Horizontal line for general use.
     %hr
-    %span.font-large.grey Dotted divider for separating sections.
+    %p.font-large.mb3.sans.grey Dotted divider for separating sections.
     %hr.dotted-divider
+
+  %article.mb16
+    %h2 Buttons
+    %p.font-large.mb6.sans.grey
+      Only one type of button so far.
+      %strong But
+      this is an anchor tag styled as a button.
+
+    %a.border.transition-all.px3.py1.rounded{ href: "#" } Button
 
 
 
