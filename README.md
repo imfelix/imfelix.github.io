@@ -89,7 +89,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Articles
   - [ ] About
   - [x] Get in touch
-  - [x] Github Source
+  - [x] GitHub Source
   - [x] Style Guide
 - [x] Add Get in touch page
 - [x] Responsive check for Get in touch page
@@ -112,7 +112,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Headings
   - [x] Lists
   - [x] Blockquote
-  - [x] Adding dividers
+  - [x] Dividers
+  - [x] Button
 - [ ] Update summary card for Twitter and Facebook
 - [ ] Add projects functionality
 - [ ] Add first project about building this portfolio site
