@@ -45,7 +45,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - Performance
   - Typekit loading performance - *Dealing with unloaded fonts — `.wf-loading`*
   - Loading separate Typekit kits for different layouts.
-    - Base Type Kit - 118KB
+    - Base Kit - 118KB
     - List Kit - 151KB
     - Article Kit - 205KB
     - Styleguide Kit - 285KB
@@ -105,9 +105,9 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Split them styles! *currently in-progress*
 - [ ] Add style guide page
   - [x] Intro
-  - [ ] Colors
-  - [ ] Typeface
-  - [ ] Font weight
+  - [x] Colors
+  - [x] Typeface
+  - [x] Font weight
   - [x] Font sizes
   - [x] Headings
   - [x] Lists
