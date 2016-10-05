@@ -141,5 +141,6 @@
 }
 
 @media screen and (min-width: $desktop) {
-  .lg-p0  { padding: 0; }
+  .lg-p0   { padding: 0; }
+  .lg-px0  { padding-left: 0; padding-right: 0; }
 }

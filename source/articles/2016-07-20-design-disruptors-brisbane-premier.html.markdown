@@ -7,7 +7,7 @@ summary:    My story of how I got the gig to organize the Design Disruptors Bris
             Queensland.
 ---
 
-<div class="flex flex-wrap font-small uppercase mono grey-darker mb4 spaced-tight">
+<div class="flex flex-wrap font-small uppercase mono grey-darker mb1 spaced-tight">
   <span>20 Jul 16</span>
   <span class="px1 grey-light">/</span>
   <span>5 min</span>
