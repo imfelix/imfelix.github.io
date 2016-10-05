@@ -6,15 +6,15 @@ title: Articles | Felix Lee 🦄
 - blog.articles.each do |article|
   %a.block.w-100.mx-auto.my0.py6.sm-py8.px3.sm-px0.border-top.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
     %article.flex.flex-column
-      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb0
+      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb1.spaced-tight
         %span.m0= date_format(article.date)
-        %span.m0.px2 •
+        %span.m0.px1.grey-light /
         %span.m0= article.data.read_time
-        %span.m0.px2 •
+        %span.m0.px1.grey-light /
         .flex.flex-row.flex-wrap
           - article.data.tag.each do |tag|
             %span.m0.mr3
               \##{tag}
-      %h2.mt0.mb4.grey-darker.bold.line-height-title.spaced-tight.font-double.sm-font-title= article.title
+      %h2.mt0.mb1.grey-darker.bold.line-height-title.spaced-tight.font-double.sm-font-title= article.title
       %p.m0.grey.font-large.line-height-small= article.data.summary
 

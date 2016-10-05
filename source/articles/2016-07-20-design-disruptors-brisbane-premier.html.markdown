@@ -2,22 +2,22 @@
 title:      Design Disruptors Brisbane Premier
 date:       2016-07-20
 read_time:  5 min
-tag:        [first-post]
-summary:    My story of how I got the gig at the Design Disruptors Brisbane Premier. Plus, why I wanted to
-            do it. Not to forget, thanks to everyone who made it happen.
+tag:        [event]
+summary:    My story of how I got the gig to organize the Design Disruptors Brisbane Premier at the University of
+            Queensland.
 ---
 
 <div class="flex flex-wrap font-small uppercase mono grey-darker mb4 spaced-tight">
   <span>20 Jul 16</span>
-  <span class="px2">•</span>
+  <span class="px1 grey-light">/</span>
   <span>5 min</span>
-  <span class="px2">•</span>
+  <span class="px1 grey-light">/</span>
   <span>#first-post</span>
 </div>
 
-<h1 class="mt0 mb1 grey-darker bold line-height-title spaced-tight font-double sm-font-triple">The Inception Design Disruptors Brisbane Premier </h1>
+<h1 class="mt0 mb1 grey-darker bold line-height-title font-double sm-font-triple">Design Disruptors Brisbane Premier</h1>
 
-<p class="mb10 grey sans line-height-base">My story of how I got the gig at the Design Disruptors Brisbane Premier. Plus, why I wanted to do it. Not to forget, thanks to everyone who made it happen.</p>
+<p class="mb12 grey sans line-height-base">My story of how I got the gig to organize the Design Disruptors Brisbane Premier at the <a href="//www.uq.edu.au">University of Queensland</a>.</p>
 
 It was a Monday. *Maybe some other day, I can't recall.*
 
