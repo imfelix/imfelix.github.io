@@ -52,7 +52,7 @@ h3 { font-size: $font-larger; }
 // Paragraph
 p {
   margin-top: 0; // .mt0
-  margin-bottom: 4rem; // .mb8
+  margin-bottom: 3rem; // .mb6
   font-size: $font-large; // .font-large
   font-family: $font-serif; // .serif
   line-height: $line-height-large;
@@ -60,6 +60,10 @@ p {
   // Heading after paragraph spacing
   + h2,
   + h3 { margin-top: 8rem; } // .mt16
+
+  @media screen and (min-width: $tablet) {
+    font-size: $font-larger;
+  }
 }
 
 // Blockquote
