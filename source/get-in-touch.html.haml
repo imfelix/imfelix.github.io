@@ -7,8 +7,21 @@ title: Get in touch | Felix Lee 🦄
 
   .flex.flex-wrap.justify-between
     .flex.flex-column.w-100.sm-w-50.grey-dark.sm-pt3
-      %i.mb1 Feel free to send me a message.
+      %i.mb1 Feel free to reach out.
       %i Happy to hear from you.
+
+      %h3.mb2 Social
+      %ul.flex.flex-column.m0.font-base
+        %li.pb1
+          = link_to "Twitter", data.external_links.twitter
+        %li.pb1
+          = link_to "Dribbble", data.external_links.dribbble
+        %li.pb1
+          = link_to "CodePen", data.external_links.codepen
+        %li.pb1
+          = link_to "GitHub", data.external_links.github
+        %li
+          = link_to "LinkedIn", data.external_links.linkedin
 
     .w-100.sm-w-50.my6.sm-m0
       %form.flex.flex-column{ action: "https://formspree.io/hello@felixlee.io", method:"POST" }
