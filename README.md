@@ -14,7 +14,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 
 - User experience
   - Navigation - *How should the navigation links be positioned?*
-  - Headroom.js - *Added this to free up some room when scrolling*
+  - [Headroom.js](http://wicky.nillia.ms/headroom.js/) - *Added this to free up some room when scrolling*
   - Width of paragraph - *Keep it short, 11 - 12 words per line*
   - Line height - *Good amount of line-height for reading experience*
   - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
@@ -54,6 +54,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Inline small chunk of CSS in the head - *Remove the use of requesting CSS files* :sunglasses:
 - Aesthetics
   - Attempt at designing a website without the use of colours other than shades of grey
+  - Consistency in spacing
   - Should articles and projects styling be the same?
   - Freight Pro Family
 
@@ -83,14 +84,14 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Update description in README
 - [x] Rename blog to articles
 - [x] Responsive check for home page
-- [ ] Add navigation links
+- [x] Add navigation links
   - [x] Home
-  - [ ] Projects
+  - [x] Projects
   - [x] Articles
-  - [ ] About
+  - [x] About
   - [x] Get in touch
-  - [x] GitHub Source
   - [x] Style Guide
+    - [x] GitHub Source
 - [x] Add Get in touch page
 - [x] Responsive check for Get in touch page
 - [x] Finalise articles post styles on Sketch - *articles page != article page*
@@ -103,8 +104,9 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Responsive check for article post
 - [x] Move styles into partial
 - [ ] Split them styles! *currently in-progress*
-- [ ] Add style guide page
+- [x] Add style guide page
   - [x] Intro
+  - [x] GitHub Source
   - [x] Colors
   - [x] Typeface
   - [x] Font weight
@@ -114,15 +116,25 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Blockquote
   - [x] Dividers
   - [x] Button
-- [ ] Update summary card for Twitter and Facebook
-- [ ] Add projects functionality
-- [ ] Add first project about building this portfolio site
 - [ ] Usability check with 3 person
-- [ ] Write first article about one of the many things you learned from building this portfolio site
-- [ ] Get article and project both proof-read
+- [ ] Articles
+  - [ ] Write about Design Disruptors Brisbane Premier
+  - [ ] Write about the many things you learned from building this portfolio site
 - [ ] Publish first article post
-- [ ] Celebrate and dance :tada:
+- [ ] Add projects functionality
 - [ ] Add About page
+- [ ] Projects
+  - [ ] Add project about building this portfolio site
+  - [ ] Add project Gift Investor from BOQ Hackathon
+  - [ ] Add Project Naya from GovHack Hackathon
+  - [ ] Add Project InnovationX from GovHack Hackathon
+  - [ ] Add Project Graffiti Floor from UQ Design Project
+  - [ ] Add project GJ Wedding from freelance work
+  - [ ] Add project Wilson Parking from NetEngine
+- [ ] Update summary card image for Twitter and Facebook
+- [ ] Double check links shared on Twitter and Facebook
+  - [ ] Check for summary card image and summary
+- [ ] Celebrate and dance :tada:
 
 ## How-to markdown with `redcarpet` syntax:
 
