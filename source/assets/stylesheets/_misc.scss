@@ -12,6 +12,7 @@
 // - border
 // - text-align
 // - white-space
+// - font-style
 // - text-transform
 // - text-decoration
 // - letter-spacing
@@ -20,8 +21,8 @@
 img {
   max-width: 100%;
   width: 100%;
-  margin-top: 3rem; // .mt6
-  margin-bottom: 3rem; // .mb6
+  margin-top: 4rem; // .mt8
+  margin-bottom: 4rem; // .mb8
 }
 
 // Default Horizontal Line
@@ -33,6 +34,11 @@ hr {
   border-bottom: 1px solid;
   margin-top: 6rem; // .mt12
   margin-bottom: 5.5rem; // .mb11
+}
+
+figcaption {
+  color: $grey;
+  text-align: center;
 }
 
 // Dotted Horizontal Line
@@ -106,6 +112,9 @@ hr {
 // But spacing with text-decoration is messed up
 // So we use border-bottom
 .underline { border-bottom: 1px solid; }
+
+// Font Style
+.italic { font-style: italic; }
 
 // Text Transform
 .uppercase { text-transform: uppercase; }
