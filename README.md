@@ -127,9 +127,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [ ] Add project about building this portfolio site
   - [ ] Add project Gift Investor from BOQ Hackathon
   - [ ] Add Project Naya from GovHack Hackathon
-  - [ ] Add Project InnovationX from GovHack Hackathon
   - [ ] Add Project Graffiti Floor from UQ Design Project
   - [ ] Add project GJ Wedding from freelance work
+  - [ ] Add project Car Next Door from NetEngine
+  - [ ] Add project Access Wrok 365 from NetEngine
   - [ ] Add project Wilson Parking from NetEngine
 - [ ] Update summary card image for Twitter and Facebook
 - [ ] Double check links shared on Twitter and Facebook
