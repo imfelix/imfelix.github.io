@@ -157,6 +157,7 @@ This is a sample footnote.[^samplefootnote].
 - [Thoughtbot Blog](https://robots.thoughtbot.com/) - *Love the tagline. Lots of interesting stuff.*
 - [Fantasy Blog](http://blog.fantasy.co/) - *The power of “What if”.*
 - [Airbnb Blog](http://airbnb.design/) - *Love the simplicity.*
+- [MarvelApp Blog](https://blog.marvelapp.com/) - *Such consistent. Much awesomeness.*
 - [MarvelApp Styleguide](https://marvelapp.com/styleguide/overview/introduction) - *One of the loveliest styleguides*
 
 ## License
