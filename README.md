@@ -118,15 +118,14 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Button
 - [ ] Usability check with 3 person
 - [ ] Articles
-  - [ ] Write about Design Disruptors Brisbane Premier
+  - [x] Write about Design Disruptors Brisbane Premier
   - [ ] Write about the many things you learned from building this portfolio site
-- [ ] Publish first article post
+- [x] Publish first article post
 - [ ] Add projects functionality
 - [ ] Add About page
 - [ ] Projects
   - [ ] Add project about building this portfolio site
   - [ ] Add project Gift Investor from BOQ Hackathon
-  - [ ] Add Project Naya from GovHack Hackathon
   - [ ] Add Project Graffiti Floor from UQ Design Project
   - [ ] Add project GJ Wedding from freelance work
   - [ ] Add project Car Next Door from NetEngine
@@ -135,7 +134,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Update summary card image for Twitter and Facebook
 - [ ] Double check links shared on Twitter and Facebook
   - [ ] Check for summary card image and summary
-- [ ] Celebrate and dance :tada:
+- [x] Celebrate and dance :tada:
 
 ## How-to markdown with `redcarpet` syntax:
 
