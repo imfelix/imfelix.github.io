@@ -39,7 +39,7 @@ Usual routine — checking emails, sipping on coffee.
 Ding-ding! You’ve got mail! *Clark from InVision — Weekly Digest.*
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-email.jpg" alt="InVision's Weekly Digest" class="w-60 block mx-auto mb2 rounded">
+  <img src="/assets/images/articles/design-disruptors/design-disruptors-email.jpg" alt="InVision's Weekly Digest" class="w-100 sm-w-60 block mx-auto mb2 rounded">
   <figcaption>InVision's Weekly Digest</figcaption>
 </p>
 
