@@ -29,8 +29,16 @@ set :markdown,
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
-  blog.layout = "layout-article"
+  blog.name = "articles"
+  blog.layout = "layout-articles"
   blog.prefix = "articles"
+  blog.permalink = "/{title}.html"
+end
+
+activate :blog do |blog|
+  blog.name = "projects"
+  blog.layout = "layout-projects"
+  blog.prefix = "projects"
   blog.permalink = "/{title}.html"
 end
 
@@ -69,7 +77,8 @@ end
 ## Page Options and Layouts
 #################################################
 page "/styleguide.html", layout: "layout-styleguide"
-page "/articles.html",   layout: "layout-list"
+page "/articles.html",   layout: "layout-articles-list"
+page "/projects.html",   layout: "layout-projects-list"
 
 # With no layout
 # page '/*.xml', layout: false
