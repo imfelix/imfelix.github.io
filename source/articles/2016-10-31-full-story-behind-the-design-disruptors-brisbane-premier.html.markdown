@@ -3,6 +3,7 @@ title:      Full Story Behind The Design Disruptors Brisbane Premier
 date:       2016-10-31
 read_time:  8 min
 tag:        [event]
+blog:       [articles]
 summary:    My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of
             Queensland along with the help of some amazing people.
 ---

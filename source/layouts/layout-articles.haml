@@ -17,16 +17,16 @@
     / = partial "inline-stylesheet/base-styles"
     / = partial "inline-stylesheet/content-styles"
     / = partial "inline-stylesheet/syntax-styles"
-    = stylesheet_link_tag :article
+    = stylesheet_link_tag :articles
 
     / JavaScript
     = javascript_include_tag :all
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes }
-    = partial "partials/header-article"
-    %main.max-w-620px.w-100.mx-auto.flex.flex-column.flex-auto.fade-in-up.px3.sm-px0.pt16.sm-pt32.pb0
+    = partial "partials/header-articles"
+    %main.max-w-620px.w-100.mx-auto.flex.flex-column.flex-auto.fade-in-up.px3.pt16.pb0.sm-px0.sm-pt32.sm-pb16
       %article{ data: { attr: "content" } }= yield
-    = partial "partials/footer-article"
+    = partial "partials/footer-articles-projects"
 
   / Typekit - Article
   %script{ src: "//use.typekit.net/vgv6agp.js" }
