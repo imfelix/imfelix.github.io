@@ -118,8 +118,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Button
 - [ ] Usability check with 3 person
 - [ ] Articles
-  - [x] Write about Design Disruptors Brisbane Premier
-  - [ ] Write about the many things you learned from building this portfolio site
+  - [x] Full Story Behind The Design Disruptors Brisbane Premier
+  - [ ] Provide The Best Solution To The Client
 - [x] Publish first article post
 - [ ] Add projects functionality
 - [ ] Add About page
@@ -129,8 +129,6 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [ ] Add Project Graffiti Floor from UQ Design Project
   - [ ] Add project GJ Wedding from freelance work
   - [ ] Add project Car Next Door from NetEngine
-  - [ ] Add project Access Wrok 365 from NetEngine
-  - [ ] Add project Wilson Parking from NetEngine
 - [ ] Update summary card image for Twitter and Facebook
 - [ ] Double check links shared on Twitter and Facebook
   - [ ] Check for summary card image and summary
