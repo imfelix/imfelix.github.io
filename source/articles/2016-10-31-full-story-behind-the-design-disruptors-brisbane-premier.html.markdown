@@ -9,7 +9,7 @@ summary:    My story of how I got the gig organising the Design Disruptors Brisb
             Queensland along with the help of some amazing people.
 ---
 
-<div class="flex flex-wrap font-small uppercase mono grey-darker mb4 spaced-tight">
+<div class="flex flex-wrap font-small uppercase mono grey-darker mb2 spaced-tight">
   <time>31 October 16</time>
   <span class="px1 grey-light">/</span>
   <span>8 min</span>
