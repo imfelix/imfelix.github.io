@@ -121,7 +121,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Full Story Behind The Design Disruptors Brisbane Premier
   - [ ] Provide The Best Solution To The Client
 - [x] Publish first article post
-- [ ] Add projects functionality
+- [x] Add projects functionality
 - [ ] Add About page
 - [ ] Projects
   - [ ] Add project about building this portfolio site
@@ -132,6 +132,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [ ] Update summary card image for Twitter and Facebook
 - [ ] Double check links shared on Twitter and Facebook
   - [ ] Check for summary card image and summary
+- [ ] Workout how to customise metadata for articles and projects post
 - [x] Celebrate and dance :tada:
 
 ## How-to markdown with `redcarpet` syntax:
