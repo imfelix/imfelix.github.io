@@ -5,16 +5,17 @@ blog:  articles
 
 %h1.hide Articles
 - blog.articles.each do |article|
-  %a.block.w-100.mx-auto.my0.py6.sm-py8.px3.sm-px0.border-top.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
-    %article.flex.flex-column
-      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb1.spaced-tight
+  %a.block.w-100.mx-auto.my0.py6.sm-py9.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+    %aside.min-h-300px.mb7.bg-cover.bg-center.bg-no-repeat.rounded{ style: "background-image: url('#{article.data.thumbnail}')" }
+    %article.flex.flex-column.px3.sm-px0
+      .flex.flex-wrap.font-small.uppercase.mono.grey-darker.mb4.spaced-tight
         %span.m0= date_format(article.date)
         %span.m0.px1.grey-light /
         %span.m0= article.data.read_time
         %span.m0.px1.grey-light /
         .flex.flex-row.flex-wrap
           - article.data.tag.each do |tag|
-            %span.m0.mr3
+            %span.m0.mr2
               \##{tag}
       %h2.mt0.mb1.grey-darker.bold.line-height-title.spaced-tight.font-double.sm-font-title= article.title
       %p.m0.grey.font-large.line-height-small= article.data.summary

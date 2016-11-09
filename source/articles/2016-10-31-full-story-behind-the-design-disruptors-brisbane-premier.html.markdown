@@ -4,11 +4,12 @@ date:       2016-10-31
 read_time:  8 min
 tag:        [event]
 blog:       [articles]
+thumbnail:  /assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg
 summary:    My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of
             Queensland along with the help of some amazing people.
 ---
 
-<div class="flex flex-wrap font-small uppercase mono grey-darker mb1 spaced-tight">
+<div class="flex flex-wrap font-small uppercase mono grey-darker mb4 spaced-tight">
   <time>31 October 16</time>
   <span class="px1 grey-light">/</span>
   <span>8 min</span>

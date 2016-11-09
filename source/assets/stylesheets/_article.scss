@@ -9,10 +9,10 @@
 
 // Header
 header {
-  margin-bottom: 3rem; // .mb6
+  margin-bottom: 6rem; // .mb12
 
   @media screen and (min-width: $tablet) {
-    margin-bottom: 6rem; // .mb12
+    margin-bottom: 9rem; // .mb18
   }
 }
 
