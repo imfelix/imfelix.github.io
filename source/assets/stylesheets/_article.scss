@@ -9,11 +9,7 @@
 
 // Header
 header {
-  margin-bottom: 6rem; // .mb12
-
-  @media screen and (min-width: $tablet) {
-    margin-bottom: 9rem; // .mb18
-  }
+  margin-bottom: 4rem; // .mb8
 }
 
 // Images
@@ -34,7 +30,7 @@ h5,
 h6 {
   margin-top: 0; // .mt0
   margin-bottom: 1rem; // .mb2
-  letter-spacing: -0.5px; //.spaced-tight
+  font-family: $font-header;
   line-height: 1.125; //.line-height-title
   text-transform: capitalize;
 }

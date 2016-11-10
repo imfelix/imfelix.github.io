@@ -22,9 +22,10 @@ $font-triple:             $font-base * 3;     // 45px
 
 // Font Weight
 $font-sans:               "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-header:             "canada-type-gibson", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-headline:           "freight-display-pro", Georgia, "Times New Roman", Times, serif;
 $font-serif:              "freight-text-pro", Georgia, "Times New Roman", Times, serif;
-$font-mono:               "courier-prime", "Lucida Console", Monaco, Courier, monospace;
+$font-mono:               Courier, "Lucida Console", Monaco, monospace;
 
 // Line Height
 $line-height-base:        1.5;

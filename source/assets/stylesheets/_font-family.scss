@@ -3,6 +3,17 @@
 // ––––––––––––––––––––––––––––––––––––
 
 .sans     { font-family: $font-sans; }
+.header   { font-family: $font-header; }
 .mono     { font-family: $font-mono; }
 .serif    { font-family: $font-serif; }
 .headline { font-family: $font-headline; }
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-header;
+}
