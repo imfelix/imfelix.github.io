@@ -17,7 +17,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [Headroom.js](http://wicky.nillia.ms/headroom.js/) - *Added this to free up some room when scrolling*
   - Width of paragraph - *Keep it short, 11 - 12 words per line*
   - Line height - *Good amount of line-height for reading experience*
-  - Font pairing - *This took me a good 3 hours to finalise on Freight Font Family*
+  - Font pairing - *Let's just say it took me a while to decide on the font family.*
   - Font size - *Legibility, keeping it consistent throughout the site including each article*
   - Avoid hamburger menu - *Don't hide elements behind three bars*
   - Articles page - *Use border, background colour, or separator lines to divide each posts?*
@@ -45,10 +45,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - Performance
   - Typekit loading performance - *Dealing with unloaded fonts — `.wf-loading`*
   - Loading separate Typekit kits for different layouts.
-    - Base Kit - 118KB
-    - List Kit - 151KB
-    - Article Kit - 205KB
-    - Styleguide Kit - 285KB
+    - Base Kit - 104kb
+    - List Kit - 84kb
+    - Article Kit - 130kb
+    - Styleguide Kit - 202kb
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
   - No `box-shadow` hover effect - [performance issue](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting CSS files* :sunglasses:
@@ -67,7 +67,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [Freight Display Pro](https://typekit.com/fonts/freight-display-pro)
   - [Freight Text Pro](https://typekit.com/fonts/freight-text-pro)
   - [Freight Sans Pro](https://typekit.com/fonts/freight-sans-pro)
-  - [Courier Prime](https://typekit.com/fonts/courier-prime)
+  - [Canada Type Gibson](https://typekit.com/fonts/gibson)
+  - ~~[Courier Prime](https://typekit.com/fonts/courier-prime)~~ removed
 - [SketchApp](https://www.sketchapp.com/)
 - [Craft by InVision LABS](https://www.invisionapp.com/craft)
 - Google Chrome Dev Tools
