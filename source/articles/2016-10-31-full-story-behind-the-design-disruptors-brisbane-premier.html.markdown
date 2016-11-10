@@ -10,7 +10,7 @@ summary:    My story of how I got the gig organising the Design Disruptors Brisb
 ---
 
 <div class="flex flex-wrap font-small uppercase header grey mb8">
-  <time>31 October 16</time>
+  <time>31 Oct 16</time>
   <span class="px1 grey-lighter">/</span>
   <span>8 min</span>
   <span class="px1 grey-lighter">/</span>

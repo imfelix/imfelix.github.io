@@ -13,9 +13,8 @@ blog:  articles
         %span.m0.px1.grey-lighter /
         %span.m0= article.data.read_time
         %span.m0.px1.grey-lighter /
-        .flex.flex-row.flex-wrap
-          - article.data.tag.each do |tag|
-            %span.m0.mr2
-              \##{tag}
+        - article.data.tag.each do |tag|
+          %span.m0.mr2
+            \##{tag}
       %h2.mt0.mb2.grey-darker.bold.line-height-title.font-double.sm-font-title= article.title
       %p.m0.grey.font-large.line-height-small= article.data.summary
