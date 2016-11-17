@@ -2,25 +2,25 @@
 title: Get in touch | Felix Lee 🦄
 ---
 
-.max-w-620px.w-100.mx-auto.py4.px3.flex.flex-auto.flex-column.fade-in-up
-  %h1.mt0.mb3.headline.line-height-title.sm-line-height-base Get in touch
+.max-w-620px.w-100.mx-auto.py8.sm-py0.px3.sm-px0.flex.flex-auto.flex-column.fade-in-up
+  %h1.mt0.mb3.header.line-height-title.sm-line-height-base Get in touch
 
   .flex.flex-wrap.justify-between
     .flex.flex-column.w-100.sm-w-50.grey-dark.sm-pt3
       %p.mt0.mb1 Feel free to reach out.
-      %p.mt0 I'd love to hear from you.
+      %p.mt0.mb6 I'd love to hear from you.
 
-      %h3.mb2 Social Profiles
-      %ul.flex.flex-column.m0.font-base
-        %li.pb1
+      %p.mt0.mb2 You can also find me on these sites:
+      %ul.flex.flex-column.m0.font-base.list-disc
+        %li.pb2.sm-pb1
           = link_to "Twitter", data.external_links.twitter
-        %li.pb1
+        %li.pb2.sm-pb1
           = link_to "Dribbble", data.external_links.dribbble
-        %li.pb1
+        %li.pb2.sm-pb1
           = link_to "CodePen", data.external_links.codepen
-        %li.pb1
+        %li.pb2.sm-pb1
           = link_to "GitHub", data.external_links.github
-        %li.pb1
+        %li.pb2.sm-pb1
           = link_to "Medium", data.external_links.medium
         %li
           = link_to "LinkedIn", data.external_links.linkedin

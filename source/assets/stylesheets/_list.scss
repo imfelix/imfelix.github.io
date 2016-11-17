@@ -39,3 +39,21 @@ li {
 .no-list-type {
   list-style-type: none;
 }
+
+.list-disc {
+  list-style: none;
+  list-style-image: none;
+
+  li {
+    position: relative;
+    padding-left: 2rem;
+
+    &:before {
+      content: '•';
+      position: absolute;
+      top: 2px;
+      left: 0;
+      font-size: $font-smaller;
+    }
+  }
+}
