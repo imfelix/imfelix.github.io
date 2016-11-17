@@ -45,6 +45,7 @@
 .py10 { padding-top: 5rem; padding-bottom: 5rem; }
 .py11 { padding-top: 5.5rem; padding-bottom: 5.5rem; }
 .py12 { padding-top: 6rem; padding-bottom: 6rem; }
+.py20 { padding-top: 10rem; padding-bottom: 10rem; }
 
 // Top Padding Properties
 .pt0  { padding-top: 0; }
@@ -118,6 +119,7 @@
 
 @media screen and (min-width: $tablet) {
   .sm-p0   { padding: 0; }
+  .sm-py0  { padding-top: 0; padding-bottom: 0; }
   .sm-py4  { padding-top: 2rem; padding-bottom: 2rem; }
   .sm-py6  { padding-top: 3rem; padding-bottom: 3rem; }
   .sm-py8  { padding-top: 4rem; padding-bottom: 4rem; }
@@ -130,6 +132,7 @@
   .sm-px3  { padding-left: 1.5rem; padding-right: 1.5rem; }
   .sm-px6  { padding-left: 3rem; padding-right: 3rem; }
   .sm-pb0  { padding-bottom: 0; }
+  .sm-pb1  { padding-bottom: 0.5rem; }
   .sm-pb4  { padding-bottom: 2rem; }
   .sm-pb8  { padding-bottom: 4rem; }
   .sm-pb9  { padding-bottom: 4.5rem; }

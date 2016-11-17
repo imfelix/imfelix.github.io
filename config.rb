@@ -76,9 +76,11 @@ end
 #################################################
 ## Page Options and Layouts
 #################################################
-page "/styleguide.html", layout: "layout-styleguide"
-page "/articles.html",   layout: "layout-articles-list"
-page "/projects.html",   layout: "layout-projects-list"
+page "/styleguide.html",    layout: "layout-styleguide"
+page "/articles.html",      layout: "layout-articles-list"
+page "/projects.html",      layout: "layout-projects-list"
+page "/get-in-touch.html",  layout: "layout-sans-header"
+page "/thanks.html",        layout: "layout-sans-header"
 
 # With no layout
 # page '/*.xml', layout: false

@@ -45,8 +45,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - Performance
   - Typekit loading performance - *Dealing with unloaded fonts — `.wf-loading`*
   - Loading separate Typekit kits for different layouts.
-    - Base Kit - 104kb
-    - List Kit - 84kb
+    - Index Kit - 104kb
+    - Sans + Header Kit - 84kb
     - Article Kit - 130kb
     - Styleguide Kit - 202kb
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
