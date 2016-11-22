@@ -9,7 +9,7 @@ summary:    My story of how I got the gig organising the Design Disruptors Brisb
             Queensland along with the help of some amazing people.
 ---
 
-<div class="flex flex-wrap font-small uppercase header grey mb8">
+<div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>31 Oct 16</time>
   <span class="px1 grey-lighter">/</span>
   <span>8 min</span>
@@ -18,7 +18,7 @@ summary:    My story of how I got the gig organising the Design Disruptors Brisb
 </div>
 
 <header>
-  <h1 class="mt0 mb2 grey-dark bold line-height-title font-double sm-font-triple">Full Story Behind The Design Disruptors Brisbane Premier</h1>
+  <h1 class="mt0 mb2 grey-darker bold line-height-title font-double sm-font-triple">Full Story Behind The Design Disruptors Brisbane Premier</h1>
   <p class="mb0 grey-light sans line-height-small">My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of Queensland along with the help of some amazing people.</p>
 </header>
 
