@@ -165,10 +165,6 @@ sup a {
   // Links
   a {
     border-bottom: 1px solid; // .underline
-
-    &:hover {
-      color: $grey-darker;
-    }
   }
 
   // Superscript Links
