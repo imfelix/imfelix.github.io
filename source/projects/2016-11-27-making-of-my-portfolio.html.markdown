@@ -146,7 +146,7 @@ I am ambitious to build my own portfolio from scratch. I find it the best way to
 Apart from the technology side of things. There are some considerations I’d like to go through.
 
 ### Performance
-Data is expensive. I wanted to keep my portfolio site as small as possible so users won't waste data on my portfolio. I managed to achieve the size of [0.11mb](https://whatdoesmysitecost.com/test/161125_56_c7e146b2d31d65a678b82e70d0277468). There are a couple steps that I took to keep the site size small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. That means less lines in CSS.
+Data is expensive. I wanted to keep my portfolio site as small as possible so users won’t waste data on my portfolio. There are a couple steps that I took to keep the site small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. That means less lines in CSS.
 
 Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The takeaway here is to have inline styles within the `<head>` and maybe a larger file size but we are talking bytes here. Ultimately, I think it is worth it.
 
