@@ -31,6 +31,7 @@
 .mx10 { margin-left: 5rem; margin-right: 5rem; }
 .mx11 { margin-left: 5.5rem; margin-right: 5.5rem; }
 .mx12 { margin-left: 6rem; margin-right: 6rem; }
+.mx3n { margin-left: -1.5rem; margin-right: -1.5rem; } // Negative margin
 
 // Vertical Margin Properties
 .my0  { margin-top: 0; margin-bottom: 0; }
@@ -113,6 +114,8 @@
 
   .sm-my6  { margin-top: 3rem; margin-bottom: 3rem; }
   .sm-my9  { margin-top: 4.5rem; margin-bottom: 4.5rem; }
+
+  .sm-mx0  { margin-left: 0; margin-right: 0; }
 
   .sm-mt0  { margin-top: 0; }
   .sm-mt3  { margin-top: 1.5rem; }
