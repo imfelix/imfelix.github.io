@@ -149,14 +149,14 @@ Data is expensive. I wanted to keep my portfolio site as small as possible so us
 
 Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The tradeoff here is to have inline styles within the `<head>`. Ultimately, I think it is worth it.
 
-Confirming what I did was worth it. I ran a couple of network test with Chrome dev tools to check on the time required to load my home page. 
+Confirming the work. I ran a couple of network test with Chrome dev tools to check on the time required to load my home page. 
 
-* **No throttling.** DOMContentLoaded: average ~0.8 second
-* **No throttling.** Loaded: average ~1 second
-* **Regular 3G.** DOMContentLoaded: average ~1.4 seconds
-* **Regular 3G.** Loaded: average ~2.3 seconds
-* **Regular 3G.** DOMContentLoaded: average ~4.5 seconds
-* **Regular 3G.** Loaded: average ~6 seconds
+* **No throttling.** DOMContentLoaded: average ~1.4 seconds
+* **No throttling.** Loaded: average ~1.6 seconds
+* **Regular 3G.** DOMContentLoaded: average ~2 seconds
+* **Regular 3G.** Loaded: average ~2.4 seconds
+* **Regular 2G.** DOMContentLoaded: average ~4.5 seconds
+* **Regular 2G.** Loaded: average ~6 seconds
 
 ### Reading Experience
 I placed heavy emphasis on the reading experience of my portfolio. Since the core my content. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
