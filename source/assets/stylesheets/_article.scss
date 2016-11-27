@@ -183,6 +183,10 @@ sup a {
       font-size: $font-larger;
     }
 
+    // Heading after paragraph spacing
+    + h2,
+    + h3 { margin-top: 8rem; } // .mt16
+
     li {
       position: relative;
       padding-left: 2rem;

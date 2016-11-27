@@ -1,15 +1,18 @@
 ---
 title:      Making Of My Portfolio
 date:       2016-11-27
+read_time:  8 min
 tag:        [portfolio, design-process, ux]
 blog:       [projects]
 thumbnail:  /assets/images/projects/portfolio/portfolio-hero-banner.png
-summary:    A case study for my personal portfolio, felixlee.io. Documenting my process, my thoughts, and my takeaway.
+summary:    A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
 ---
 <aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>27 Nov 16</time>
+  <span class="px1 grey-lighter">/</span>
+  <span>10 min</span>
   <span class="px1 grey-lighter">/</span>
   <span class="m0 mr2">#portfolio</span>
   <span class="m0 mr2">#design-process</span>
@@ -18,7 +21,7 @@ summary:    A case study for my personal portfolio, felixlee.io. Documenting my 
 
 <header>
   <h1 class="mt0 mb2 grey-darker bold line-height-title font-double sm-font-triple text-transform-none">Making Of My Portfolio</h1>
-  <p class="mb0 grey-light sans line-height-small">A case study for my personal portfolio, <a href="http://felixlee.io">felixlee.io</a>. Documenting my process, my thoughts, and my takeaway.</p>
+  <p class="mb0 grey-light sans line-height-small">A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.</p>
 </header>
 
 After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey italic">you are your worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
@@ -117,7 +120,7 @@ My name, expertise and bio. Centre stage.
 
 * Categorise the content. Projects and Articles as navigation items. 
 * Contact me link. Allowing users to reach out to me.
-* Social profiles. Some users might be interested in [my tweets](https://twitter.com/im_felix) or [dribbble shots](https://dribbble.com/felixlee).
+* Social profiles. Figured some might view [my tweets](https://twitter.com/im_felix) or [dribbble shots](https://dribbble.com/felixlee).
 
 ### User flow
 The next step to my process — understanding how users journey through my portfolio. The map below illustrates the journey of a user reaching other pages from the home page of my portfolio. The list of labels within each wrapper refers to the possible option that a user may navigate themselves.
@@ -143,7 +146,7 @@ I am ambitious to build my own portfolio from scratch. I find it the best way to
 Apart from the technology side of things. There are some considerations I’d like to go through.
 
 ### Performance
-Data is expensive. I wanted to keep my portfolio site as small as possible so users won't waste data on my portfolio. I managed to achieve the size of [0.11mb](https://whatdoesmysitecost.com/test/161125_56_c7e146b2d31d65a678b82e70d0277468). There are a couple steps that I took to keep the site size small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of the steps I took to keep the website size small. The idea of reusing classes for everything is amazing. No more custom classes.  
+Data is expensive. I wanted to keep my portfolio site as small as possible so users won't waste data on my portfolio. I managed to achieve the size of [0.11mb](https://whatdoesmysitecost.com/test/161125_56_c7e146b2d31d65a678b82e70d0277468). There are a couple steps that I took to keep the site size small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. That means less lines in CSS.
 
 Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The takeaway here is to have inline styles within the `<head>` and maybe a larger file size but we are talking bytes here. Ultimately, I think it is worth it.
 
