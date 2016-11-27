@@ -32,10 +32,10 @@ After numerous iterations, I have finally shipped it. Since I began the journey 
 </p>
 
 ## My Approach
-Create an experience that offers a balance **visually pleasing and clarity** for the users. No mumbo jumbo. Common sense instead of wow moments. Being mindful that the purpose of the portfolio is to reflect and showcase. The focus lies on the content — that is the core.
+Create an experience that offers a balance between **visually pleasing and clarity** for the users. No mumbo jumbo. Common sense instead of wow moments. Being mindful that the purpose of the portfolio is to reflect and showcase. The focus lies on the content — that is the core.
 
 ## Fast-Forward
-Looking back at my GitHub repository, I had my first commit on the 30 June 2016. Add in a couple weeks before that for my design process. Roughly 6 months has past since I started design and development of my portfolio. Finally. Here I am. Checkout the pixels below for the current version (as of 23 Nov 2016) of my site.
+Looking back at my GitHub repository, I had my first commit on the 30 June 2016. Add in a couple weeks for my design process. Roughly 6 months has past since I started design and development of my portfolio. Finally. Here I am. Checkout the pixels below for the current version (as of 23 Nov 2016).
 
 ### MacBook Pro 13-inch (2560 * 1600 Resolution)
 <p class="m0">
@@ -70,12 +70,12 @@ Looking back at my GitHub repository, I had my first commit on the 30 June 2016.
 </p>
 
 ## Design Process
-From here on, we go in-depth about my process. The first step is figuring out who might use it, or who I want it to be used by — users and target audience.
+From here on, we go in-depth about my process. The first step is figuring out who might use it, or who I intend it to be used by — users and target audience.
 
 ### Users And Target Audience
 <p class="grey">Important practice to always identify the users. Regardless of any product or service, even something small as a portfolio — the first step to begin with is best to learn about your users. This can greatly reduce the risk of building something that nobody wants. In this case, nobody enjoys. Another great practice is to regularly remind yourself that you are designing for the people who would use it.</p>
 
-I listed down my target audience and written up personas for each group. The purpose for this step is to understand how one group might feel while journey through my portfolio. Being aware of their personalities and behaviors, we can and should keep them in mind when designing.
+I listed down my target audience and written up personas for each group. The purpose for this step is to understand how one group might feel while journey through my portfolio. Being aware of their personalities and behaviour, we can and should keep them in mind when designing.
 
 <p class="m0">
   <img src="/assets/images/projects/portfolio/persona.png" alt="Persona">
@@ -140,14 +140,14 @@ Picking up from my wireframe. I made a couple changes to my design before stitch
 </p>
 
 ## Building The Thing
-I am ambitious to build my own portfolio from scratch. I find it the best way to learn is by doing it — keep practicing even if it means pulling your hair out. I built my portfolio using the static-site generator, [Middleman](https://middlemanapp.com/). Hosted via GitHub Pages. I won’t go too much into detail of how I built it, but you can [view my repository here](https://github.com/imfelix/imfelix.github.io/tree/source). 
+I am learning my ropes on web development. So I went on to build my portfolio from scratch. I find it the best way to learn is by doing it — keep practicing even if it means pulling your hair out. I built my portfolio using the static-site generator, [Middleman](https://middlemanapp.com/). Hosted via GitHub Pages. I won’t go too much into detail of how I built it, but you can [view my repository here](https://github.com/imfelix/imfelix.github.io/tree/source). 
 
 Apart from the technology side of things. There are some considerations I’d like to go through.
 
 ### Performance
-Data is expensive. I wanted to keep my portfolio site as small as possible so users won’t waste data on my portfolio. There are a couple steps that I took to keep the site small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. That means less lines in CSS.
+Data is expensive. I wanted to keep my portfolio site as small as possible so users won’t waste data on it. There are a couple steps that I took to keep the site small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. Less lines in CSS.
 
-Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The takeaway here is to have inline styles within the `<head>` and maybe a larger file size but we are talking bytes here. Ultimately, I think it is worth it.
+Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The tradeoff here is to have inline styles within the `<head>`. Ultimately, I think it is worth it.
 
 ### Reading Experience
 I placed heavy emphasis on the reading experience of my portfolio. Since the core my content. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
@@ -171,18 +171,19 @@ I tried an exercise to change my computer settings to grayscale — mimickin
 
 ### Usability 
 Thanks to my family and friends who have put up with me and ran the usability test for my portfolio. I managed to confirm a few tasks.
+
 * Let’s say you find me awesome. Send me a message via my portfolio.
 * Have a read on the summary of my latest writing. Can you find it?
 * Click on an article. Have a quick read. How do you find the reading experience?
 * Now that you’re on an article. Can you navigate back to the home page?
 * Starting from the home page. Can you navigate to my dribbble profile?
 
-Some may argue that this exercise is too much for a project this size. But it confirmed a fundamental part of my portfolio — usability. Plus, it validated my assumptions on some design choices.
+Some may argue that this exercise is too much for a project this size. I would say it confirmed a fundamental part of my portfolio — usability. Plus, it validated my assumptions on some design choices.
 
-## Takeaway
+## My Takeaway
 Quite an experience to have gone through each step of both design and development process. Although it went more than a weekend of work but I am glad to have built my portfolio the way I wanted for my users. Undoubtedly there are still a lot for me to learn on how to build a proper website. I would definitely do it again. For the next version, I would go for a different approach with the mood and tone. Shake things up with colours and animations.
 
-My grand takeaway from all this — **be persistent and passionate**. I had obstacles along the way of this *little project*. One of them being too much reading on [how to craft a portfolio](https://writing.enchant.co/crafting-your-ux-portfolio-a-weekend-guide-to-getting-it-done-632e13acd3d1#.69ilmq2gk). In the end, I am glad to have overcome the obstacles and reached this point. Being passionate can sometimes be overwhelming. But, the outcome passion is pushing boundaries and learning new things. Without the passion for design, I wouldn’t have cared enough to build my portfolio from scratch and have built it the way I wanted for my users. I feel awesome to have done it.
+My grand takeaway from all this — **be persistent and passionate**. I had obstacles along the way of this *little project*. Despite them being design or development obstacles, or too much reading on [how to craft a portfolio](https://writing.enchant.co/crafting-your-ux-portfolio-a-weekend-guide-to-getting-it-done-632e13acd3d1#.69ilmq2gk). In the end, I overcame the obstacles and reached this point. Being passionate can sometimes be overwhelming. But, the outcome is pushing boundaries and learning new things. Without the passion for design, I wouldn’t have cared enough to build my portfolio from scratch and built it the way I wanted for my users. And, I feel awesome to have done it.
 
 For those starting out to build their portfolio, I wish you all the best of luck!
 

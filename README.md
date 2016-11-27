@@ -117,7 +117,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [x] Blockquote
   - [x] Dividers
   - [x] Button
-- [ ] Usability check with 3 person
+- [x] Usability check with 3 person
 - [ ] Articles
   - [x] Full Story Behind The Design Disruptors Brisbane Premier
   - [ ] Provide The Best Solution To The Client
@@ -125,11 +125,10 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Add projects functionality
 - [ ] Add About page
 - [ ] Projects
-  - [ ] Introducing My Portfolio. Finally.
+  - [x] Making Of My Portfolio
   - [ ] Add project Gift Investor from BOQ Hackathon
   - [ ] Add project Project Naya from GovHack 2015
   - [ ] Add Project Graffiti Floor from UQ Design Project
-  - [ ] Add project GJ Wedding from freelance work
 - [ ] Update summary card image for Twitter and Facebook
 - [ ] Double check links shared on Twitter and Facebook
   - [ ] Check for summary card image and summary
