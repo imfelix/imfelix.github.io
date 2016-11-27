@@ -4,10 +4,10 @@ date:       2016-11-27
 read_time:  8 min
 tag:        [portfolio, design-process, ux]
 blog:       [projects]
-thumbnail:  /assets/images/projects/portfolio/portfolio-hero-banner.png
+thumbnail:  //res.cloudinary.com/imfelix/image/upload/v1480230855/felixleeio-hero-banner_oykep0.png
 summary:    A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
 ---
-<aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
+<aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('//res.cloudinary.com/imfelix/image/upload/v1480230855/felixleeio-hero-banner_oykep0.png')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>27 Nov 16</time>
@@ -24,7 +24,7 @@ summary:    A case study for my personal portfolio. Documenting my process, my t
   <p class="mb0 grey-light sans line-height-small">A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.</p>
 </header>
 
-After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey italic">you are your worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
+After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey">you are your worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
 
 <hr class="dotted-divider">
 
@@ -150,20 +150,8 @@ Data is expensive. I wanted to keep my portfolio site as small as possible so us
 
 Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The takeaway here is to have inline styles within the `<head>` and maybe a larger file size but we are talking bytes here. Ultimately, I think it is worth it.
 
-### Typography
-My approach with typography is to achieve a professional tone yet providing **good readability**. Font pairing is a pleasing process for me because of my obsession over awesome fonts. Out of the many pairings that I have tried, my two finals are:
-
-* Top - Courier Prime, Freight Big Pro, and Freight Sans Pro.
-* Bottom -  Gibson and Freight Sans.
-
-<p class="mb8">
-  <img src="/assets/images/projects/portfolio/font-pairing.png" alt="felixlee.io Typography">
-</p>
-
-In the end, I went with the bottom combination. Mainly because I find the didone font on the top combination not expressing the tone I was after.
-
 ### Reading Experience
-On the topic of typography, I wanted to mention the emphasis I placed on reading experience. Since the core of my portfolio is content. It is important to provide a good reading experience for my users. The elements I have thought-out include:
+I placed heavy emphasis on the reading experience of my portfolio. Since the core my content. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
 
 * Bigger font size for both small and large screens
 * Good amount of line height among sentences
@@ -171,6 +159,9 @@ On the topic of typography, I wanted to mention the emphasis I placed on reading
 * Serif typeface for long reading
 * Breathing room between paragraphs
 * Legibility of typeface itself
+* Font pairing to go with the serif typeface
+
+
 
 ### Accessibility
 Needless to say that accessibility is an essential part to any product. It consist of a wide range of considerations that needs to designed. Ranging from responsiveness, to users who may be disabled, or using a particular device. Including bigger font sizes where users with short-sightedness can enjoy reading the content. My approach is to build something that can be used by the broadest spectrum of users.
