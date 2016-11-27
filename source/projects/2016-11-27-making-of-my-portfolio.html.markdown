@@ -1,18 +1,15 @@
 ---
 title:      Making Of My Portfolio
 date:       2016-11-27
-read_time:  8 min
 tag:        [portfolio, design-process, ux]
 blog:       [projects]
-thumbnail:  //res.cloudinary.com/imfelix/image/upload/v1480230855/felixleeio-hero-banner_oykep0.png
+thumbnail:  /assets/images/projects/portfolio/portfolio-hero-banner.png
 summary:    A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
 ---
-<aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('//res.cloudinary.com/imfelix/image/upload/v1480230855/felixleeio-hero-banner_oykep0.png')"></aside>
+<aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>27 Nov 16</time>
-  <span class="px1 grey-lighter">/</span>
-  <span>10 min</span>
   <span class="px1 grey-lighter">/</span>
   <span class="m0 mr2">#portfolio</span>
   <span class="m0 mr2">#design-process</span>
@@ -132,13 +129,15 @@ The next step to my process — understanding how users journey through my p
 My approach with the user flow is to keep all high-level links available to the user whenever they are on a high-level page. Users can only navigate to a lower level page when users are on the parent level to it. For example, only the article page can navigate to an article post. The intention of removing high-level links on low-level pages is to reduce the chance where a user might navigate away from it. But kept the links back to parent page and home page when users decide to leave.
 
 ### High-Fidelity Mockup and Prototype
-Picking up from my wireframe. I made a couple changes to my design before stitching up a quick prototype. This step got me started thinking about the details — colours, typography, spacing, etc. *I was trying to get the tiny details right before moving on. Wrong.* I wasted so much time fixating on the details when I haven’t started building anything. A reminder is needed for myself— the purpose of this step is to test the flow.
+Picking up from my wireframe. I made a couple changes to my design before stitching up a quick prototype. This step got me started thinking about the details — colours, typography, spacing, etc. I was trying to get the tiny details right before moving on to the next step. Wrong. I wasted so much time fixating on the details when I haven’t started building anything. A reminder is needed—the purpose of this step is to test the flow.
 
-<p class="grey">I was trying to get the tiny details right before moving on. Wrong.</p>
+"I was trying to get the tiny details right before moving on to the next step. Wrong."
 
-*Marvelapp prototype embed works like a gem on browsers. Not so much on mobile. [Click here](https://marvelapp.com/1gg8bed) to view the prototype.*
+*This prototype is aimed for larger devices only. May not work as intended on mobile. [Click here](https://marvelapp.com/1gg8bed) to view the prototype.*
 
-<iframe class="max-w-100 xs-hide" src="https://marvelapp.com/1gg8bed?emb=1" width="700" height="525" allowTransparency="true" frameborder="0"></iframe>
+<p>
+  <iframe class="max-w-100 xs-hide mt6" src="https://marvelapp.com/1gg8bed?emb=1" width="700" height="525" allowTransparency="true" frameborder="0"></iframe>
+</p>
 
 ## Building The Thing
 I am ambitious to build my own portfolio from scratch. I find it the best way to learn is by doing it — keep practicing even if it means pulling your hair out. I built my portfolio using the static-site generator, [Middleman](https://middlemanapp.com/). Hosted via GitHub Pages. I won’t go too much into detail of how I built it, but you can [view my repository here](https://github.com/imfelix/imfelix.github.io/tree/source). 
@@ -161,12 +160,14 @@ I placed heavy emphasis on the reading experience of my portfolio. Since the cor
 * Legibility of typeface itself
 * Font pairing to go with the serif typeface
 
-
+<p class="mt12">
+  <img src="/assets/images/projects/portfolio/reading-experience-demo.png" alt="felixlee.io Reading Experience Demo">
+</p>
 
 ### Accessibility
 Needless to say that accessibility is an essential part to any product. It consist of a wide range of considerations that needs to designed. Ranging from responsiveness, to users who may be disabled, or using a particular device. Including bigger font sizes where users with short-sightedness can enjoy reading the content. My approach is to build something that can be used by the broadest spectrum of users.
 
-I tried running an exercise to change my computer settings to grayscale — mimicking the case where a user might be colour blind. This lead me to realise the colour contrast of my portfolio not being suitable. Thus, I increased the contrast to achieve [WCAG AAA Compliance](https://www.w3.org/TR/WCAG20/).
+I tried an exercise to change my computer settings to grayscale — mimicking a case where a user might be colour blind. This lead me to realise the colour contrast of my portfolio not being suitable. Thus, I increased the contrast to comply with the [WCAG AAA Compliance](https://www.w3.org/TR/WCAG20/).
 
 ### Usability 
 Thanks to my family and friends who have put up with me and ran the usability test for my portfolio. I managed to confirm a few tasks.
@@ -176,14 +177,16 @@ Thanks to my family and friends who have put up with me and ran the usability te
 * Now that you’re on an article. Can you navigate back to the home page?
 * Starting from the home page. Can you navigate to my dribbble profile?
 
-Some may argue that this exercise is too much for a project this size. But it confirmed a fundamental part of my portfolio — usability. Also, I am glad to have done this exercise as it validated my assumptions on design choices.
+Some may argue that this exercise is too much for a project this size. But it confirmed a fundamental part of my portfolio — usability. Plus, it validated my assumptions on some design choices.
 
 ## Takeaway
-Quite a memorable experience to have gone through each step of both design and development process. Although it went more than a weekend of work but I am glad to have built my portfolio the way I wanted for my users. Undoubtedly there are still a lot for me to learn on how to build a proper website. I would definitely do it again. For the next version, I would go for a different approach with the mood and tone. Shake things up with colours and animations.
+Quite an experience to have gone through each step of both design and development process. Although it went more than a weekend of work but I am glad to have built my portfolio the way I wanted for my users. Undoubtedly there are still a lot for me to learn on how to build a proper website. I would definitely do it again. For the next version, I would go for a different approach with the mood and tone. Shake things up with colours and animations.
 
-My grand takeaway from all this — **be persistent and passionate**. I had obstacles along the way of this little project. One of them being too much reading on [how to craft a portfolio](https://writing.enchant.co/crafting-your-ux-portfolio-a-weekend-guide-to-getting-it-done-632e13acd3d1#.69ilmq2gk). In the end, I am glad to have overcome the obstacles and reached this point. Being passionate can be overwhelming from time to time. But, the outcome of that passion is pushing boundaries and learning new things. Without the passion for design, I wouldn’t have cared enough to build my portfolio from scratch and have built it the way I wanted.
+My grand takeaway from all this — **be persistent and passionate**. I had obstacles along the way of this *little project*. One of them being too much reading on [how to craft a portfolio](https://writing.enchant.co/crafting-your-ux-portfolio-a-weekend-guide-to-getting-it-done-632e13acd3d1#.69ilmq2gk). In the end, I am glad to have overcome the obstacles and reached this point. Being passionate can sometimes be overwhelming. But, the outcome passion is pushing boundaries and learning new things. Without the passion for design, I wouldn’t have cared enough to build my portfolio from scratch and have built it the way I wanted for my users. I feel awesome to have done it.
+
+For those starting out to build their portfolio, I wish you all the best of luck!
 
 <hr class="dotted-divider">
 
 <p class="grey">Thank you for reading.</p>
-<p class="grey">If you find this story interesting, I would love to hear about it. <a href="//twitter.com/im_felix">Tweet at me</a> or <a href="/get-in-touch/">send me a message</a>.</p>
+<p class="grey">If you find this story interesting, I would love to hear about it. <a href="//twitter.com/intent/tweet?screen_name=im_felix">Tweet at me</a> or <a href="/get-in-touch/">send me a message</a>.</p>

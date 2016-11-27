@@ -120,9 +120,10 @@ blockquote {
 
 // Quote
 q {
+  position: relative;
   display: block;
-  margin-top: 9rem; // .mt18
-  margin-bottom: 9rem; // .mb18
+  margin-top: 12rem; // .mt24
+  margin-bottom: 12rem; // .mb24
   text-align: center;
   font-size: $font-larger;
   letter-spacing: 0.5px; // .spaced
@@ -131,6 +132,25 @@ q {
 
   @media screen and (min-width: $tablet) {
     font-size: $font-double;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    width: 3rem;
+    height: 2px;
+    background-color: currentColor;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &::before {
+    top: -4rem;
+  }
+
+  &::after {
+    bottom: -4rem;
   }
 }
 
@@ -191,7 +211,7 @@ sup a {
       position: relative;
       padding-left: 2rem;
 
-      &:before {
+      &::before {
         content: '•';
         position: absolute;
         top: 6px;

@@ -48,7 +48,7 @@ li {
     position: relative;
     padding-left: 2rem;
 
-    &:before {
+    &::before {
       content: '•';
       position: absolute;
       top: 2px;
