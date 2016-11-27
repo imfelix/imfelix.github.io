@@ -17,7 +17,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem; // .mb2
+  margin-bottom: 2rem; // .mb2
   border-radius: 3px; // .rounded
 }
 
@@ -68,13 +68,13 @@ p {
   font-family: $font-serif; // .serif
   line-height: $line-height-large;
 
-  // Heading after paragraph spacing
-  + h2,
-  + h3 { margin-top: 8rem; } // .mt16
-
   @media screen and (min-width: $tablet) {
     font-size: $font-larger;
   }
+
+  // Heading after paragraph spacing
+  + h2,
+  + h3 { margin-top: 8rem; } // .mt16
 }
 
 // Blockquote
@@ -134,7 +134,6 @@ q {
   }
 }
 
-
 // Superscript Links
 sup a {
   position: relative;
@@ -165,6 +164,41 @@ sup a {
   // Links
   a {
     border-bottom: 1px solid; // .underline
+  }
+
+  // Code
+  code {
+    font-size: $font-large; //.font-large
+  }
+
+  // Unordered List
+  ul {
+    list-style: none;
+    list-style-image: none;
+    font-size: $font-large; // .font-large
+    font-family: $font-serif; // .serif
+    line-height: $line-height-large;
+
+    @media screen and (min-width: $tablet) {
+      font-size: $font-larger;
+    }
+
+    li {
+      position: relative;
+      padding-left: 2rem;
+
+      &:before {
+        content: '•';
+        position: absolute;
+        top: 6px;
+        left: 0;
+        font-size: $font-smaller;
+
+        @media screen and (min-width: $tablet) {
+          top: 8px;
+        }
+      }
+    }
   }
 
   // Superscript Links

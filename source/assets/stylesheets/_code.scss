@@ -1,7 +1,7 @@
 code {
   margin: 0 0.2rem;
   padding: 0.2rem 0.5rem;
-  background-color: $grey-lightest;
+  background-color: $grey-lighter;
   font-size: $font-small;
   font-family: $font-mono;
   color: $grey-darker;
@@ -9,7 +9,7 @@ code {
 }
 
 pre {
-  background-color: $grey-lightest;
+  background-color: $grey-lighter;
 
   & > code {
     display: block;
