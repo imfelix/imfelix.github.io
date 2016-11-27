@@ -13,9 +13,8 @@
     = partial "partials/favicon"
 
     / Stylesheet
-    / = partial "inline-stylesheet/normalize-styles"
-    / = partial "inline-stylesheet/base-styles"
-    = stylesheet_link_tag :site
+    = partial "inline-stylesheet/site"
+    / = stylesheet_link_tag :site
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes }
     = partial "partials/header"

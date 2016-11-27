@@ -104,7 +104,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Add dummy article post for styling
 - [x] Responsive check for article post
 - [x] Move styles into partial
-- [ ] Split them styles! *currently in-progress*
+- [x] Split them styles!
 - [x] Add style guide page
   - [x] Intro
   - [x] GitHub Source
@@ -129,9 +129,9 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - [ ] Add project Gift Investor from BOQ Hackathon
   - [ ] Add project Project Naya from GovHack 2015
   - [ ] Add Project Graffiti Floor from UQ Design Project
-- [ ] Update summary card image for Twitter and Facebook
+- [x] Update summary card image for Twitter and Facebook
 - [ ] Double check links shared on Twitter and Facebook
-  - [ ] Check for summary card image and summary
+  - [ ] Check for summary card image and summary *currently in-progress*
 - [ ] Workout how to customise metadata for articles and projects post
 - [x] Celebrate and dance :tada:
 

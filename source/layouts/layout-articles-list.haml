@@ -13,11 +13,8 @@
     = partial "partials/favicon"
 
     / Stylesheet
-    / = partial "inline-stylesheet/normalize-styles"
-    / = partial "inline-stylesheet/base-styles"
-    / = partial "inline-stylesheet/content-styles"
-    / = partial "inline-stylesheet/syntax-styles"
-    = stylesheet_link_tag :site
+    = partial "inline-stylesheet/site"
+    / = stylesheet_link_tag :site
 
     / JavaScript
     = javascript_include_tag :all

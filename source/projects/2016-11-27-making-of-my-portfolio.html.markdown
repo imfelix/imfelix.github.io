@@ -149,6 +149,15 @@ Data is expensive. I wanted to keep my portfolio site as small as possible so us
 
 Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The tradeoff here is to have inline styles within the `<head>`. Ultimately, I think it is worth it.
 
+Confirming what I did was worth it. I ran a couple of network test with Chrome dev tools to check on the time required to load my home page. 
+
+* **No throttling.** DOMContentLoaded: average ~0.8 second
+* **No throttling.** Loaded: average ~1 second
+* **Regular 3G.** DOMContentLoaded: average ~1.4 seconds
+* **Regular 3G.** Loaded: average ~2.3 seconds
+* **Regular 3G.** DOMContentLoaded: average ~4.5 seconds
+* **Regular 3G.** Loaded: average ~6 seconds
+
 ### Reading Experience
 I placed heavy emphasis on the reading experience of my portfolio. Since the core my content. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
 
@@ -167,7 +176,7 @@ I placed heavy emphasis on the reading experience of my portfolio. Since the cor
 ### Accessibility
 Needless to say that accessibility is an essential part to any product. It consist of a wide range of considerations that needs to designed. Ranging from responsiveness, to users who may be disabled, or using a particular device. Including bigger font sizes where users with short-sightedness can enjoy reading the content. My approach is to build something that can be used by the broadest spectrum of users.
 
-I tried an exercise to change my computer settings to grayscale — mimicking a case where a user might be colour blind. This lead me to realise the colour contrast of my portfolio not being suitable. Thus, I increased the contrast to comply with the [WCAG AAA Compliance](https://www.w3.org/TR/WCAG20/).
+I ran an exercise to change my computer settings to grayscale — mimicking a case where a user might be colour blind. This lead me to realise the colour contrast of my portfolio not being suitable. Thus, I increased the contrast to comply with the [WCAG AAA Compliance](https://www.w3.org/TR/WCAG20/).
 
 ### Usability 
 Thanks to my family and friends who have put up with me and ran the usability test for my portfolio. I managed to confirm a few tasks.
