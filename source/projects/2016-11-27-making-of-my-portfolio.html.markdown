@@ -159,7 +159,7 @@ Confirming the work. I ran a couple of network test with Chrome dev tools to che
 * **Regular 2G.** Loaded: average ~6 seconds
 
 ### Reading Experience
-I placed heavy emphasis on the reading experience since content is the core to my portfolio. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
+I placed heavy emphasis on the reading experience since content is the core to my portfolio. It would be silly if I didn’t focus on it. The elements I have thought-out include:
 
 * Bigger font size for both small and large screens
 * Good amount of line height among sentences
@@ -169,7 +169,7 @@ I placed heavy emphasis on the reading experience since content is the core to m
 * Legibility of typeface itself
 * Font pairing to go with the serif typeface
 
-In the end, the reading experience on my portfolio look and feels like any Medium story. It is true. I have taken a lot of inspiration from the amazing publishing platform. I wouldn’t even deny inspecting their styles from time to time. The reason that I did it so similar to Medium is because I wanted my users to read comfortably. And, reading stories on Medium has been the best reading experience I have had so far.
+In the end, the reading experience on my portfolio look and feels like any Medium story. It is my intention to do so. I have taken a lot of inspiration from the amazing publishing platform. I wouldn’t even deny inspecting their styles from time to time. The reason that I did it so similar to Medium is because I wanted my users to read comfortably. And, reading stories on Medium has been the best reading experience for me so far.
 
 *For the designers who worked on styling Medium stories. Thank you for doing such a remarkable job.*
 
