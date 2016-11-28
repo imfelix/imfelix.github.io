@@ -145,7 +145,7 @@ I am learning the ropes on web development. So I went on to build my portfolio f
 Apart from the technology side of things. There are some considerations I’d like to go through.
 
 ### Performance
-Data is expensive. I wanted to keep my portfolio site as small as possible so users won’t waste data on it. There are a couple steps that I took to keep the site small. [Functional](//www.jon.gold/2015/07/functional-css/) approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. Less lines in CSS.
+Data is expensive. I wanted to keep my portfolio site as small as possible so users won’t waste data on it. There are a couple steps that I took to keep the site small. Functional approach towards styling my portfolio is one of them. The idea of immutable classes and reusing them for everything is amazing. No more custom classes. Less lines in CSS. For more about functional and scalable CSS, read [this](//mrmrs.io/writing/2016/03/24/scalable-css/) or [this](https://blog.colepeters.com/building-and-shipping-functional-css/).
 
 Apart from that, I went about inlining my styles into the `<head>` to eliminate the need of HTTP request for my stylesheets. The tradeoff here is to have inline styles within the `<head>`. Ultimately, I think it is worth it.
 
