@@ -8,7 +8,7 @@ thumbnail:  /assets/images/articles/design-disruptors/design-disruptors-hero-ban
 summary:    My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of
             Queensland along with the help of some amazing people.
 ---
-<aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg')"></aside>
+<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>31 Oct 16</time>

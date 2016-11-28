@@ -6,7 +6,7 @@ blog:       [projects]
 thumbnail:  /assets/images/projects/portfolio/portfolio-hero-banner.png
 summary:    A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
 ---
-<aside class="min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
+<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>27 Nov 16</time>
@@ -168,6 +168,10 @@ I placed heavy emphasis on the reading experience since content is the core to m
 * Breathing room between paragraphs
 * Legibility of typeface itself
 * Font pairing to go with the serif typeface
+
+In the end, the reading experience on my portfolio look and feels like any Medium story. It is true. I have taken a lot of inspiration from the amazing publishing platform. I wouldn’t even deny inspecting their styles from time to time. The reason that I did it so similar to Medium is because I wanted my users to read comfortably. And, reading stories on Medium has been the best reading experience I have had so far.
+
+*For the designers who worked on styling Medium stories. Thank you for doing such a remarkable job.*
 
 <p class="mt12">
   <img src="/assets/images/projects/portfolio/reading-experience-demo.png" alt="felixlee.io Reading Experience Demo">
