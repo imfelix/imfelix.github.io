@@ -140,7 +140,7 @@ Picking up from my wireframe. I made a couple changes to my design before stitch
 </p>
 
 ## Building The Thing
-I am learning my ropes on web development. So I went on to build my portfolio from scratch. I find it the best way to learn is by doing it — keep practicing even if it means pulling your hair out. I built my portfolio using the static-site generator, [Middleman](https://middlemanapp.com/). Hosted via GitHub Pages. I won’t go too much into detail of how I built it, but you can [view my repository here](https://github.com/imfelix/imfelix.github.io/tree/source). 
+I am learning the ropes on web development. So I went on to build my portfolio from scratch. I find it the best way to learn is by doing it — keep practicing even if it means pulling your hair out. I built my portfolio using the static-site generator, [Middleman](https://middlemanapp.com/). Hosted via GitHub Pages. I won’t go too much into detail of how I built it, but you can [view my repository here](https://github.com/imfelix/imfelix.github.io/tree/source). 
 
 Apart from the technology side of things. There are some considerations I’d like to go through.
 
@@ -159,7 +159,7 @@ Confirming the work. I ran a couple of network test with Chrome dev tools to che
 * **Regular 2G.** Loaded: average ~6 seconds
 
 ### Reading Experience
-I placed heavy emphasis on the reading experience of my portfolio. Since the core my content. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
+I placed heavy emphasis on the reading experience since content is the core to my portfolio. I find it silly not to provide a good reading experience for my users. The elements I have thought-out include:
 
 * Bigger font size for both small and large screens
 * Good amount of line height among sentences
@@ -174,7 +174,7 @@ I placed heavy emphasis on the reading experience of my portfolio. Since the cor
 </p>
 
 ### Accessibility
-Needless to say that accessibility is an essential part to any product. It consist of a wide range of considerations that needs to designed. Ranging from responsiveness, to users who may be disabled, or using a particular device. Including bigger font sizes where users with short-sightedness can enjoy reading the content. My approach is to build something that can be used by the broadest spectrum of users.
+Needless to say that accessibility is an essential part to any product. It consist of a wide range of considerations that needs to designed. Ranging from responsiveness, to users who may be disabled, or using a particular device. Including bigger font sizes where users with short-sightedness can enjoy reading the content without squinting their eyes.
 
 I ran an exercise to change my computer settings to grayscale — mimicking a case where a user might be colour blind. This lead me to realise the colour contrast of my portfolio not being suitable. Thus, I increased the contrast to comply with the [WCAG AAA Compliance](https://www.w3.org/TR/WCAG20/).
 
@@ -183,7 +183,7 @@ Thanks to my family and friends who have put up with me and ran the usability te
 
 * Let’s say you find me awesome. Send me a message via my portfolio.
 * Have a read on the summary of my latest writing. Can you find it?
-* Click on an article. Have a quick read. How do you find the reading experience?
+* Click on an article. Have a quick read. Is it fine to read the article?
 * Now that you’re on an article. Can you navigate back to the home page?
 * Starting from the home page. Can you navigate to my dribbble profile?
 
@@ -192,7 +192,7 @@ Some may argue that this exercise is too much for a project this size. I would s
 ## My Takeaway
 Quite an experience to have gone through each step of both design and development process. Although it went more than a weekend of work but I am glad to have built my portfolio the way I wanted for my users. Undoubtedly there are still a lot for me to learn on how to build a proper website. I would definitely do it again. For the next version, I would go for a different approach with the mood and tone. Shake things up with colours and animations.
 
-My grand takeaway from all this — **be persistent and passionate**. I had obstacles along the way of this *little project*. Despite them being design or development obstacles, or too much reading on [how to craft a portfolio](https://writing.enchant.co/crafting-your-ux-portfolio-a-weekend-guide-to-getting-it-done-632e13acd3d1#.69ilmq2gk). In the end, I overcame the obstacles and reached this point. Being passionate can sometimes be overwhelming. But, the outcome is pushing boundaries and learning new things. Without the passion for design, I wouldn’t have cared enough to build my portfolio from scratch and built it the way I wanted for my users. And, I feel awesome to have done it.
+My grand takeaway from all this — **be persistent and passionate**. I had obstacles along the way of this *little project*. Despite them being design or development obstacles, or even too much reading on [how to craft a portfolio](https://writing.enchant.co/crafting-your-ux-portfolio-a-weekend-guide-to-getting-it-done-632e13acd3d1#.69ilmq2gk). In the end, I overcame the obstacles and reached this point. Being passionate can sometimes be overwhelming. But, the outcome of being passionate is pushing boundaries and learning new things. Without the passion for design, I wouldn’t have cared enough to have built my portfolio from scratch nor built it the way I wanted for my users. Now that I did, I feel awesome to have done it.
 
 For those starting out to build their portfolio, I wish you all the best of luck!
 
