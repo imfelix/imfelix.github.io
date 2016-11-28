@@ -21,11 +21,11 @@ summary:    A case study for my personal portfolio. Documenting my process, my t
   <p class="mb0 grey-light sans line-height-small">A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.</p>
 </header>
 
-After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey">you are your worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
+After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey">you are your own worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
 
 <hr class="dotted-divider">
 
-[Should designers have a portfolio?](https://www.designernews.co/stories/76421-should-designers-have-a-portfolio-site-) This got me thinking, what is my purpose to have a portfolio? Surely it is more than having pretty visuals on a website or for the sake of having something online. Personally, I find that having a portfolio is having **a space where I can reflect on the work that I have done**. An opportunity to rethink the decisions and learn from my mistakes. Also, **a platform to showcase your craft to your target audience**. Some like-minded people might stumble upon your portfolio and would reach out saying they appreciate your work. Even better, a potential client or potential employer might read your work and think you are a good fit.
+[Should designers have a portfolio?](https://www.designernews.co/stories/76421-should-designers-have-a-portfolio-site-) This got me thinking, what is the purpose of a portfolio? Surely it is more than having pretty visuals on a website or for the sake of having something online. Personally, I find that having a portfolio is having **a space where I can reflect on the work that I have done**. An opportunity to rethink the decisions and learn from my mistakes. Also, **a platform to showcase your craft to your target audience**. Some like-minded people might stumble upon your portfolio and would reach out saying they appreciate your work. Even better, a potential client or potential employer might read your work and think you are a good fit.
 
 <p class="m0">
   <img src="/assets/images/projects/portfolio/reflection-and-showcase.png" alt="Reflection and Showcase">
@@ -106,7 +106,7 @@ After figuring out my users and target audience. I began designing wireframes vi
   <img src="/assets/images/projects/portfolio/sketch/v4.png" alt="felixlee.io wireframe - v4">
 </p>
 
-**V4.** Mixing it up. Vertical navigations. Centre details, and designer bio to state my personal beliefs in design. I liked this idea, because it breaks from the norm of top-and-bottom navigation. **BUT.** How would this work on other devices? Recall the persona where one might be using any sort of device. Think about them users.
+**V4.** Mixing it up. Vertical navigations. Centre details, and designer bio to state my personal beliefs in design. I liked this idea, because it breaks from the norm of top-and-bottom navigation. **BUT.** How would this work on other devices? Recall the persona where one might be using any sort of device. Think about those users.
 
 <p class="mb8">
   <img src="/assets/images/projects/portfolio/sketch/v5.png" alt="felixlee.io wireframe - v5">
@@ -129,7 +129,7 @@ The next step to my process — understanding how users journey through my p
 My approach with the user flow is to keep all high-level links available to the user whenever they are on a high-level page. Users can only navigate to a lower level page when users are on the parent level to it. For example, only the article page can navigate to an article post. The intention of removing high-level links on low-level pages is to reduce the chance where a user might navigate away from it. But kept the links back to parent page and home page when users decide to leave.
 
 ### High-Fidelity Mockup and Prototype
-Picking up from my wireframe. I made a couple changes to my design before stitching up a quick prototype. This step got me started thinking about the details — colours, typography, spacing, etc. I was trying to get the tiny details right before moving on to the next step. Wrong. I wasted so much time fixating on the details when I haven’t started building anything. A reminder is needed—the purpose of this step is to test the flow.
+Picking up from my wireframe. I made a couple changes to my design before stitching up a quick prototype. This step got me thinking about the details — colours, typography, spacing, etc. I was trying to get the tiny details right before moving on to the next step. Wrong. I wasted so much time fixating on the details when I haven’t started building anything. A reminder is needed—the purpose of this step is to test the flow.
 
 "I was trying to get the tiny details right before moving on to the next step. Wrong."
 
