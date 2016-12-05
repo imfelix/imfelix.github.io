@@ -13,17 +13,17 @@ title: Get in touch | Felix Lee 🦄
       %p.mt0.mb2 You can also find me on these sites:
       %ul.flex.flex-column.m0.font-base.list-disc
         %li.pb2.sm-pb1
-          = link_to "Twitter", data.external_links.twitter
+          = link_to "Twitter", data.external_links.twitter, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "Dribbble", data.external_links.dribbble
+          = link_to "Dribbble", data.external_links.dribbble, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "CodePen", data.external_links.codepen
+          = link_to "CodePen", data.external_links.codepen, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "GitHub", data.external_links.github
+          = link_to "GitHub", data.external_links.github, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "Medium", data.external_links.medium
+          = link_to "Medium", data.external_links.medium, target: "_blank"
         %li
-          = link_to "LinkedIn", data.external_links.linkedin
+          = link_to "LinkedIn", data.external_links.linkedin, target: "_blank"
 
     .w-100.sm-w-50.my6.sm-m0
       %form.flex.flex-column{ action: "https://formspree.io/hello@felixlee.io", method:"POST" }
