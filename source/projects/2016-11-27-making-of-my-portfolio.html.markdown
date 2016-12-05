@@ -21,7 +21,7 @@ summary:    A case study for my personal portfolio. Documenting my process, my t
   <p class="mb0 grey-light sans line-height-small">A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.</p>
 </header>
 
-After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey">you are your own worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
+After numerous iterations, I have finally shipped it. Since I began the journey of designing and developing my portfolio, I find it true when people say <span class="grey italic">you are your own worst critic</span>. I lost count on the times where I contemplated over my design, scrapped it and started over.
 
 <hr class="dotted-divider">
 
@@ -73,7 +73,7 @@ Looking back at my GitHub repository, I had my first commit on the 30 June 2016.
 From here on, we go in-depth about my process. The first step is figuring out who might use it, or who I intend it to be used by — users and target audience.
 
 ### Users And Target Audience
-<p class="grey">Important practice to always identify the users. Regardless of any product or service, even something small as a portfolio — the first step to begin with is best to learn about your users. This can greatly reduce the risk of building something that nobody wants. In this case, nobody enjoys. Another great practice is to regularly remind yourself that you are designing for the people who would use it.</p>
+<p class="grey italic">Important practice to always identify the users. Regardless of any product or service, even something small as a portfolio — the first step to begin with is best to learn about your users. This can greatly reduce the risk of building something that nobody wants. In this case, nobody enjoys. Another great practice is to regularly remind yourself that you are designing for the people who would use it.</p>
 
 I listed down my target audience and written up personas for each group. The purpose for this step is to understand how one group might feel while journey through my portfolio. Being aware of their personalities and behaviour, we can and should keep them in mind when designing.
 
@@ -133,11 +133,7 @@ Picking up from my wireframe. I made a couple changes to my design before stitch
 
 "I was trying to get the tiny details right before moving on to the next step. Wrong."
 
-*This prototype is aimed for larger devices only. May not work as intended on mobile. [Click here](https://marvelapp.com/1gg8bed) to view the prototype.*
-
-<p>
-  <iframe class="max-w-100 xs-hide mt6" src="https://marvelapp.com/1gg8bed?emb=1" width="700" height="525" allowTransparency="true" frameborder="0"></iframe>
-</p>
+[Click here](https://marvelapp.com/1gg8bed) to view the prototype. *This prototype is aimed for larger devices, may not work on mobile devices.*
 
 ## Building The Thing
 I am learning the ropes on web development. So I went on to build my portfolio from scratch. I find it the best way to learn is by doing it — keep practicing even if it means pulling your hair out. I built my portfolio using the static-site generator, [Middleman](https://middlemanapp.com/). Hosted via GitHub Pages. I won’t go too much into detail of how I built it, but you can [view my repository here](https://github.com/imfelix/imfelix.github.io/tree/source). 
@@ -171,8 +167,6 @@ I placed heavy emphasis on the reading experience since content is the core to m
 
 In the end, the reading experience on my portfolio look and feels like any Medium story. It is my intention to do so. I have taken a lot of inspiration from the amazing publishing platform. I wouldn’t even deny inspecting their styles from time to time. The reason that I did it so similar to Medium is because I wanted my users to read comfortably. And, reading stories on Medium has been the best reading experience for me so far.
 
-*For the designers who worked on styling Medium stories. Thank you for doing such a remarkable job.*
-
 <p class="mt12">
   <img src="/assets/images/projects/portfolio/reading-experience-demo.png" alt="felixlee.io Reading Experience Demo">
 </p>
@@ -202,5 +196,6 @@ For those starting out to build their portfolio, I wish you all the best of luck
 
 <hr class="dotted-divider">
 
-<p class="grey">Thank you for reading.</p>
-<p class="grey">If you find this story interesting, I would love to hear about it. <a href="//twitter.com/intent/tweet?screen_name=im_felix">Tweet at me</a> or <a href="/get-in-touch/">send me a message</a>.</p>
+<p class="grey italic">Thank you for reading.</p>
+<p class="grey italic">If you find this story interesting, I would love to hear about it.</p>
+<p class="grey italic">Feel free to <a href="//twitter.com/intent/tweet?screen_name=im_felix">tweet at me</a>, <a href="mailto:hello@felixlee.io?subject=Hey Felix!">send me an email</a>, or <a href="/get-in-touch/">flick me a message via my portfolio</a>. Anyway you like it. I'd love to hear from you.</p>

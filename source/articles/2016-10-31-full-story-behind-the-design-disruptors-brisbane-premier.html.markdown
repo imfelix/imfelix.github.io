@@ -25,11 +25,11 @@ summary:    My story of how I got the gig organising the Design Disruptors Brisb
 
 Have you ever had this urge to do something, then comes along this thought behind your head that tells you.
 
-<p class="grey">“Forget about it. Nobody cares.”</p>
+<p class="grey italic">“Forget about it. Nobody cares.”</p>
 
 But, when you are so passionate for what you are about to do. This other thought pops in.
 
-<p class="grey">“Screw it. Let's do this.”</p>
+<p class="grey italic">“Screw it. Let's do this.”</p>
 
 I went through this thought process when I sent out my email to InVision, expressing my interest for hosting a screening of Design Disruptors in Brisbane.
 
@@ -50,13 +50,13 @@ Being the curious person I am, I watched [the trailer](https://vimeo.com/1674340
 
 I was so hyped for the film, I told myself — I must watch it. Hoping to find a screening in Brisbane, but there isn’t one.
 
-<p class="grey">How is it possible that there is no screening in Brisbane?</p>
+<p class="grey italic">How is it possible that there is no screening in Brisbane?</p>
 
-<p class="grey">Is no one interested in the film?</p>
+<p class="grey italic">Is no one interested in the film?</p>
 
 Out of no where, I had this crazy thought.
 
-<p class="grey">What if I bring this film to Brisbane?</p>
+<p class="grey italic">What if I bring this film to Brisbane?</p>
 
 At this point, I have not thought about the logistics nor if I have any resources to organise an event. All I wanted to do was to watch the film.
 
@@ -84,7 +84,7 @@ I reached out to one of my lecturers from [the University of Queensland](//uq.ed
 
 Steve got me in contact with the faculty’s Marketing & Communication Manager, Trent. He loved the idea and scheduled a meeting with Ash and I to talk over the logistics.
 
-<p class="grey">I can't believe this. It is happening.</p>
+<p class="grey italic">I can't believe this. It is happening.</p>
 
 In case you’re wondering, I have not organised any event before this. Not a clue where to start. I went home that day thinking I need to prepare a sponsor prospectus for the meeting. I didn’t even know what a sponsor prospectus is before this.
 
@@ -130,7 +130,7 @@ Social media. Duhh. It would be a pain to produce event ads for each social plat
 
 *Pure coincidence.* I happen to attend the Product Design Brisbane MeetUp group a week before the screening. It was my first time attending this MeetUp group. I was keen to promote the film screening, so I went. Meeting the hosts of the MeetUp, Luke and Jai, I asked if I could make an announcement at the end of the session. They agreed to it not knowing what I was about to announce. When it was time, Jai and I had a quick chat about my announcement. Guess what. Luke and Jai were going to announce that they are hosting a screening of the film as well.
 
-<p class="grey">I was like  —  dude, no way.</p>
+<p class="grey italic">I was like  —  dude, no way.</p>
 
 They were at the same stage as I was, waiting for the film. Then Jai said the most amazing thing I can imagine, *“Let’s do it together”*. Not only Jai helped me out with promoting the event, he also got me in touch with his Creative Director at Josephmark, Alex. 
 
@@ -210,3 +210,9 @@ Finally, thanks to everyone who have helped me along the way, and supported me i
   <img src="/assets/images/articles/design-disruptors/design-disruptors-partners.png" alt="Design Disruptors Brisbane Event Partners">
   <figcaption>Design Disruptors Brisbane Premier Event Partners</figcaption>
 </p>
+
+<hr class="dotted-divider">
+
+<p class="grey italic">Thank you for reading.</p>
+<p class="grey italic">If you find this story interesting, I would love to hear about it.</p>
+<p class="grey italic">Feel free to <a href="//twitter.com/intent/tweet?screen_name=im_felix">tweet at me</a>, <a href="mailto:hello@felixlee.io?subject=Hey Felix!">send me an email</a>, or <a href="/get-in-touch/">flick me a message via my portfolio</a>. Anyway you like it. I'd love to hear from you.</p>

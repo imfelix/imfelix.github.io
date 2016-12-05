@@ -47,8 +47,8 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
   - Loading separate Typekit kits for different layouts.
     - Index Kit - 104kb
     - Sans + Header Kit - 84kb
-    - Article Kit - 130kb
-    - Styleguide Kit - 202kb
+    - Article Kit - 126kb
+    - Styleguide Kit - 181kb
   - State of the art CSS loading - Check out this [article](https://jakearchibald.com/2016/link-in-body/) written by Jake Archibald - :astonished:
   - No `box-shadow` hover effect - [performance issue](http://tobiasahlin.com/blog/how-to-animate-box-shadow/)
   - Inline small chunk of CSS in the head - *Remove the use of requesting CSS files* :sunglasses:
