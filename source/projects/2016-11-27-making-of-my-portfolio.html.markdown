@@ -169,6 +169,7 @@ In the end, the reading experience on my portfolio look and feels like any Mediu
 
 <p class="mt12">
   <img src="/assets/images/projects/portfolio/reading-experience-demo.png" alt="felixlee.io Reading Experience Demo">
+  <figcaption>felixlee.io Article Sample</figcaption>
 </p>
 
 ### Accessibility
