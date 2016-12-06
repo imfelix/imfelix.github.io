@@ -49,6 +49,7 @@ activate  :directory_indexes
 #################################################
 configure :development do
   activate  :autoprefixer
+  activate  :minify_html
   activate  :livereload
   activate  :syntax
 end
@@ -59,6 +60,7 @@ end
 configure :build do
   activate  :minify_css
   activate  :minify_javascript
+  activate  :minify_html
   activate  :relative_assets
   set       :relative_links, true
 end
