@@ -55,8 +55,8 @@ Now, think about the fancy CSS on an application that could cause more workload 
 Applications with heavy styles also consume heaps of data, making users spend more on data just to use it. *Not so cool now, is it?*
 
 <p class="m0">
-  <img src="/assets/images/articles/ally-long/user-interface-evolution.png" alt="Flat Design VS. Realism Design">
-  <figcaption>Flat Design VS. Realism Design</figcaption>
+  <img src="/assets/images/articles/ally-long/user-interface-evolution.png" alt="Realism Design VS. Flat Design - Image Credit: Sean McCully">
+  <figcaption>Realism Design VS. Flat Design - Image Credit: Sean McCully</figcaption>
 </p>
 
 ## User Interface Elements
