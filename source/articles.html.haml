@@ -5,7 +5,7 @@ blog:  articles
 
 %h1.hide Articles
 - blog.articles.each do |article|
-  %a.block.w-100.mx-auto.my0.py6.sm-py9.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+  %a.block.w-100.mx-auto.my0.pt8.pb6.sm-py9.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
     %aside.min-h-300px.mb7.bg-cover.bg-center.bg-no-repeat.not-rounded.sm-rounded{ style: "background-image: url('#{article.data.thumbnail}')" }
     %article.flex.flex-column.px3.sm-px0
       .flex.flex-wrap.font-small.uppercase.header.grey.mb2

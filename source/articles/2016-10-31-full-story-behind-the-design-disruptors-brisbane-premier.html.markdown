@@ -214,5 +214,5 @@ Finally, thanks to everyone who have helped me along the way, and supported me i
 <hr class="dotted-divider">
 
 <p class="grey italic">Thank you for reading.</p>
-<p class="grey italic">If you find this story interesting, I would love to hear about it.</p>
+<p class="grey italic">Find this story interesting? I would love to hear about it.</p>
 <p class="grey italic">Feel free to <a href="//twitter.com/intent/tweet?screen_name=im_felix">tweet at me</a>, <a href="mailto:hello@felixlee.io?subject=Hey Felix!">send me an email</a>, or <a href="/get-in-touch/">flick me a message via my portfolio</a>. Anyway you like it. I'd love to hear from you.</p>
