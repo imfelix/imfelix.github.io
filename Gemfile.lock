@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/middleman-contrib/middleman-deploy.git
-  revision: 243ab38b08896cd5a37d6845a01a5761b934a898
-  branch: master
-  specs:
-    middleman-deploy (2.0.0.pre.alpha)
-      middleman-core (>= 3.2)
-      net-sftp
-      ptools
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,9 +95,6 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 2.0)
     minitest (5.9.1)
-    net-sftp (2.1.2)
-      net-ssh (>= 2.6.5)
-    net-ssh (3.2.0)
     padrino-helpers (0.13.3.3)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.3)
@@ -115,7 +102,6 @@ GEM
     padrino-support (0.13.3.3)
       activesupport (>= 3.1)
     parallel (1.9.0)
-    ptools (1.3.3)
     rack (1.6.4)
     rack-livereload (0.3.16)
       rack
@@ -141,7 +127,6 @@ DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-autoprefixer
   middleman-blog
-  middleman-deploy!
   middleman-livereload
   middleman-minify-html
   middleman-syntax
