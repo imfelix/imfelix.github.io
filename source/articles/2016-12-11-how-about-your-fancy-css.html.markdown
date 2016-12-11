@@ -1,6 +1,6 @@
 ---
 title:      How About Your Fancy CSS?
-date:       2016-12-12
+date:       2016-12-11
 read_time:  4 min
 tag:        [design, conference]
 blog:       [articles]
@@ -10,7 +10,7 @@ summary:    My takeaway on the talk given by Ally Long at CSS Conference Austral
 <aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/ally-long/ally-long-hero-banner.png');background-position-y: 30%;"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
-  <time>12 Dec 16</time>
+  <time>11 Dec 16</time>
   <span class="px1 grey-lighter">/</span>
   <span>4 min</span>
   <span class="px1 grey-lighter">/</span>
