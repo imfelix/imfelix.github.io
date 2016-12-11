@@ -68,12 +68,12 @@ end
 #################################################
 ## Deploy Configuration
 #################################################
-activate :deploy do |deploy|
-  deploy.deploy_method  = :git
-  deploy.branch         = 'master'
-  deploy.build_before   = true
-  deploy.commit_message = 'Deploying to master'
-end
+# activate :deploy do |deploy|
+#   deploy.deploy_method  = :git
+#   deploy.branch         = 'master'
+#   deploy.build_before   = true
+#   deploy.commit_message = 'Deploying to master'
+# end
 
 #################################################
 ## Page Options and Layouts
