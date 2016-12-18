@@ -52,7 +52,7 @@ Personally, I find it far-fetched to design with everyone in mind because there 
 
 ### Why Bother?
 
-As Ally puts it, how to convince your boss. In a nutshell, it is better for business. It helps make your product usable to a wider range of users — think cross-platform, cross-device, design with older users in mind, etc. You can reach more people. Also, it’s better for SEO (Search Engine Optimisation). We know bosses love them SEO.
+As Ally puts it, how to convince your boss. In a nutshell, it is better for business. It helps make your product usable to a wider range of users — think cross-platform, cross-device, design with older users in mind, etc. You can reach more people. Also, it’s better for SEO (Search Engine Optimisation). *We know bosses love them SEO.*
 
 "Accessible = better SEO = increased in audience reach = more leads"
 
