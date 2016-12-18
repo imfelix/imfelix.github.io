@@ -74,7 +74,7 @@ Ally encourages us to be accountable for the products we build and make them acc
 
 * **Avoid using only one form of affordance** to your anchor tags `<a>`. For example, have the difference in colour and text underlined to indicate an interaction on the elements.
 
-* **Accessible forms.** Show your input label. Don’t hide input labels when users focus on the input field. It may be cool to at look at first. But if it ain’t accessible, it ain’t cool. Also, show meaningful error messages. Errors with random code labels don’t make any sense to your users.
+* **Accessible forms.** Show your input label. Don’t hide input labels when users focus on the input field. It may be cool to look at first. But if it ain’t accessible, it ain’t cool. Also, show meaningful error messages. Errors with random code labels don’t make any sense to your users.
 
 * h1 **heading tag for each page.** This allows screen readers to notify users that they have landed on a new page. Plus, search engines use this to interpret what the content on the page is about.
 
