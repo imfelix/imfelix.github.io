@@ -1,7 +1,7 @@
 ---
 title:      Full Story Behind The Design Disruptors Brisbane Premier
 date:       2016-10-31
-read_time:  8 min
+read_time:  8 mins
 tag:        [event]
 blog:       [articles]
 thumbnail:  /assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg
@@ -13,7 +13,7 @@ summary:    My story of how I got the gig organising the Design Disruptors Brisb
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>31 Oct 16</time>
   <span class="px1 grey-lighter">/</span>
-  <span>8 min</span>
+  <span>8 mins</span>
   <span class="px1 grey-lighter">/</span>
   <span>#event</span>
 </div>

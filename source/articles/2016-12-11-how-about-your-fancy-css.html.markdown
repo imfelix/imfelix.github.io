@@ -1,7 +1,7 @@
 ---
 title:      How About Your Fancy CSS?
 date:       2016-12-11
-read_time:  4 min
+read_time:  4 mins
 tag:        [design, conference]
 blog:       [articles]
 thumbnail:  /assets/images/articles/ally-long/ally-long-thumbnail.png
@@ -12,7 +12,7 @@ summary:    My takeaway on the talk given by Ally Long at CSS Conference Austral
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>11 Dec 16</time>
   <span class="px1 grey-lighter">/</span>
-  <span>4 min</span>
+  <span>4 mins</span>
   <span class="px1 grey-lighter">/</span>
   <span class="m0 mr2">#design</span>
   <span class="m0">#conference</span>
@@ -42,7 +42,7 @@ Her  application assists health workers in Africa by helping them monitor the he
   <figcaption>Image Credit: Google</figcaption>
 </p>
 
-## Novice Users
+### Novice Users
 
 Novice users are people who have never used any type of electronic devices in their life. They are learning their ways around an electronic device for the first time — let alone an application. Their first device is likely from a knockoff market or a second-hand unit that’s somewhat less functional than a brand new one. Can you imagine designing for novice users like these? Ally can — and she does.
 
@@ -59,7 +59,7 @@ Applications with heavy styles also consume heaps of data, making users spend mo
   <figcaption>Realism Design VS. Flat Design - Image Credit: Sean McCully</figcaption>
 </p>
 
-## User Interface Elements
+### User Interface Elements
 
 It’s obvious to some of us how user interfaces work because we’ve been through their evolution. But a novice user won’t know anything about above or below the fold, or even trendy flat designs. Ally also emphasised *discoverability* for users. That is, you should offer proper affordance to elements. If things can be pressed, make it obvious that it can be pressed. Also, ensure clear labelling to communicate what the element is about. A good practice is to combine icons with the labels.
 
@@ -67,7 +67,7 @@ It’s obvious to some of us how user interfaces work because we’ve been throu
 
 Prime example: a dropdown select box. Simple ay? This user interface element, however, might come across as confusing for novice users because the information is hidden behind it. **Remember that communication is key.** Communicate clearly to the users what functions can be done by the elements you’re designing.
 
-## Keep It Clear
+### Keep It Clear
 
 Ally provided a couple more tips to help novice users navigate your application for the first time.
 
@@ -81,7 +81,7 @@ Ally provided a couple more tips to help novice users navigate your application 
 
 * **Strip everything down to the essentials.** Your product is serving a goal for the users. Avoid adding more work for them.
 
-## My Takeaway
+### My Takeaway
 
 Ally’s talk inspires me about how we, as makers of application developers, have to go beyond the mile for our users. **Remember: There is no typical user.** We have to understand our users deeply in order to make products more useful for them. At the end of the day, users are people. And there are several factors that can affect how they use our products that we should be mindful of.
 
@@ -94,6 +94,9 @@ I must say that I find her courage admirable. Going from a usual day of working 
 *To the team, volunteers, behind-the-scenes crew, sponsors, everyone involved with organising the conference. Thank you for making [#cssconfau16](//twitter.com/search?q=%23cssconfau16&src=tyah) such an awesome event. Great food. Cool drinks. Cozy atmosphere. Rad swag bags. Mind-blowing talks. Also, making the event accessible for a temporary-disabled person like myself. You all did an amazing job pulling it off.*
 
 *To my lovely company, [NetEngine](http://netengine.com.au/). Thank you for sending me to the event!*
+
+### More Post on CSSConfAu
+*Easy Wins with Accessibility — Talk by Ally Palanzi. [Check it out here.](//medium.com/@imfelix/easy-wins-with-accessibility-8ab454324309)*
 
 <hr class="dotted-divider">
 
