@@ -1,11 +1,13 @@
 ---
-title:      Easy Wins with Accessibility
-date:       2016-12-18
-read_time:  6 mins
-tag:        [accessibility, conference]
-blog:       [articles]
-thumbnail:  /assets/images/articles/ally-palanzi/ally-palanzi-thumbnail.png
-summary:    My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
+title: Easy Wins with Accessibility
+date: 2016-12-18
+read_time: 6 mins
+tag: [accessibility, conference]
+blog: [articles]
+thumbnail: /assets/images/articles/ally-palanzi/ally-palanzi-thumbnail.png
+summary: My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
+description: My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
+keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, designer, design process, css, cssconfau, cssconf, conference, cssconfau16, accessibility, ally palanzi, vox media, vox product"
 ---
 <aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/ally-palanzi/ally-palanzi-hero-banner.png');background-position-y: 30%;"></aside>
 

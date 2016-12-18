@@ -1,12 +1,13 @@
 ---
-title:      Full Story Behind The Design Disruptors Brisbane Premier
-date:       2016-10-31
-read_time:  8 mins
-tag:        [event]
-blog:       [articles]
-thumbnail:  /assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg
-summary:    My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of
-            Queensland along with the help of some amazing people.
+title: Full Story Behind The Design Disruptors Brisbane Premier
+date: 2016-10-31
+read_time: 8 mins
+tag: [event]
+blog: [articles]
+thumbnail: /assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg
+summary: My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of Queensland along with the help of some amazing people.
+description: My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of Queensland along with the help of some amazing people.
+keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, product designer, designer, design sprint, design process, netengine, brisbane, australia, design disruptors, invisionapp, disruptors"
 ---
 <aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg')"></aside>
 

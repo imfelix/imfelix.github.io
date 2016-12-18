@@ -1,11 +1,13 @@
 ---
-title:      How About Your Fancy CSS?
-date:       2016-12-11
-read_time:  4 mins
-tag:        [design, conference]
-blog:       [articles]
-thumbnail:  /assets/images/articles/ally-long/ally-long-thumbnail.png
-summary:    My takeaway on the talk given by Ally Long at CSS Conference Australia 2016.
+title: How About Your Fancy CSS?
+date: 2016-12-11
+read_time: 4 mins
+tag: [design, conference]
+blog: [articles]
+thumbnail: /assets/images/articles/ally-long/ally-long-thumbnail.png
+summary: My takeaway on the talk given by Ally Long at CSS Conference Australia 2016.
+description: My takeaway on the talk given by Ally Long at CSS Conference Australia 2016.
+keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, product designer, designer, design sprint, design process, netengine, brisbane, australia, css, cssconfau, cssconf, conference, cssconfau16, ally long, ehealth africa"
 ---
 <aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/ally-long/ally-long-hero-banner.png');background-position-y: 30%;"></aside>
 

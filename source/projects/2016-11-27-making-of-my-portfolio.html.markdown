@@ -1,12 +1,14 @@
 ---
-title:      Making Of My Portfolio
-date:       2016-11-27
-tag:        [portfolio, design-process, ux]
-blog:       [projects]
-thumbnail:  /assets/images/projects/portfolio/portfolio-hero-banner.png
-summary:    A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
+title: Making Of My Portfolio
+date: 2016-11-27
+tag: [portfolio, design-process, ux]
+blog: [projects]
+thumbnail: /assets/images/projects/portfolio/portfolio-hero-banner.png
+summary: A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
+description: A case study for my personal portfolio. Documenting my process, my thoughts, and my takeaway.
+keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, product designer, designer, design sprint, design process, netengine, brisbane, australia, case study"
 ---
-<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
+<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded" style="background-image: url('/assets/images/projects/portfolio/portfolio-hero-banner.png')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>27 Nov 16</time>
