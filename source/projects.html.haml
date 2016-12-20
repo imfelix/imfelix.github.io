@@ -7,14 +7,14 @@ keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experienc
 
 %h1.hide Projects
 - blog.articles.each do |article|
-  %a.block.w-100.mx-auto.my0.pt8.pb6.sm-py9.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
-    %aside.min-h-300px.mb7.bg-cover.bg-center.bg-no-repeat.not-rounded.sm-rounded{ style: "background-image: url('#{article.data.thumbnail}')" }
-    %article.flex.flex-column.px3.sm-px0
+  %a.block.w-100.mx-auto.my0.pt8.pb6.sm-py9.px3.sm-px0.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+    %aside.min-h-200px.sm-min-h-300px.mb7.bg-cover.bg-center.bg-no-repeat.not-rounded.sm-rounded{ style: "background-image: url('#{article.data.thumbnail}')" }
+    %article.flex.flex-column
       .flex.flex-wrap.font-small.uppercase.header.grey.mb2
         %span.m0= date_format(article.date)
         %span.m0.px1.grey-lighter /
         - article.data.tag.each do |tag|
           %span.m0.mr2
             \##{tag}
-      %h2.mt0.mb2.grey-darker.bold.line-height-title.font-double.sm-font-title= article.title
+      %h2.mt0.mb1.sm-mb2.grey-darker.bold.line-height-title.font-larger.sm-font-double.sm-font-title= article.title
       %p.m0.grey-light.font-large.line-height-small= article.data.summary
