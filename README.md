@@ -1,6 +1,6 @@
 # Personal Site
 
-**Status - work in progress**
+**Status - more work to be done**
 
 URL - http://felixlee.io
 
@@ -120,19 +120,20 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Usability check with 3 person
 - [ ] Articles
   - [x] Full Story Behind The Design Disruptors Brisbane Premier
+  - [x] CSSConfAU - Talk by Ally Long
+  - [x] CSSConfAU - Talk by Ally Palanzi
   - [ ] Provide The Best Solution To The Client
 - [x] Publish first article post
 - [x] Add projects functionality
 - [ ] Add About page
 - [ ] Projects
-  - [x] Making Of My Portfolio
-  - [ ] Add project Gift Investor from BOQ Hackathon
-  - [ ] Add project Project Naya from GovHack 2015
-  - [ ] Add Project Graffiti Floor from UQ Design Project
+  - [x] Making Of My Portfolio (Personal)
+  - [ ] Add project Gift Investor from BOQ Hackathon (Hackathon)
+  - [ ] Add project from NE (Commercial)
 - [x] Update summary card image for Twitter and Facebook
-- [ ] Double check links shared on Twitter and Facebook
-  - [ ] Check for summary card image and summary *currently in-progress*
-- [ ] Workout how to customise metadata for articles and projects post
+- [x] Double check links shared on Twitter and Facebook
+  - [x] Check for summary card image and summary *currently in-progress*
+- [x] Workout how to customise metadata for articles and projects post
 - [x] Celebrate and dance :tada:
 
 ## How-to markdown with `redcarpet` syntax:
@@ -160,4 +161,4 @@ This is a sample footnote.[^samplefootnote].
 
 ## License
 
-[MIT License © Felix Lee](http://felixlee.io/mit-license)
+MIT License
