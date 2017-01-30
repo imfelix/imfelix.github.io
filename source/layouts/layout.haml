@@ -23,6 +23,9 @@
     / FullStory Recording Snippet
     = partial "partials/fullstory"
 
+    / JavaScript
+    = javascript_include_tag :all, async: true
+
   %body.relative.flex.flex-column.min-h-100{ class: page_classes }
     = partial "partials/header"
     %main.relative.flex.flex-auto.pt12.sm-pt20.pb0= yield
@@ -33,5 +36,3 @@
   :javascript
     try{Typekit.load({ async: true });}catch(e){}
 
-  / JavaScript
-  = javascript_include_tag :all, async: true
