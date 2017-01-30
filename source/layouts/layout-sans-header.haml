@@ -17,8 +17,14 @@
     = partial "inline-stylesheet/site"
     / = stylesheet_link_tag :site
 
+    / Google Analytics
+    = partial "partials/analytics"
+
     / FullStory Recording Snippet
     = partial "partials/fullstory"
+
+    / JavaScript
+    = javascript_include_tag :all, async: true
 
   %body.relative.flex.flex-column.min-h-100{ class: page_classes }
     = partial "partials/header"
@@ -29,9 +35,3 @@
   %script{ src: "//use.typekit.net/vpl7wld.js" }
   :javascript
     try{Typekit.load({ async: true });}catch(e){}
-
-  / JavaScript
-  = javascript_include_tag :all
-
-  / Google Analytics
-  = partial "partials/analytics"

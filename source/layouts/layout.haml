@@ -17,6 +17,9 @@
     = partial "inline-stylesheet/site"
     / = stylesheet_link_tag :site
 
+    / Google Analytics
+    = partial "partials/analytics"
+
     / FullStory Recording Snippet
     = partial "partials/fullstory"
 
@@ -32,6 +35,3 @@
 
   / JavaScript
   = javascript_include_tag :all, async: true
-
-  / Google Analytics
-  = partial "partials/analytics"
