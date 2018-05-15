@@ -11,7 +11,11 @@ $colour-collection: (
   $sky-dark,
   $sky,
   $sky-light,
-  $sky-lighter);
+  $sky-lighter,
+  $green,
+  $orange,
+  $blue,
+  $red);
 
 $colour-name-collection: ( 
   'white',
@@ -22,7 +26,11 @@ $colour-name-collection: (
   'sky-dark',
   'sky',
   'sky-light',
-  'sky-lighter');
+  'sky-lighter',
+  'green',
+  'orange',
+  'blue',
+  'red');
 
 // ––––––––––––––––––––––––––––––––––––
 // Colour Mixin

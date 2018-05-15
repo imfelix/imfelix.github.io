@@ -1,0 +1,20 @@
+// ––––––––––––––––––––––––––––––––––––
+// Border Styles
+// ––––––––––––––––––––––––––––––––––––
+
+.border         { border-style: solid; border-width: 1px }
+.border-top     { border-top-style: solid; border-top-width: 1px }
+.border-right   { border-right-style: solid; border-right-width: 1px }
+.border-bottom  { border-bottom-style: solid; border-bottom-width: 1px }
+.border-left    { border-left-style: solid; border-left-width: 1px }
+.border-none    { border: 0 }
+
+.border-inherit { border-color: inherit }
+
+.rounded        { border-radius: 4px }
+.circle         { border-radius: 50% }
+.rounded-top    { border-radius: 4px 4px 0 0 }
+.rounded-right  { border-radius: 0 4px 4px 0 }
+.rounded-bottom { border-radius: 0 0 4px 4px }
+.rounded-left   { border-radius: 4px 0 0 4px }
+.not-rounded    { border-radius: 0 }
