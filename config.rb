@@ -114,8 +114,9 @@ helpers do
   end
 
   def active_link_to(text, path, options)
-    active_css_class = "semi grey-darker underline" if current_page.url.delete('/') == path.delete('/')
+    klazz = "#{path}-active" if current_page.url.include?(path)  
+    klazz = "home-active" if klazz == "/-active"
 
-    link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{active_css_class}"
+    link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{klazz}"
   end
 end

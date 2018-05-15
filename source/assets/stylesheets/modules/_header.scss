@@ -1,0 +1,52 @@
+// ––––––––––––––––––––––––––––––––––––
+// Header Styles
+// ––––––––––––––––––––––––––––––––––––
+
+.header-link {
+  @include fluid-font-size(320px, 1440px, 14px, 16px);
+  color: $ink-lighter;
+}
+
+.projects-active,
+.header-link--projects:hover {
+  color: $blue;
+  
+  &:after {
+    background-color: rgba($blue, .05);
+  }
+}
+
+.header-link--writings:hover {
+  color: $red;
+  
+  &:after {
+    background-color: rgba($red, .05);
+  }
+}
+
+.header-link--home {
+  color: $ink;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  &:after {
+    display: none
+  }
+}
+
+.header-link--about:hover {
+  color: $orange;
+  
+  &:after {
+    background-color: rgba($orange, .05);
+  }
+}
+
+.header-link--contact:hover {
+  color: $green;
+  
+  &:after {
+    background-color: rgba($green, .05);
+  }
+}

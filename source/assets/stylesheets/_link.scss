@@ -3,15 +3,38 @@
 // ––––––––––––––––––––––––––––––––––––
 
 a {
-  // @extend .grey-dark;
+  position: relative;
+  color: $ink;
   text-decoration: none;
-  transition: color 0.15s ease-in-out;
+  transition: color .15s ease-in-out;
 
-  &:hover {
-    // @extend .grey-light;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: -4px;
+    left: -4px;
+    opacity: 0;
+    width: calc(100% + 8px);
+    height: 8px;
+    border-radius: 4px;
+    background-color: transparent;
+    pointer-events: none;
+    transition: background-color .15s ease-in,
+                bottom .25s ease-in-out,
+                opacity .15s ease-in;
   }
 
+  &:hover,
   &:focus {
-    // @extend .grey-light;
+    color: $ink-lightest;
+    opacity: 1;
+    bottom: 0;
+
+    &:after {
+      background-color: $sky-light;
+      opacity: 1;
+      bottom: 0;
+    }
   }
 }
