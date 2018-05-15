@@ -1,0 +1,98 @@
+// ––––––––––––––––––––––––––––––––––––
+// Colour Collections
+// ––––––––––––––––––––––––––––––––––––
+
+$colour-collection: (
+  $ink,
+  $ink-light,
+  $ink-lighter,
+  $ink-lightest,
+  $sky-dark,
+  $sky,
+  $sky-light,
+  $sky-lighter);
+
+$colour-name-collection: ( 
+  'ink',
+  'ink-light',
+  'ink-lighter',
+  'ink-lightest',
+  'sky-dark',
+  'sky',
+  'sky-light',
+  'sky-lighter');
+
+// ––––––––––––––––––––––––––––––––––––
+// Colour Mixin
+// ––––––––––––––––––––––––––––––––––––
+
+@mixin colour-helper($attribute, $colour) {
+  .#{$attribute}-#{$colour} {
+    @content;
+  }
+}
+
+@mixin colour-helper-hover($attribute, $colour) {
+  .#{$attribute}-#{$colour}-hover:hover {
+    @content;
+  }
+}
+
+// ––––––––––––––––––––––––––––––––––––
+// Colour Helper
+// ––––––––––––––––––––––––––––––––––––
+
+@for $i from 0 to length($colour-collection) {
+  $colour-name: nth($colour-name-collection, $i+1);
+  $colour-value: nth($colour-collection, $i+1); 
+  
+  // Text colour
+  @include colour-helper('text', $colour-name) {
+    colour: $colour-value;
+  }
+  
+  // Text hover colour
+  @include colour-helper-hover('text', $colour-name) {
+    colour: $colour-value;
+  }
+  
+  // Fill colour
+  @include colour-helper('fill', $colour-name) {
+    fill: $colour-value;
+  }
+  
+  // Fill hover colour
+  @include colour-helper-hover('fill', $colour-name) {
+    fill: $colour-value;
+  }
+  
+  // Stroke colour
+  @include colour-helper('stroke', $colour-name) {
+    stroke: $colour-value;
+  }
+  
+  // Stroke hover colour
+  @include colour-helper-hover('stroke', $colour-name) {
+    stroke: $colour-value;
+  }
+  
+  // Background colour
+  @include colour-helper('bg', $colour-name) {
+    background-colour: $colour-value;
+  }
+  
+  // Background hover colour
+  @include colour-helper-hover('bg', $colour-name) {
+    background-colour: $colour-value;
+  }
+  
+  // Border colour
+  @include colour-helper('border', $colour-name) {
+    border-colour: $colour-value;
+  }
+  
+  // Border hover colour
+  @include colour-helper-hover('border', $colour-name) {
+    border-colour: $colour-value;
+  }
+}

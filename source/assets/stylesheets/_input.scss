@@ -10,11 +10,11 @@ button,
 textarea,
 input {
   &:focus {
-    color: $grey-darker;
-    border-color: $grey-darker;
+    // color: $grey-darker;
+    // border-color: $grey-darker;
 
     ~ label {
-      color: $grey-darker;
+      // color: $grey-darker;
     }
   }
 }

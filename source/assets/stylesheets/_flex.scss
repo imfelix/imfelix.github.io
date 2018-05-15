@@ -40,8 +40,3 @@
 
 .order1 { order: 1; }
 .order2 { order: 2; }
-
-@media screen and (min-width: $tablet) {
-  .sm-flex-row    { flex-direction: row; }
-  .sm-flex-column { flex-direction: column; }
-}

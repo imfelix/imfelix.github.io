@@ -1,21 +1,19 @@
 code {
   margin: 0 0.2rem;
   padding: 0.2rem 0.5rem;
-  background-color: $grey-lighter;
-  font-size: $font-small;
+  background-color: $sky-lighter;
   font-family: $font-mono;
-  color: $grey-darker;
+  color: $ink;
   white-space: nowrap;
 }
 
 pre {
-  background-color: $grey-lighter;
-
+  background-color: $sky-lighter;
   & > code {
     display: block;
-    padding: 1rem 1.5rem;
-    color: $grey-darker;
-    border-radius: 3px;
+    padding: .5rem 1rem;
+    color: $ink;
+    border-radius: 4px;
     overflow-x: auto;
     white-space: pre;
   }

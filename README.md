@@ -108,7 +108,7 @@ Happy to hear from you if you have any feedback for my site or even thoughts on 
 - [x] Add style guide page
   - [x] Intro
   - [x] GitHub Source
-  - [x] Colors
+  - [x] Colours
   - [x] Typeface
   - [x] Font weight
   - [x] Font sizes

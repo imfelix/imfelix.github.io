@@ -9,9 +9,9 @@
 }
 
 .headroom--pinned {
-  @extend .shadow;
-  @extend .border-bottom;
-  @extend .border-grey-lighter;
+  // @extend .shadow;
+  // @extend .border-bottom;
+  // @extend .border-grey-lighter;
   transform: translateY(0%);
 }
 

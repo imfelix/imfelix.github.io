@@ -124,7 +124,7 @@ Thank you, Ally, for sharing the easy wins! Being awesome as she is, she also sh
 
 * [WAVE Chrome extension](//chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US)
 
-* [Colorsafe: To make accessible palettes](http://colorsafe.co/)
+* [Coloursafe: To make accessible palettes](http://Coloursafe.co/)
 
 * [Color Oracle: To simulate color blindness](http://colororacle.org/index.html)
 
