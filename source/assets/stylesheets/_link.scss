@@ -20,14 +20,12 @@ a {
     border-radius: 4px;
     background-color: transparent;
     pointer-events: none;
-    transition: background-color .15s ease-in,
-                bottom .25s ease-in-out,
-                opacity .15s ease-in;
+    transition: all .15s ease-in;
   }
 
   &:hover,
   &:focus {
-    color: $ink-lightest;
+    color: $ink-lighter;
     opacity: 1;
     bottom: 0;
 
@@ -35,6 +33,33 @@ a {
       background-color: $sky-light;
       opacity: 1;
       bottom: 0;
+    }
+  }
+
+  &.no-fancy-border:after {
+    display: none;
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0;
+  margin-right: 1rem;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  svg {
+    fill: $sky-dark;
+    transition: fill .15s ease-in;
+
+    &:hover {
+      fill: $ink-lightest;
     }
   }
 }

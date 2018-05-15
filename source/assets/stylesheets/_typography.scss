@@ -27,7 +27,6 @@
 }
 
 // Font Size
-
 h1, .h1 { @include fluid-font-size(320px, 1440px, 32px, 48px) }
 h2, .h2 { @include fluid-font-size(320px, 1440px, 28px, 32px) }
 h3, .h3 { @include fluid-font-size(320px, 1440px, 24px, 28px) }
@@ -36,20 +35,24 @@ h5, .h5 { @include fluid-font-size(320px, 1440px, 14px, 16px) }
 h6, .h6 { @include fluid-font-size(320px, 1440px, 12px, 14px) }
 
 // Font Family
-
 .mono  { font-family: $font-mono }
 .sans  { font-family: $font-sans }
 .serif { font-family: $font-serif }
 
 // Font Weight
-
+h1, h2, h3,
+h4, h5, h6,
 .regular { font-weight: 400 }
 .semi    { font-weight: 600 }
 
 // Text Transform
-
 .caps       { text-transform: capitalize }
 .uppercase  { text-transform: uppercase }
 
 // Letter Spacing
 .spaced-1px { letter-spacing: 1px }
+
+// Text Align
+.center-align { text-align: center }
+.left-align   { text-align: left }
+.right-align  { text-align: right }

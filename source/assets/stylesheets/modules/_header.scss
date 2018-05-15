@@ -13,14 +13,19 @@
   
   &:after {
     background-color: rgba($blue, .05);
+    opacity: 1;
+    bottom: 0;
   }
 }
 
+.writings-active,
 .header-link--writings:hover {
   color: $red;
   
   &:after {
     background-color: rgba($red, .05);
+    opacity: 1;
+    bottom: 0;
   }
 }
 
@@ -35,18 +40,24 @@
   }
 }
 
+.about-active,
 .header-link--about:hover {
-  color: $orange;
+  color: $purple;
   
   &:after {
-    background-color: rgba($orange, .05);
+    background-color: rgba($purple, .05);
+    opacity: 1;
+    bottom: 0;
   }
 }
 
+.contact-active,
 .header-link--contact:hover {
   color: $green;
   
   &:after {
     background-color: rgba($green, .05);
+    opacity: 1;
+    bottom: 0;
   }
 }

@@ -7,7 +7,7 @@
     %title= current_page.data.title || "Felix Lee 🦄"
 
     / Meta Tags
-    / = partial "partials/meta"
+    = partial "partials/meta"
 
     / Favicon
     / = partial "partials/favicon"
@@ -18,18 +18,18 @@
     = stylesheet_link_tag :site
 
     / Google Analytics
-    / = partial "partials/analytics"
+    = partial "partials/analytics"
     
     / JavaScript
     = javascript_include_tag :all, async: true
 
-  %body.relative.flex.flex-column{ class: page_classes }
+  %body.relative.col-12.flex.flex-column{ class: page_classes }
     = partial "partials/header"
-    %main.relative.flex.flex-auto= yield
+    %main.relative.col-12.flex.flex-column.flex-auto= yield
     = partial "partials/footer"
 
   / Typekit - Base
-  %script{ src: "//use.typekit.net/ejv2ypd.js" }
+  %script{ src: "//use.typekit.net/nuf8uyq.js" }
   :javascript
     try{Typekit.load({ async: true });}catch(e){}
 
