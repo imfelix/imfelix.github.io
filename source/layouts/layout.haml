@@ -7,18 +7,18 @@
     %title= current_page.data.title || "Felix Lee 🦄"
 
     / Meta Tags
-    = partial "partials/meta"
+    / = partial "partials/meta"
 
     / Favicon
-    = partial "partials/favicon"
+    / = partial "partials/favicon"
 
     / Stylesheet
-    = partial "inline-stylesheet/font-loading"
-    = partial "inline-stylesheet/site"
-    / = stylesheet_link_tag :site
+    / = partial "inline-stylesheet/font-loading"
+    / = partial "inline-stylesheet/site"
+    = stylesheet_link_tag :site
 
     / Google Analytics
-    = partial "partials/analytics"
+    / = partial "partials/analytics"
     
     / JavaScript
     = javascript_include_tag :all, async: true
