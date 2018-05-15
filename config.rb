@@ -23,7 +23,7 @@ set :markdown,
     :strikethrough => true,
     :quote => true,
     :footnotes => true
-    
+
 ## Start - Haml 5 Warnings Workaround
 ::Haml::TempleEngine.define_options context: nil
 ::HamlPatch ||= Module.new {
@@ -49,14 +49,14 @@ p patching_haml: ::HamlPatch
 #################################################
 activate :blog do |blog|
   blog.name = "articles"
-  blog.layout = "layout-articles"
+  # blog.layout = "layout-articles"
   blog.prefix = "articles"
   blog.permalink = "/{title}.html"
 end
 
 activate :blog do |blog|
   blog.name = "projects"
-  blog.layout = "layout-projects"
+  # blog.layout = "layout-projects"
   blog.prefix = "projects"
   blog.permalink = "/{title}.html"
 end
@@ -97,25 +97,20 @@ end
 #################################################
 ## Page Options and Layouts
 #################################################
-page "/styleguide.html",    layout: "layout-styleguide"
-page "/articles.html",      layout: "layout-articles-list"
-page "/projects.html",      layout: "layout-projects-list"
-page "/get-in-touch.html",  layout: "layout-sans-header"
-page "/thanks.html",        layout: "layout-sans-header"
-page "/sitemap.xml",        layout: false
+# With alternative layout
 
 # With no layout
-# page '/*.xml', layout: false
-# page '/*.json', layout: false
-# page '/*.txt', layout: false
-# With alternative layout
+page '/sitemap.xml',        layout: false
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
 
 #################################################
 ## Helper Methods
 #################################################
 helpers do
   def date_format(date)
-    date.strftime('%d %b %y')
+    date.strftime('%Y %b %d')
   end
 
   def active_link_to(text, path, options)
