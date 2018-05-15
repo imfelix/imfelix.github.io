@@ -23,9 +23,9 @@
     / JavaScript
     = javascript_include_tag :all, async: true
 
-  %body.relative.flex.flex-column.min-h-100{ class: page_classes }
+  %body.relative.flex.flex-column{ class: page_classes }
     = partial "partials/header"
-    %main.relative.flex.flex-auto.pt12.sm-pt20.pb0= yield
+    %main.relative.flex.flex-auto= yield
     = partial "partials/footer"
 
   / Typekit - Base

@@ -14,13 +14,14 @@ html {
 
 body {
   width: 100%;
+  min-height: 100%;
   margin: 0 auto;
   font-family: $font-sans;
   font-weight: 400;
   line-height: $line-height-base;
   color: $ink;
   box-sizing: border-box;
-  
+
   // Better text rendering
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

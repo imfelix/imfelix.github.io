@@ -3,6 +3,7 @@
 // ––––––––––––––––––––––––––––––––––––
 
 $colour-collection: (
+  $white,
   $ink,
   $ink-light,
   $ink-lighter,
@@ -13,6 +14,7 @@ $colour-collection: (
   $sky-lighter);
 
 $colour-name-collection: ( 
+  'white',
   'ink',
   'ink-light',
   'ink-lighter',
@@ -48,12 +50,12 @@ $colour-name-collection: (
   
   // Text colour
   @include colour-helper('text', $colour-name) {
-    colour: $colour-value;
+    color: $colour-value;
   }
   
   // Text hover colour
   @include colour-helper-hover('text', $colour-name) {
-    colour: $colour-value;
+    color: $colour-value;
   }
   
   // Fill colour
@@ -78,21 +80,21 @@ $colour-name-collection: (
   
   // Background colour
   @include colour-helper('bg', $colour-name) {
-    background-colour: $colour-value;
+    background-color: $colour-value;
   }
   
   // Background hover colour
   @include colour-helper-hover('bg', $colour-name) {
-    background-colour: $colour-value;
+    background-color: $colour-value;
   }
   
   // Border colour
   @include colour-helper('border', $colour-name) {
-    border-colour: $colour-value;
+    border-color: $colour-value;
   }
   
   // Border hover colour
   @include colour-helper-hover('border', $colour-name) {
-    border-colour: $colour-value;
+    border-color: $colour-value;
   }
 }

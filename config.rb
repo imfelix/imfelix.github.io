@@ -48,9 +48,9 @@ p patching_haml: ::HamlPatch
 ## Blog Configuration
 #################################################
 activate :blog do |blog|
-  blog.name = "articles"
+  blog.name = "writings"
   # blog.layout = "layout-articles"
-  blog.prefix = "articles"
+  blog.prefix = "writings"
   blog.permalink = "/{title}.html"
 end
 

@@ -1,14 +1,13 @@
-%nav.fixed.w-100.z3.bg-white
-  .max-w-1000px.w-100.mx-auto.my4.px3.sm-px6.flex.flex-wrap.justify-between.items-baseline.font-base
-    %ul.no-list-type.flex.flex-wrap.items-baseline.m0.p0
-      %li.mr7.sm-mr6
-        = active_link_to "Home", "/", class: "font-base"
-      %li.mr7.sm-mr6
-        = active_link_to "Projects", "projects", class: "font-base"
-      / %li.mr7.sm-mr6
-      %li
-        = active_link_to "Articles", "articles", class: "font-base"
-      / %li
-      /   = active_link_to "About", "about", class: "font-base"
-
-    = active_link_to "Get in touch", "get-in-touch", class: "m0 border transition-all px3 py1 rounded xs-hide"
+%nav.col-12.z3.bg-white
+  .max-w1000px.col-12.mx-auto.flex.justify-center.items-baseline.my3.px5
+    %ul.list-reset.flex.items-baseline.m0.p0
+      %li.mr8.mb0
+        = active_link_to "Projects", "projects", class: "text-ink-lighter"
+      %li.m0
+        = active_link_to "Writings", "writings", class: "text-ink-lighter"
+      %li.mx8.mb0
+        = active_link_to "Felix Lee", "/", class: "text-ink uppercase semi"
+      %li.m0
+        = active_link_to "About", "about", class: "text-ink-lighter"
+      %li.ml8.mb0
+        = active_link_to "Contact", "contact", class: "text-ink-lighter"

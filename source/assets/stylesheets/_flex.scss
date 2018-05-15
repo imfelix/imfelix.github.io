@@ -3,6 +3,20 @@
 // ––––––––––––––––––––––––––––––––––––
 
 .flex              { display: flex; }
+
+@media (min-width: $sm-breakpoint) {
+  .sm-flex { display: flex }
+}
+
+@media (min-width: $md-breakpoint) {
+  .md-flex { display: flex }
+}
+
+@media (min-width: $lg-breakpoint) {
+  .lg-flex { display: flex }
+}
+
+
 .flex-column       { flex-direction: column }
 .flex-wrap         { flex-wrap: wrap }
 
