@@ -14,17 +14,17 @@ description: "Get in touch with Felix Lee. He is a web designer specialised in u
       %p.mt0.mb2 You can also find me on these sites:
       %ul.flex.flex-column.m0.font-base.list-disc
         %li.pb2.sm-pb1
-          = link_to "Twitter", data.external_links.twitter, target: "_blank"
+          = link_to "Twitter", data.links.twitter, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "Dribbble", data.external_links.dribbble, target: "_blank"
+          = link_to "Dribbble", data.links.dribbble, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "CodePen", data.external_links.codepen, target: "_blank"
+          = link_to "CodePen", data.links.codepen, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "GitHub", data.external_links.github, target: "_blank"
+          = link_to "GitHub", data.links.github, target: "_blank"
         %li.pb2.sm-pb1
-          = link_to "Medium", data.external_links.medium, target: "_blank"
+          = link_to "Medium", data.links.medium, target: "_blank"
         %li
-          = link_to "LinkedIn", data.external_links.linkedin, target: "_blank"
+          = link_to "LinkedIn", data.links.linkedin, target: "_blank"
 
     .w-100.sm-w-50.my6.sm-m0
       %form.flex.flex-column{ action: "https://formspree.io/hello@felixlee.io", method:"POST" }
