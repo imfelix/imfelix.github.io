@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby "2.5.0"
 
 gem "redcarpet"
-gem "middleman", ">= 4.0.0"
+gem "middleman"
 gem "middleman-blog"
 gem "middleman-syntax"
 gem "middleman-livereload"
