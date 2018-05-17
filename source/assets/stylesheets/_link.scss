@@ -6,33 +6,31 @@ a {
   position: relative;
   color: $ink;
   text-decoration: none;
-  transition: color .15s ease-in-out;
+  transition: all .15s ease-in;
 
   &:after {
     content: '';
     position: absolute;
     z-index: -1;
-    bottom: -4px;
+    bottom: 0;
     left: -4px;
-    opacity: 0;
+    opacity: 1;
     width: calc(100% + 8px);
     height: 8px;
     border-radius: 4px;
-    background-color: transparent;
+    background-color: rgba($sky, .35);
     pointer-events: none;
-    transition: all .15s ease-in;
+    transition: all .2s ease-in;
   }
 
   &:hover,
   &:focus {
-    color: $ink-lighter;
+    color: inherit;
     opacity: 1;
     bottom: 0;
 
     &:after {
-      background-color: $sky-light;
-      opacity: 1;
-      bottom: 0;
+      background-color: $sky;
     }
   }
 
