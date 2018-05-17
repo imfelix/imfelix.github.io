@@ -1,13 +1,16 @@
 %nav.col-12.z3.bg-white
-  .max-w1000px.col-12.mx-auto.flex.justify-center.my3.px3
-    %ul.list-reset.flex.m0.p0
-      %li.mr8.mb0
+  .max-w1000px.col-12.mx-auto.flex.justify-between.my3.px3.sr-sequence
+    %ul.col-12.list-reset.flex.justify-between.sm-justify-center.m0.p0
+      %li.mr8.mb0.xs-hide
         = active_link_to "Projects", "projects", class: "header-link header-link--projects"
-      %li.m0
+      %li.m0.xs-hide
         = active_link_to "Writings", "writings", class: "header-link header-link--writings"
-      %li.mx8.mb0
+      %li.mb0.mx0.sm-mx8
         = active_link_to "Felix Lee", "/", class: "header-link header-link--home"
-      %li.m0
+      %li.m0.xs-hide
         = active_link_to "About", "about", class: "header-link header-link--about"
-      %li.ml8.mb0
+      %li.ml8.mb0.xs-hide
         = active_link_to "Contact", "contact", class: "header-link header-link--contact"
+      %svg.sm-hide{ height: "24", width: "24", xmlns: "http://www.w3.org/2000/svg" }
+        %path{ d: "M17 15.6h7V18h-7v-2.4zM14.667 6H24v2.4h-9.333V6zM10 10.8h14v2.4H10v-2.4z" }
+  
