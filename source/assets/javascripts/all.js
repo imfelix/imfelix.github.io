@@ -442,14 +442,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }, 250);
 
   // js-navigation-toggle
-  let navOpenIcon  = document.getElementById("js-navigation-open");
-  let navCloseIcon = document.getElementById("js-navigation-close");
-  let navMenu = document.getElementById("js-navigation-menu");
+  var navOpenIcon  = document.getElementById("js-navigation-open");
+  var navCloseIcon = document.getElementById("js-navigation-close");
+  var navMenu = document.getElementById("js-navigation-menu");
   
 
   document.addEventListener("click", function(event) {
-    let navOpenClick = navOpenIcon.contains(event.target);
-    let navCloseClick = navCloseIcon.contains(event.target);
+    var navOpenClick = navOpenIcon.contains(event.target);
+    var navCloseClick = navCloseIcon.contains(event.target);
     
     if (navOpenClick) {
       navMenu.classList.toggle("nav-menu-open");
