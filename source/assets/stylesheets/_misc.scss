@@ -27,7 +27,7 @@ img {
 
 // Default Horizontal Line
 hr {
-  color: $grey-light;
+  // color: $grey-light;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -37,14 +37,14 @@ hr {
 }
 
 figcaption {
-  color: $grey;
+  // color: $grey;
   text-align: center;
 }
 
 // Dotted Horizontal Line
 .dotted-divider {
   margin-bottom: 7.5rem; // .mb15
-  font-size: $font-double;
+  // font-size: $font-double;
   text-align: center;
   letter-spacing: 1.5rem; // MAGIC NUMBER
   border: 0;
@@ -52,14 +52,14 @@ figcaption {
   &::before {
     content: '...';
     display: block;
-    color: $grey;
+    // color: $grey;
     line-height: 0;
   }
 }
 
 ::selection {
   color: #ffffff;
-  background-color: $grey-darker;
+  // background-color: $grey-darker;
 }
 
 // Display
