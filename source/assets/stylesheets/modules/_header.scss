@@ -95,6 +95,26 @@
   pointer-events: auto;
 }
 
+.nav-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: calc(100% + 1rem);
+    height: calc(100% + 1rem);
+    top: -.5rem;
+    left: -.5rem;
+  }
+
+  svg {
+    pointer-events: none;
+  }
+}
+
 .mobile-link {
   display: flex;
   margin-bottom: 1.5rem;

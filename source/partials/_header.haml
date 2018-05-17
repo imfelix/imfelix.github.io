@@ -11,12 +11,14 @@
         = active_link_to "About", "about", class: "header-link header-link--about"
       %li.ml8.mb0.xs-hide
         = active_link_to "Contact", "contact", class: "header-link header-link--contact"
-      %svg#js-navigation-open.sm-hide.fill-ink{ height: "24", width: "24", onclick: "", xmlns: "http://www.w3.org/2000/svg" }
-        %path{ d: "M17 15.6h7V18h-7v-2.4zM14.667 6H24v2.4h-9.333V6zM10 10.8h14v2.4H10v-2.4z" }
+      #js-navigation-open.nav-icon-wrapper.sm-hide
+        %svg.fill-ink{ height: "24", width: "24", xmlns: "http://www.w3.org/2000/svg" }
+          %path{ d: "M17 15.6h7V18h-7v-2.4zM14.667 6H24v2.4h-9.333V6zM10 10.8h14v2.4H10v-2.4z" }
 #js-navigation-menu.nav-menu
   .absolute.top-0.right-0.pt2.pr2
-    %svg#js-navigation-close.fill-ink{ height: "24", width: "24", onclick: "", xmlns: "http://www.w3.org/2000/svg" }
-      %path{ d: "M12 10.174L17.174 5 19 6.826 13.826 12 19 17.174 17.174 19 12 13.826 6.826 19 5 17.174 10.174 12 5 6.826 6.826 5z" }
+    #js-navigation-close.nav-icon-wrapper
+      %svg.fill-ink{ height: "24", width: "24", xmlns: "http://www.w3.org/2000/svg" }
+        %path{ d: "M12 10.174L17.174 5 19 6.826 13.826 12 19 17.174 17.174 19 12 13.826 6.826 19 5 17.174 10.174 12 5 6.826 6.826 5z" }
   .relative.col-12.flex.flex-column.items-center.m0.p0.center-align
     = active_link_to "Projects", "projects", class: "mobile-link header-link--projects h3"
     = active_link_to "Writings", "writings", class: "mobile-link header-link--projects h3"
