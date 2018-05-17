@@ -118,8 +118,11 @@ helpers do
   end
 
   def active_link_to(text, path, options)
-    klazz = "#{path}-active" if current_page.url.include?(path)  
-    klazz = "home-active" if klazz == "/-active"
+    klazz = if current_page.url == "/" && path == "/"
+              "home-active"
+            elsif current_page.url.include?(path) && path != "/"
+              "#{path}-active" 
+            end
 
     link_to text, "/#{path}".gsub('//', '/'), class: "#{options[:class]} #{klazz}"
   end
