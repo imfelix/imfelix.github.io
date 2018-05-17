@@ -2,7 +2,7 @@
 title: How About Your Fancy CSS?
 date: 2016-12-11
 read_time: 4 mins
-tag: [design, conference]
+tag: [design]
 blog: [articles]
 thumbnail: /assets/images/articles/ally-long/ally-long-thumbnail.png
 summary: My takeaway on the talk given by Ally Long at CSS Conference Australia 2016.

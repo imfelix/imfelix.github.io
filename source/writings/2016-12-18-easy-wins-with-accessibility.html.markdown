@@ -2,7 +2,7 @@
 title: Easy Wins with Accessibility
 date: 2016-12-18
 read_time: 6 mins
-tag: [accessibility, conference]
+tag: [accessibility]
 blog: [articles]
 thumbnail: /assets/images/articles/ally-palanzi/ally-palanzi-thumbnail.png
 summary: My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
