@@ -5,6 +5,12 @@
 .header-link {
   @include fluid-font-size(320px, 1440px, 14px, 16px);
   color: $ink-lighter;
+
+  &:after {
+    bottom: -6px;
+    opacity: 0;
+    background-color: transparent;
+  }
 }
 
 .projects-active,
@@ -30,6 +36,7 @@
 }
 
 .header-link--home {
+  @include fluid-font-size(320px, 1440px, 16px, 18px);
   color: $ink;
   text-transform: uppercase;
   font-weight: 600;
