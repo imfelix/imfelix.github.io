@@ -5,25 +5,28 @@ description: "TODO: Write Projects description"
 keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, product designer, web developer, designer, developer, front-end architecture, scalable stylesheets, design sprint, design process, netengine, brisbane, australia, projects, project, case study"
 ---
 
-%article.max-w1000px.col-12.flex.flex-column.center-align.mx-auto.my4.sm-my16.px3.sr-default
-  %h1.mx0.mt0.mb2.serif.lh-title Tales of the Craft
-  %p.m0.h4.lh-small
-    My process goes with understanding the problem
-    %br.xs-hide
-    Always empathising for the end-users
-    %br.xs-hide
-    Keeping business goals in mind
-    %br.xs-hide
-    Prototype fast — fail early
--# - blog.articles.each do |article|
--#   %a.block.w-100.mx-auto.my0.pt8.pb6.sm-py9.px3.sm-px0.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
--#     %aside.min-h-200px.sm-min-h-300px.mb7.bg-cover.bg-center.bg-no-repeat.not-rounded.sm-rounded{ style: "background-image: url('#{article.data.thumbnail}')" }
--#     %article.flex.flex-column
--#       .flex.flex-wrap.font-small.uppercase.header.grey.mb2
--#         %span.m0= date_format(article.date)
--#         %span.m0.px1.grey-lighter /
--#         - article.data.tag.each do |tag|
--#           %span.m0.mr2
--#             \##{tag}
--#       %h2.mt0.mb1.sm-mb2.grey-darker.bold.line-height-title.font-larger.sm-font-double.sm-font-title= article.title
--#       %p.m0.grey-light.font-large.line-height-small= article.data.summary
+%article.max-w1000px.col-12.flex.flex-column.mx-auto
+  .col-12.flex.flex-column.center-align.mx-auto.my8.sm-my14.px3.sr-default
+    %h1.mx0.mt0.mb2.serif.lh-title  Tales of the Craft
+    %p.m0.h4.lh-small
+      My process goes with understanding the problem
+      %br.xs-hide
+      Always empathising for the end-users
+      %br.xs-hide
+      Keeping business goals in mind
+      %br.xs-hide
+      Prototype fast — fail early
+
+  .col-12.flex.flex-wrap.justify-between.sm-px3.my3
+    -# - blog.articles.each do |article|
+    -#   %a.block.w-100.mx-auto.my0.pt8.pb6.sm-py9.px3.sm-px0.first-type-pt0.border-bottom.last-type-border-bottom.border-grey-lighter.hover-opacity.transition-all{ href: article.url }
+    -#     %aside.min-h-200px.sm-min-h-300px.mb7.bg-cover.bg-center.bg-no-repeat.not-rounded.sm-rounded{ style: "background-image: url('#{article.data.thumbnail}')" }
+    -#     %article.flex.flex-column
+    -#       .flex.flex-wrap.font-small.uppercase.header.grey.mb2
+    -#         %span.m0= date_format(article.date)
+    -#         %span.m0.px1.grey-lighter /
+    -#         - article.data.tag.each do |tag|
+    -#           %span.m0.mr2
+    -#             \##{tag}
+    -#       %h2.mt0.mb1.sm-mb2.grey-darker.bold.line-height-title.font-larger.sm-font-double.sm-font-title= article.title
+    -#       %p.m0.grey-light.font-large.line-height-small= article.data.summary
