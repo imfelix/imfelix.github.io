@@ -1,7 +1,7 @@
 //= require scrollreveal
 
 /*!
- * headroom.js v0.7.0 - Give your page some headroom. Hide your header until you need it
+ * headroom.js v.7.0 - Give your page some headroom. Hide your header until you need it
  * Copyright (c) 2014 Nick Williams - http://wicky.nillia.ms/headroom.js
  * License: MIT
  */
@@ -391,7 +391,7 @@
 
 }(window, document));
 
-// Initialise headroom.js
+// Initialise headroom.js and scrollReveal and navigation-toggle
 document.addEventListener("DOMContentLoaded", function(event) {
   var nav = document.querySelector("nav");
   var headroom  = new Headroom(nav);
@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     scale: 1,
     delay: 1250,
     distance: '2rem',
-    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    easing: 'cubic-bezier(.3, .2, .1, 1)',
     viewFactor: .2,
     useDelay: 'onload',
     mobile: true,
@@ -421,9 +421,45 @@ document.addEventListener("DOMContentLoaded", function(event) {
     scale: 1,
     delay: 1000,
     distance: '2rem',
-    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    easing: 'cubic-bezier(.3, .2, .1, 1)',
     viewFactor: .2,
     useDelay: 'onload',
     mobile: true,
   }, 250);
+
+  sr.reveal('.sr-mobile-links', {
+    reset: true,
+    origin: 'bottom',
+    opacity: 0,
+    duration: 750,
+    scale: 1,
+    delay: 1000,
+    distance: '2rem',
+    easing: 'cubic-bezier(.3, .2, .1, 1)',
+    viewFactor: .2,
+    useDelay: 'onload',
+    mobile: true,
+  }, 250);
+
+  // js-navigation-toggle
+  let navOpenIcon  = document.getElementById("js-navigation-open");
+  let navCloseIcon = document.getElementById("js-navigation-close");
+  let navMenu = document.getElementById("js-navigation-menu");
+  
+
+  document.addEventListener("click", function(event) {
+    let navOpenClick = navOpenIcon.contains(event.target);
+    let navCloseClick = navCloseIcon.contains(event.target);
+    
+    if (navOpenClick) {
+      navMenu.classList.toggle("nav-menu-open");
+      console.log('hello')
+    }
+    
+    if (navCloseClick) {
+      navMenu.classList.toggle("nav-menu-open");
+      console.log('bye')
+    }
+
+  });
 });
