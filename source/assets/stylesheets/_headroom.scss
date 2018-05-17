@@ -5,6 +5,8 @@
 
 .headroom {
   position: fixed;
+  will-change: transform;
+  transition: transform 300ms linear;
 }
 
 .headroom--pinned,
@@ -15,4 +17,12 @@
 .headroom--top {
   border: 0;
   box-shadow: none;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
 }
