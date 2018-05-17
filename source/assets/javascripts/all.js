@@ -1,3 +1,5 @@
+//= require scrollreveal
+
 /*!
  * headroom.js v0.7.0 - Give your page some headroom. Hide your header until you need it
  * Copyright (c) 2014 Nick Williams - http://wicky.nillia.ms/headroom.js
@@ -394,4 +396,34 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var nav = document.querySelector("nav");
   var headroom  = new Headroom(nav);
   headroom.init();
+
+  window.sr = ScrollReveal();
+  
+  sr.reveal('.sr-default', {
+    reset: false,
+    origin: 'bottom',
+    opacity: 0,
+    duration: 750,
+    scale: 1,
+    delay: 1250,
+    distance: '2rem',
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    viewFactor: .2,
+    useDelay: 'onload',
+    mobile: true,
+  });
+
+  sr.reveal('.sr-sequence', {
+    reset: false,
+    origin: 'bottom',
+    opacity: 0,
+    duration: 750,
+    scale: 1,
+    delay: 1000,
+    distance: '2rem',
+    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+    viewFactor: .2,
+    useDelay: 'onload',
+    mobile: true,
+  }, 250);
 });
