@@ -453,12 +453,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     if (navOpenClick) {
       navMenu.classList.toggle("nav-menu-open");
-      console.log('hello')
     }
     
     if (navCloseClick) {
       navMenu.classList.toggle("nav-menu-open");
-      console.log('bye')
     }
 
   });
