@@ -5,6 +5,7 @@
 // - Font Family
 // - Font Weight
 // - Text Transform
+// - Line Height
 // ––––––––––––––––––––––––––––––––––––
 
 // Fluid Type Mixin
@@ -27,10 +28,10 @@
 }
 
 // Font Size
-h1, .h1 { @include fluid-font-size(320px, 1440px, 32px, 48px) }
-h2, .h2 { @include fluid-font-size(320px, 1440px, 28px, 32px) }
+h1, .h1 { @include fluid-font-size(320px, 1440px, 36px, 48px) }
+h2, .h2 { @include fluid-font-size(320px, 1440px, 30px, 34px) }
 h3, .h3 { @include fluid-font-size(320px, 1440px, 24px, 28px) }
-h4, .h4 { @include fluid-font-size(320px, 1440px, 18px, 20px) }
+h4, .h4 { @include fluid-font-size(320px, 1440px, 20px, 22px) }
 h5, .h5 { @include fluid-font-size(320px, 1440px, 14px, 16px) }
 h6, .h6 { @include fluid-font-size(320px, 1440px, 12px, 14px) }
 
@@ -56,3 +57,9 @@ h4, h5, h6,
 .center-align { text-align: center }
 .left-align   { text-align: left }
 .right-align  { text-align: right }
+
+// Line Height
+.lh-base { line-height: 1.5 }
+.lh-small { line-height: 1.4 }
+.lh-smaller { line-height: 1.25 }
+.lh-title { line-height: 1.125 }
