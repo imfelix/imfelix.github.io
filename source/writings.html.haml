@@ -21,7 +21,7 @@ keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experienc
     - blog.articles.each do |article|
       .writings-wrapper.sr-default
         %a.writings--thumbnail.col-12.block.bg-cover.bg-center.bg-no-repeat.no-fancy-border{ href: article.url, style: "background-image: url('#{article.data.thumbnail}')" }
-        %a{ href: article.url }
+        %a.no-fancy-border{ href: article.url }
           %article.flex.flex-column.px3.sm-px2.py3
             %h2.h3.lh-title.serif.m0.link-transition= article.title
             %p.h4.lh-small.mt1.mb0= article.data.summary
