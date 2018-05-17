@@ -61,7 +61,11 @@ activate :blog do |blog|
   blog.permalink = "/{title}.html"
 end
 
+#################################################
+## General Configuration
+#################################################
 activate  :directory_indexes
+activate  :sprockets
 
 #################################################
 ## Developement Configuration
