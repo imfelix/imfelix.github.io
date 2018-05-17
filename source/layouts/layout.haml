@@ -18,10 +18,10 @@
     = stylesheet_link_tag :site
 
     / Google Analytics
-    = partial "partials/analytics"
+    / = partial "partials/analytics"
     
     / JavaScript
-    = javascript_include_tag :all, async: true
+    = javascript_include_tag "all", async: true
 
   %body.relative.col-12.flex.flex-column{ class: page_classes }
     = partial "partials/header"

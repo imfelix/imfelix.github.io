@@ -4,19 +4,6 @@
 
 .flex              { display: flex; }
 
-@media (min-width: $sm-breakpoint) {
-  .sm-flex { display: flex }
-}
-
-@media (min-width: $md-breakpoint) {
-  .md-flex { display: flex }
-}
-
-@media (min-width: $lg-breakpoint) {
-  .lg-flex { display: flex }
-}
-
-
 .flex-column       { flex-direction: column }
 .flex-wrap         { flex-wrap: wrap }
 
@@ -54,3 +41,16 @@
 
 .order1 { order: 1; }
 .order2 { order: 2; }
+
+@media (min-width: $sm-breakpoint) {
+  .sm-flex            { display: flex }
+  .sm-justify-center  { justify-content: center }
+}
+
+@media (min-width: $md-breakpoint) {
+  .md-flex { display: flex }
+}
+
+@media (min-width: $lg-breakpoint) {
+  .lg-flex { display: flex }
+}

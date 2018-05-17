@@ -10,14 +10,18 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media (max-width: $md-breakpoint) {
+@media screen and (max-width: $sm-breakpoint) {
   .xs-hide { display: none !important }
 }
 
+@media screen and (min-width: $sm-breakpoint) {
+  .sm-hide { display: none !important }
+}
+
 @media screen and (min-width: $md-breakpoint) and (max-width: $lg-breakpoint) {
-  .md-hide  { display: none !important; }
+  .md-hide  { display: none !important }
 }
 
 @media screen and (min-width: $lg-breakpoint) {
-  .lg-hide  { display: none !important; }
+  .lg-hide  { display: none !important }
 }

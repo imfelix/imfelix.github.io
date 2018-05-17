@@ -3,7 +3,7 @@
 // ––––––––––––––––––––––––––––––––––––
 
 .header-link {
-  @include fluid-font-size(320px, 1440px, 14px, 16px);
+  font-size: 16px;
   color: $ink-lighter;
 
   &:after {
@@ -18,7 +18,7 @@
   color: $blue;
   
   &:after {
-    background-color: rgba($blue, .05);
+    background-color: rgba($blue, .1);
     opacity: 1;
     bottom: 0;
   }
@@ -29,14 +29,14 @@
   color: $red;
   
   &:after {
-    background-color: rgba($red, .05);
+    background-color: rgba($red, .1);
     opacity: 1;
     bottom: 0;
   }
 }
 
 .header-link--home {
-  @include fluid-font-size(320px, 1440px, 16px, 18px);
+  font-size: 18px;
   color: $ink;
   text-transform: uppercase;
   font-weight: 600;
@@ -52,7 +52,7 @@
   color: $purple;
   
   &:after {
-    background-color: rgba($purple, .05);
+    background-color: rgba($purple, .1);
     opacity: 1;
     bottom: 0;
   }
@@ -63,7 +63,7 @@
   color: $green;
   
   &:after {
-    background-color: rgba($green, .05);
+    background-color: rgba($green, .1);
     opacity: 1;
     bottom: 0;
   }
