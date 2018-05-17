@@ -12,6 +12,11 @@
   .#{$name} {
     @content;
   }
+  @include breakpoint(x-small) {
+    .xs-#{$name} {
+      @content;
+    }
+  }
   @include breakpoint(small) {
     .sm-#{$name}.sm-#{$name} {
       @content;
@@ -44,6 +49,11 @@
   }
   @else if $point == small {
     @media screen and (min-width: $sm-breakpoint) {
+      @content;
+    }
+  }
+  @else if $point == x-small {
+    @media screen and (max-width: $sm-breakpoint) {
       @content;
     }
   }
