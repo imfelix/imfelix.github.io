@@ -37,7 +37,7 @@ a {
   }
 
   &.no-fancy-border:after {
-    display: none;
+    display: none
   }
 }
 
@@ -48,10 +48,10 @@ a {
   width: 2rem;
   height: 2rem;
   margin-bottom: 0;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 
   &:last-of-type {
-    margin-right: 0;
+    margin-right: 0
   }
 
   svg {
@@ -59,7 +59,7 @@ a {
     transition: fill .15s ease-in;
 
     &:hover {
-      fill: $ink-lightest;
+      fill: $ink-lightest
     }
   }
 }
