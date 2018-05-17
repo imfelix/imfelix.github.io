@@ -96,10 +96,10 @@
 }
 
 .nav-icon-wrapper {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   cursor: pointer;
 
   svg {
