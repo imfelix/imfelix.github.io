@@ -21,7 +21,7 @@
     / = partial "partials/analytics"
     
     / JavaScript
-    = javascript_include_tag "all", async: true
+    
 
   %body.relative.col-12.flex.flex-column{ class: page_classes }
     = partial "partials/header"
@@ -29,7 +29,8 @@
     = partial "partials/footer"
   
   / JavaScript
-  = javascript_include_tag "navToggle", async: true
+  = javascript_include_tag "all", async: true
+  / = javascript_include_tag "navToggle", async: true
 
   / Typekit - 2018-felixleeio
   :javascript

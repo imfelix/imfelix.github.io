@@ -18,5 +18,4 @@ document.addEventListener("click", function (event) {
     navMenu.classList.toggle("nav-menu-open");
     console.log('close clicked')
   }
-
 });
