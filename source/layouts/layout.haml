@@ -21,7 +21,7 @@
     / = partial "partials/analytics"
     
     / JavaScript
-    
+    = javascript_include_tag "headroomInit", async: true
 
   %body.relative.col-12.flex.flex-column{ class: page_classes }
     = partial "partials/header"
