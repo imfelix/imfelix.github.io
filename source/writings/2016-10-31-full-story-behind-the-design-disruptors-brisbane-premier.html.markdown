@@ -4,12 +4,12 @@ date: 2016-10-31
 read_time: 8 mins
 tag: [event]
 blog: [articles]
-thumbnail: /assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg
+thumbnail: /assets/images/writings/design-disruptors/design-disruptors-hero-banner.jpg
 summary: My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of Queensland along with the help of some amazing people.
 description: My story of how I got the gig organising the Design Disruptors Brisbane Premier at the University of Queensland along with the help of some amazing people.
 keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, product designer, designer, design sprint, design process, netengine, brisbane, australia, design disruptors, invisionapp, disruptors"
 ---
-<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/design-disruptors/design-disruptors-hero-banner.jpg')"></aside>
+<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/writings/design-disruptors/design-disruptors-hero-banner.jpg')"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>31 Oct 16</time>
@@ -43,7 +43,7 @@ Usual routine — checking emails, sipping on coffee.
 Ding-ding! You’ve got mail! *Clark from InVision — Weekly Digest.*
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-email.jpg" alt="InVision's Weekly Digest" class="w-100 sm-w-60 block mx-auto mb2 rounded">
+  <img src="/assets/images/writings/design-disruptors/design-disruptors-email.jpg" alt="InVision's Weekly Digest" class="w-100 sm-w-60 block mx-auto mb2 rounded">
   <figcaption>InVision's Weekly Digest</figcaption>
 </p>
 
@@ -79,7 +79,7 @@ Being the awesome Ash, she made a few calls and we have The Design Conference, A
 I reached out to one of my lecturers from [the University of Queensland](//uq.edu.au/), Steve for the location of the screening. He replied, saying the university may be interested. Celebratory dance. I had my eyes on the GHD Auditorium. This [virtual tour](//s3.uqcloud.net/eait-precinct/AEB/tour.html) of the auditorium doesn’t even come close to what you experience when you’re inside.
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/advanced-engineering-building.jpg" alt="Interior of UQ’s Advanced Engineering Building">
+  <img src="/assets/images/writings/design-disruptors/advanced-engineering-building.jpg" alt="Interior of UQ’s Advanced Engineering Building">
   <figcaption>Interior of UQ's Advanced Engineering Building</figcaption>
 </p>
 
@@ -90,7 +90,7 @@ Steve got me in contact with the faculty’s Marketing & Communication Manager, 
 In case you’re wondering, I have not organised any event before this. Not a clue where to start. I went home that day thinking I need to prepare a sponsor prospectus for the meeting. I didn’t even know what a sponsor prospectus is before this.
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-sponsor-prospectus.jpg" alt="Design Disruptors Brisbane Premier Sponsor Prospectus - Draft">
+  <img src="/assets/images/writings/design-disruptors/design-disruptors-sponsor-prospectus.jpg" alt="Design Disruptors Brisbane Premier Sponsor Prospectus - Draft">
   <figcaption>Design Disruptors Brisbane Sponsor Prospectus — Draft</figcaption>
 </p>
 
@@ -107,14 +107,14 @@ Just going through some legal stuff with the film. I won’t lie, I was worried.
 I drafted a couple of versions for the event website. I went with a one-pager separated into sections, avoiding the need to navigate to other pages. My approach with the design is to emphasise on the film coming to Brisbane, accompany with the theme of Design Disruptors.
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-com-au-draft.jpg" alt="designdisruptors.com.au Website Draft">
+  <img src="/assets/images/writings/design-disruptors/design-disruptors-com-au-draft.jpg" alt="designdisruptors.com.au Website Draft">
   <figcaption>designdisruptors.com.au Website Draft</figcaption>
 </p>
 
 I wanted to add some sort interaction onto the website that goes along with the word, disrupt. Thus, the idea of disrupting the word Brisbane — where the word scrambles when you hover over it. Thanks to the help from my colleague, Adam, the Javascript Wiz. We both dedicated our day to develop the website. We even managed to snatch the domain name, [designdisruptors.com.au](//designdisruptors.com.au/).
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-com-au-interaction.gif" alt="designdisruptors.com.au Website">
+  <img src="/assets/images/writings/design-disruptors/design-disruptors-com-au-interaction.gif" alt="designdisruptors.com.au Website">
   <figcaption>designdisruptors.com.au Website</figcaption>
 </p>
 
@@ -123,7 +123,7 @@ I wanted to add some sort interaction onto the website that goes along with the 
 Social media. Duhh. It would be a pain to produce event ads for each social platform, not to mention printed materials. Here is where [Outfit](//outfit.io) gets to shine, a brand automation platform developed by the team at NetEngine. It is a tool where designers can design a layout, and leave the content to organisers. And organisers can focus on the content without the worry of messing up the designs. Finally, let Outfit deal with the rendering. Speak to [Ash](https://au.linkedin.com/in/ashleighthompson) if you need a demo, it is pretty neat.
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-event-ad-material.jpg" alt="Design Disruptors Brisbane Premier Event Ad Materials">
+  <img src="/assets/images/writings/design-disruptors/design-disruptors-event-ad-material.jpg" alt="Design Disruptors Brisbane Premier Event Ad Materials">
   <figcaption>Design Disruptors Brisbane Premier Event Materials</figcaption>
 </p>
 
@@ -208,7 +208,7 @@ Finally, thanks to everyone who have helped me along the way, and supported me i
 *My utmost gratitude to you all.*
 
 <p class="m0">
-  <img src="/assets/images/articles/design-disruptors/design-disruptors-partners.png" alt="Design Disruptors Brisbane Event Partners">
+  <img src="/assets/images/writings/design-disruptors/design-disruptors-partners.png" alt="Design Disruptors Brisbane Event Partners">
   <figcaption>Design Disruptors Brisbane Premier Event Partners</figcaption>
 </p>
 

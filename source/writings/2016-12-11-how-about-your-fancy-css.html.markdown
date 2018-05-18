@@ -4,12 +4,12 @@ date: 2016-12-11
 read_time: 4 mins
 tag: [design]
 blog: [articles]
-thumbnail: /assets/images/articles/ally-long/ally-long-thumbnail.png
+thumbnail: /assets/images/writings/ally-long/ally-long-thumbnail.png
 summary: My takeaway on the talk given by Ally Long at CSS Conference Australia 2016.
 description: My takeaway on the talk given by Ally Long at CSS Conference Australia 2016.
 keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, product designer, designer, design sprint, design process, netengine, brisbane, australia, css, cssconfau, cssconf, conference, cssconfau16, ally long, ehealth africa"
 ---
-<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/ally-long/ally-long-hero-banner.png');background-position-y: 30%;"></aside>
+<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/writings/ally-long/ally-long-hero-banner.png');background-position-y: 30%;"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>11 Dec 16</time>
@@ -40,7 +40,7 @@ Ally is currently designing applications for health workers at [eHealth Africa](
 Her  application assists health workers in Africa by helping them monitor the health status of people in their area. It captures geolocation data to map out areas, and it replaces paper based processes that health workers use every day. In this context, her talk went on about **how novice users from Africa feel about our use of fancy CSS on applications.**
 
 <p class="m0">
-  <img src="/assets/images/articles/ally-long/novice-user.jpeg" alt="Novice User">
+  <img src="/assets/images/writings/ally-long/novice-user.jpeg" alt="Novice User">
   <figcaption>Image Credit: Google</figcaption>
 </p>
 
@@ -57,7 +57,7 @@ Now, think about the fancy CSS on an application that could cause more workload 
 Applications with heavy styles also consume heaps of data, making users spend more on data just to use it. *Not so cool now, is it?*
 
 <p class="m0">
-  <img src="/assets/images/articles/ally-long/user-interface-evolution.png" alt="Realism Design VS. Flat Design - Image Credit: Sean McCully">
+  <img src="/assets/images/writings/ally-long/user-interface-evolution.png" alt="Realism Design VS. Flat Design - Image Credit: Sean McCully">
   <figcaption>Realism Design VS. Flat Design - Image Credit: Sean McCully</figcaption>
 </p>
 

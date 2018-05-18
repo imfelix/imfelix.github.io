@@ -3,7 +3,7 @@
 @import  "normalize";
 @import  "variables";
 @import  "spacings";
-// @import  "misc";
+@import  "misc";
 @import  "colours";
 @import  "general";
 @import  "position";
@@ -17,6 +17,7 @@
 @import  "code";
 @import  "typography";
 @import  "border";
+@import  "syntax-highlighting";
 
 // Modules
 @import "modules/header";

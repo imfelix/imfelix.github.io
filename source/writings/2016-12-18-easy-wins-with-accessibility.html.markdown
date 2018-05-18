@@ -4,12 +4,12 @@ date: 2016-12-18
 read_time: 6 mins
 tag: [accessibility]
 blog: [articles]
-thumbnail: /assets/images/articles/ally-palanzi/ally-palanzi-thumbnail.png
+thumbnail: /assets/images/writings/ally-palanzi/ally-palanzi-thumbnail.png
 summary: My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
 description: My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
 keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, designer, design process, css, cssconfau, cssconf, conference, cssconfau16, accessibility, ally palanzi, vox media, vox product"
 ---
-<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/articles/ally-palanzi/ally-palanzi-hero-banner.png');background-position-y: 30%;"></aside>
+<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/writings/ally-palanzi/ally-palanzi-hero-banner.png');background-position-y: 30%;"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>18 Dec 16</time>
@@ -44,7 +44,7 @@ Just take a look at all the amazing things the web has done for us. For example,
 As web developers, we have the ability to create a better experience for everyone by making our products more accessible. **Remember that disability affects all of us at some point in life.** It could be permanent, temporary, or situational. Take me, for instance. I’m currently walking with a broken ankle. Was it accessible for me at the CssConfAU 2016? *Yes*. Is it accessible for me to board a plane that uses stairs? *Not so much.*
 
 <p class="m0">
-  <img src="/assets/images/articles/ally-palanzi/acceesibility-wheelchair-and-stairs.jpeg" alt="Image with wheelchair and stairs">
+  <img src="/assets/images/writings/ally-palanzi/acceesibility-wheelchair-and-stairs.jpeg" alt="Image with wheelchair and stairs">
   <figcaption>Image Credit: Google</figcaption>
 </p>
 
@@ -59,7 +59,7 @@ As Ally puts it, how to convince your boss. In a nutshell, it is better for busi
 Not good enough of a reason? What about scary legal things? In some countries, it is against the law to have inaccessible products or services. For example, if someone can’t use a product at work due to inaccessibility, or if they find it discriminating, then this could lead to a lawsuit. *No one likes lawsuits.*
 
 <p class="m0">
-  <img src="/assets/images/articles/ally-palanzi/acceesibility-social-inclusion.png" alt="Social Inclusion Image">
+  <img src="/assets/images/writings/ally-palanzi/acceesibility-social-inclusion.png" alt="Social Inclusion Image">
   <figcaption>Image Credit: Google</figcaption>
 </p>
 
@@ -139,7 +139,7 @@ Thank you, Ally, for sharing the easy wins! Being awesome as she is, she also sh
 * [W3C Markup Validation](//validator.w3.org/)
 
 <p class="m0">
-  <img src="/assets/images/articles/ally-palanzi/acceesibility-your-responsibility.png" alt="Accessibility Is Your Responsibility">
+  <img src="/assets/images/writings/ally-palanzi/acceesibility-your-responsibility.png" alt="Accessibility Is Your Responsibility">
 </p>
 
 <hr class="dotted-divider">
