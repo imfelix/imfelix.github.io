@@ -440,24 +440,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     useDelay: 'onload',
     mobile: true,
   }, 250);
-
-  // js-navigation-toggle
-  var navOpenIcon  = document.getElementById("js-navigation-open");
-  var navCloseIcon = document.getElementById("js-navigation-close");
-  var navMenu = document.getElementById("js-navigation-menu");
-  
-
-  document.addEventListener("click", function(event) {
-    var navOpenClick = navOpenIcon.contains(event.target);
-    var navCloseClick = navCloseIcon.contains(event.target);
-    
-    if (navOpenClick) {
-      navMenu.classList.toggle("nav-menu-open");
-    }
-    
-    if (navCloseClick) {
-      navMenu.classList.toggle("nav-menu-open");
-    }
-
-  });
 });
