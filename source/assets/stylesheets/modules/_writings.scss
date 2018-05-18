@@ -53,3 +53,217 @@
     background-color: transparent;
   }
 }
+
+// Individual Writing Post Styles
+.writing-post-wrapper {
+  header {
+    margin-bottom: 6rem;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    border-radius: 4px; 
+  }
+
+  h1, h2, h3,
+  h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-family: $font-serif;
+    line-height: 1.2;
+  }
+
+  h2, h3 {
+    color: $ink-light;
+  }
+
+  h4, h5, h6 {
+    color: $ink-lighter;
+    letter-spacing: .25px;
+    text-transform: uppercase;
+  }
+
+  p {
+    @include fluid-font-size(320px, 1440px, 18px, 22px);
+    margin-top: 0;
+    margin-bottom: 2rem;
+    line-height: $line-height-base;
+
+    + h2,
+    + h3 {
+      margin-top: 3rem;
+    }
+
+    + figcaption {
+      margin-bottom: 0;
+    }
+  }
+
+  blockquote {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 9rem; 
+    margin-bottom: 9rem; 
+
+    @media screen and (min-width: $sm-breakpoint) {
+      margin-left: 3rem; 
+    }
+
+    p {
+      font-weight: 600;  
+      font-family: $font-serif;
+      line-height: $line-height-base;
+    } 
+    
+    // Reduce spacing if more than one paragraph within blockquote
+    p:nth-last-child(2) {
+      margin-bottom: .5rem 
+    }
+
+    cite {
+      @include fluid-font-size(320px, 1440px, 18px, 22px);
+      color: $ink-light;
+      font-weight: 400;
+      font-style: normal;
+      font-family: $font-mono;
+      letter-spacing: -.5px; 
+
+    }
+  }
+  
+  q {
+    @include fluid-font-size(320px, 1440px, 24px, 28px);
+    position: relative;
+    display: block;
+    margin-top: 7rem; 
+    margin-bottom: 7rem; 
+    text-align: center;
+    letter-spacing: .5px; 
+    line-height: 1.3;
+
+    &::before,
+    &::after {
+      content: '';
+      width: 3rem;
+      height: 2px;
+      background-color: currentColor;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      top: -4rem;
+    }
+
+    &::after {
+      bottom: -4rem;
+    }
+  }
+
+  // Superscript Links
+  sup a {
+    position: relative;
+    padding-left: .5rem; 
+    padding-right: .5rem; 
+    text-decoration: underline;
+    border: 0;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -10rem;
+      right: 0;
+      left: 0;
+      height: 100%;
+      margin: 0;
+    }
+  }
+
+  // Footnotes
+  .footnotes {
+    p {
+      @include fluid-font-size(320px, 1440px, 18px, 22px)
+    }
+
+    a {
+      @include fluid-font-size(320px, 1440px, 14px, 16px)
+    }
+  }
+  
+  // Code
+  code {
+    @include fluid-font-size(320px, 1440px, 18px, 22px)
+  }
+  
+  // Unordered List
+  ul {
+    @include fluid-font-size(320px, 1440px, 18px, 22px);
+    list-style: none;
+    list-style-image: none;
+    line-height: 1.555;
+    
+    // Heading after paragraph spacing
+    +h2,
+    +h3 {
+      margin-top: 4rem;
+    }
+
+    li {
+      position: relative;
+      margin-bottom: 1.5rem;
+      padding-left: 2rem;
+
+      &::before {
+        @include fluid-font-size(320px, 1440px, 14px, 16px);
+        content: '•';
+        position: absolute;
+        top: 6px;
+        left: 0;
+
+        @media screen and (min-width: $sm-breakpoint) {
+          top: 8px;
+        }
+      }
+    }
+  }
+  
+  // Superscript Links
+  sup a {
+    border: 0;
+  }
+  
+  // Allowing some space before the anchor
+  [id*="anchor"]:target:before {
+    content: "";
+    display: block;
+    height: 2.5rem; // MAGIC NUMBER
+    margin-top: 2.5rem; // MAGIC NUMBER
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+
+.writing-post--cover {
+  min-height: 15rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  width: calc(100% + 3rem);
+  overflow: hidden;
+
+  @media screen and (min-width: $sm-breakpoint) {
+    min-height: 20rem;
+  }
+
+  @media screen and (min-width: $md-breakpoint) {
+    min-height: 30rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}

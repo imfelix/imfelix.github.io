@@ -1,5 +1,6 @@
 // ––––––––––––––––––––––––––––––––––––
 // All Type Styles
+// - Native Text Styles
 // - Fluid Type Mixin
 // - Font Size
 // - Font Family
@@ -7,6 +8,17 @@
 // - Text Transform
 // - Line Height
 // ––––––––––––––––––––––––––––––––––––
+
+i,
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
 
 // Fluid Type Mixin
 // By Michael Riethmuller
@@ -59,7 +71,7 @@ h4, h5, h6,
 .right-align  { text-align: right }
 
 // Line Height
-.lh-base { line-height: 1.5 }
-.lh-small { line-height: 1.4 }
-.lh-smaller { line-height: 1.25 }
-.lh-title { line-height: 1.125 }
+.lh-base    { line-height: 1.5 }
+.lh-small   { line-height: 1.4 }
+.lh-smaller { line-height: 1.3 }
+.lh-title   { line-height: 1.2 }

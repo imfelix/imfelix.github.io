@@ -49,7 +49,7 @@ p patching_haml: ::HamlPatch
 #################################################
 activate :blog do |blog|
   blog.name = "writings"
-  # blog.layout = "layout-articles"
+  blog.layout = "layout-writings"
   blog.prefix = "writings"
   blog.permalink = "/{title}.html"
 end

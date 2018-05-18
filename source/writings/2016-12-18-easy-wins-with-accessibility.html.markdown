@@ -9,7 +9,8 @@ summary: My takeaway on the talk given by Ally Palanzi at CSS Conference Austral
 description: My takeaway on the talk given by Ally Palanzi at CSS Conference Australia 2016.
 keywords: "portfolio, felix, felix lee, ui/ux, ui, ux, ui design, user experience, user interface, user experience designer, user interface designer, ux design, product design, ui designer, ux designer, web designer, designer, design process, css, cssconfau, cssconf, conference, cssconfau16, accessibility, ally palanzi, vox media, vox product"
 ---
-<aside class="min-h-200px sm-min-h-300px mx3n sm-mx0 mb7 bg-cover bg-center-bottom bg-no-repeat not-rounded sm-rounded " style="background-image: url('/assets/images/writings/ally-palanzi/ally-palanzi-hero-banner.png');background-position-y: 30%;"></aside>
+
+<aside class="writing-post--cover col-12 block bg-cover bg-center-bottom bg-no-repeat" style="background-image: url('/assets/images/writings/ally-palanzi/ally-palanzi-hero-banner.png');background-position-y: 30%;"></aside>
 
 <div class="flex flex-wrap font-small uppercase header grey mb2">
   <time>18 Dec 16</time>
