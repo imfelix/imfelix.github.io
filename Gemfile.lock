@@ -99,7 +99,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.17.0)
     public_suffix (3.1.1)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-livereload (0.3.17)
       rack
     rake (12.3.3)
@@ -125,14 +125,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (>= 1.9.24)
   middleman (>= 4.0.0)
   middleman-autoprefixer
   middleman-blog
   middleman-livereload
   middleman-minify-html
   middleman-syntax
-  rack (>= 1.6.11)
   redcarpet
 
 RUBY VERSION
